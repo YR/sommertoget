@@ -3,9 +3,13 @@
     "description": "Yr applikasjon for Sommertoget 2017",
     "version": "0.0.0",
     "private": true,
+
     "scripts": {
-        "start": "node ./bin/www"
+        "start": "node ./bin/www",
+         "build-js": "browserify index.js > ./public/javascripts/bundle.js",
+         "build": "npm run build-js"
     },
+
     "dependencies": {
         "body-parser": "~1.17.1",
         "cookie-parser": "~1.4.3",
@@ -18,6 +22,7 @@
         "request": "~2.81.0",
         "underscore": "~1.8.3"
     },
+
     "repository": "https://github.com/YR/sommertoget.git",
     "license": "MIT"
 }
