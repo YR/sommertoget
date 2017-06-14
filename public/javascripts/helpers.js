@@ -1,5 +1,6 @@
 var fs = require('fs');
 var util = require('util');
+var path = require('path');
 var _ = require('underscore');
 var request = require('request');
 
@@ -14,11 +15,13 @@ module.exports = {
     },
 
     writeToFile: function(folderName, fileName, data) {
+        var pathName = path.resolve('./public/data/stations', folderName);
         // Create folder if not exist
-        if(!fs.existsSync('./public/data/stations/' + folderName)) {
-            fs.mkdirSync('./public/data/stations/' + folderName);
+        if(!fs.existsSync(pathName)) {
+            fs.mkdirSync(pathName);
         }
-        fs.writeFile('./public/data/stations/' + folderName + '/' + fileName + '.json', JSON.stringify(data), "utf8", function(err) {
+        var fileName = path.resolve(pathName, fileName + '.json');
+        fs.writeFile(fileName, JSON.stringify(data), "utf8", function(err) {
             if(err) {
                 return console.log(err);
             }
