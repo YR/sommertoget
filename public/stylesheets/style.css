@@ -5,6 +5,8 @@ body {
 
 .wrapper {
     height: 100%;
+    width: 60%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -36,7 +38,7 @@ body {
 
 .yr-location__metadata{
   text-align: center;
-  font-size: 2.6rem;
+  font-size: 3rem;
   margin: 0;
 }
 
@@ -50,10 +52,11 @@ body {
     height: 500px;
 }
 
-.yr-temperature {
+.yr-temperature sup {
+  font-size: 15rem;
 }
 .yr-temperature #temperature {
-    font-size: 25em;
+    font-size: 25rem;
     color: #C60000;
 }
 
