@@ -16,7 +16,7 @@ function changeForecast() {
     forecastIntervalId++;
     if(forecastIntervalId >= 4) {
        clearInterval(forecastUpdateInterval);
-        slideInterval = setInterval(nextSlide, 2000000);
+        slideInterval = setInterval(nextSlide, 5000);
     }
 }
 
@@ -27,7 +27,7 @@ function nextSlide() {
     if(currentSlide >= 2) {
         clearInterval(slideInterval);
         forecastIntervalId = 0;
-        forecastUpdateInterval = setInterval(changeForecast, 2000000);
+        forecastUpdateInterval = setInterval(changeForecast, 5000);
     }
 
     slides[currentSlide].className = 'slide';
