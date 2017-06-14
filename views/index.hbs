@@ -1,0 +1,73 @@
+<div id="slides">
+    <li class="slide showing" id="forecast">
+        <div class="wrapper">
+            <div class="yr-new-symbol">
+                <img id="weather-symbol" src="{{symbolUrl}}" />
+            </div>
+            <div class="yr-temperature">
+                <span id='temperature'>{{temperature}}°</span>
+                <p id='timestamp'>kl {{timeFrom}} – {{timeTo}}</p>
+            </div>
+        </div>
+    </li>
+    <li class="slide" id="old-forecast">
+        <div class="wrapper">
+            <div class="yr-old-symbol">
+                <img id='old-weather-symbol' src='images/{{oldSymbolUrl}}' width="500" height="500"/>
+            </div>
+            <div class="yr-old-forecast">
+                <span id='timestamp'>I morgen</span>
+                <p>{{textForecast}}</p>
+            </div>
+        </div>
+    </li>
+    <li class="slide" id="logos">
+        <div class="wrapper">
+            <div class="yr-logo">
+                <img src="images/logo-yr.svg" />
+            </div>
+            <div class="yr-partners">
+                <img id="nrk-logo" src="images/logo-nrk.svg" width="250" height="250"/>
+                <img id="met-logo" src="images/logo-met.svg" width="250" height="250"/>
+            </div>
+        </div>
+    </li>
+</div>
+
+<div class="yr-location" id="location">
+    {{locationName}}
+</div>
+
+<script id="WeatherTemplateOldForecast" type="text/x-handlebars-template">
+    <div class="wrapper">
+        <div class="yr-old-symbol">
+            <img id='old-weather-symbol' src=\{{oldsymbolUrl}} width="500" height="500"/>
+        </div>
+        <div class="yr-old-forecast">
+            <span id='timestamp'>I morgen</span>
+            <p>\{{textForecast}}</p>
+        </div>
+    </div>
+</script>
+
+<script id="WeatherTemplateForecast" type="text/x-handlebars-template">
+    <div class="wrapper">
+        <div class="yr-new-symbol">
+            <img id="weather-symbol" src="\{{symbolUrl}}" />
+        </div>
+        <div class="yr-temperature">
+            <span id='temperature'>\{{temperature}}°</span>
+            <p id='timestamp'>kl \{{timeFrom}} – \{{timeTo}}</p>
+        </div>
+    </div>
+</script>
+
+<script id="LocationTemplate" type="text/x-handlebars-template">
+    <div class="yr-location">
+        \{{locationName}}
+    </div>
+</script>
+
+<script type="text/javascript">
+    var loc = {{{json locationJsonData}}};
+</script>

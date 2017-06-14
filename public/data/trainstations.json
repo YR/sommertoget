@@ -1,0 +1,179 @@
+{"stations": [
+    {
+        "name": "Rognan stasjon",
+        "id": "1-268124",
+        "old_fashion_name": "Rognan station"
+    },
+    {
+        "name": "Mo i Rana stasjon",
+        "id": "1-260277",
+        "old_fashion_name": "Mo i Rana station"
+    },
+    {
+        "name": "Trofors stasjon",
+        "id": "1-249902",
+        "old_fashion_name": "Trofors station"
+    },
+    {
+        "name": "Grong stasjon",
+        "id": "1-232443", "Grong station"
+    },
+    {
+        "name": "Steinkjer",
+        "id": "1-2296935",
+        "old_fashion_name": "Steinkjer"
+    },
+    {
+        "name": "Hommelvik",
+        "id": "1-212408",
+        "old_fashion_name": "Hommelvik"
+    },
+    {
+        "name": "Støren stasjon",
+        "id": "1-205702",
+        "old_fashion_name": "Støren station"
+    },
+    {
+        "name": "Oppdal stasjon",
+        "id": "1-192312",
+        "old_fashion_name": "Oppdal station"
+    },
+    {
+        "name": "Dombås stasjon",
+        "id": "1-178762",
+        "old_fashion_name": "Dombaas station"
+    },
+    {
+        "name": "Åndalsnes",
+        "id": "1-190429",
+        "old_fashion_name": "Aandalsnes"
+    },
+    {
+        "name": "Vinstra",
+        "id": "1-164194",
+        "old_fashion_name": "Vinstra"
+    },
+    {
+        "name": "Moelv",
+        "id": "1-129673",
+        "old_fashion_name": "Moelv"
+    },
+    {
+        "name": "Rena",
+        "id": "1-144529",
+        "old_fashion_name": "Rena"
+    },
+    {
+        "name": "Alvdal",
+        "id": "1-180056",
+        "old_fashion_name": "Alvdal"
+    },
+    {
+        "name": "Røros stasjon",
+        "id": "1-2534808",
+        "old_fashion_name": "Røros station"
+    },
+    {
+        "name": "Tynset",
+        "id": "1-186990",
+        "old_fashion_name": "Tynset"
+    },
+    {
+        "name": "Elverum stasjon",
+        "id": "1-132472",
+        "old_fashion_name": "Elverum station"
+    },
+    {
+        "name": "Kongsvinger stasjon",
+        "id": "1-90091",
+        "old_fashion_name": "Kongsvinger station"
+    },
+    {
+        "name": "Grorud stasjon",
+        "id": "1-73718"
+    },
+    {
+        "name": "Eidsvoll stasjon",
+        "id": "1-186990"
+    },
+    {
+        "name": "Gran stasjon",
+        "id": "1-101304"
+    },
+    {
+        "name": "Flå stasjon",
+        "id": "1-98918"
+    },
+    {
+        "name": "Finse stasjon",
+        "id": "1-111123"
+    },
+    {
+        "name": "Flåm stasjon",
+        "id": "1-124258"
+    },
+    {
+        "name": "Voss stasjon",
+        "id": "1-2583492"
+    },
+    {
+        "name": "Ål stasjon",
+        "id": "1-112697"
+    },
+    {
+        "name": "Hønefoss stasjon",
+        "id": "1-2330078"
+    },
+    {
+        "name": "Stokke",
+        "id": "1-32192"
+    },
+    {
+        "name": "Porsgrunn",
+        "id": "1-31680"
+    },
+    {
+        "name": "Notodden",
+        "id": "1-57796"
+    },
+    {
+        "name": "Nelaug stasjon",
+        "id": "1-13478"
+    },
+    {
+        "name": "Marnadal stasjon",
+        "id": "1-2224159"
+    },
+    {
+        "name": "Brusand stasjon",
+        "id": "1-2863425"
+    },
+    {
+        "name": "Sira stasjon",
+        "id": "1-2532305"
+    },
+    {
+        "name": "Vennesla",
+        "id": "1-6600"
+    },
+    {
+        "name": "Bø stasjon",
+        "id": "1-43270"
+    },
+    {
+        "name": "Vestfossen stasjon",
+        "id": "1-2328430"
+    },
+    {
+        "name": "Ås stasjon",
+        "id": "1-60638"
+    },
+    {
+        "name": "Råde stasjon",
+        "id": "1-47374"
+    },
+    {
+        "name": "Sarpsborg stasjon",
+        "id": "1-2229918"
+    }
+]}
