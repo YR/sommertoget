@@ -8,20 +8,23 @@ var _ = require('underscore');
 
 var yrApiUrl = 'https://yr.no/api/v0/locations/id/%s';
 var locationData = {};
-var locationOnly = {};
 
 hbs.registerHelper('json', function(data) {
     return JSON.stringify(data);
 });
 
-function drawToScreen(response) {
-    var midnightIndex = 23;
+function getTrendSeriesForOldSymbol() {
+var midnightIndex = 23;
     var startHour = 6;
     var startIndex = midnightIndex - new Date().getHours() + startHour;
     var endIndex = startIndex + 10;
-    var oldSymbolTrendSeries = _.map(locationData.forecast.shortIntervals.slice(startIndex, endIndex), function(interval) {
+    return _.map(locationData.forecast.shortIntervals.slice(startIndex, endIndex), function(interval) {
         return interval.symbol.n;
     });
+}
+
+function drawToScreen(response) {
+    var oldSymbolTrendSeries = getTrendSeriesForOldSymbol();
     var newSymbol = helpers.getSymbolFromFile(locationData.forecast.longIntervals[0].symbol);
     var oldSymbol = helpers.calculateOldSymbol(_.first(oldSymbolTrendSeries, 10))
 
