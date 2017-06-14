@@ -7,13 +7,13 @@ body {
     height: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-direction: column;
 }
 
 .yr-forecast{
   display: flex;
-    align-items: center;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #logos .wrapper {
@@ -43,8 +43,6 @@ body {
 .yr-new-symbol {
 }
 .yr-new-symbol, .yr-old-symbol {
-    display: inline-block;
-    margin: 0 10rem;
 }
 
 .yr-new-symbol img {
@@ -53,8 +51,6 @@ body {
 }
 
 .yr-temperature {
-    display: inline-block;
-    margin: 0 10rem;
 }
 .yr-temperature #temperature {
     font-size: 25em;
@@ -62,7 +58,6 @@ body {
 }
 
 .yr-temperature #timestamp, .yr-old-forecast span {
-    width: 100%;
     font-size: 5em;
     margin-top: 0;
 }
@@ -87,6 +82,7 @@ body {
   font-size: 6rem;
   font-weight: bold;
   color: #26292A;
+  text-align: center;
 }
 
 .yr-partners {
