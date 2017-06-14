@@ -16,7 +16,7 @@
         "serve-favicon": "~2.4.2",
         "util": "~0.10.3",
         "request": "~2.81.0",
-        "undercore": "~1.8.3"
+        "underscore": "~1.8.3"
     },
     "repository": "https://github.com/YR/sommertoget.git",
     "license": "MIT"
