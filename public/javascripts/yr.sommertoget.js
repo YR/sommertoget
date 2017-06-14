@@ -16,18 +16,18 @@ function changeForecast() {
     forecastIntervalId++;
     if(forecastIntervalId >= 4) {
        clearInterval(forecastUpdateInterval);
-        slideInterval = setInterval(nextSlide, 2000);
+        slideInterval = setInterval(nextSlide, 2000000);
     }
 }
 
 function nextSlide() {
     var locTemplateSrc = $('#LocationTemplate').html();
     var locTemplate = Handlebars.compile(locTemplateSrc);
-    
+
     if(currentSlide >= 2) {
         clearInterval(slideInterval);
         forecastIntervalId = 0;
-        forecastUpdateInterval = setInterval(changeForecast, 2000);
+        forecastUpdateInterval = setInterval(changeForecast, 2000000);
     }
 
     slides[currentSlide].className = 'slide';
@@ -43,7 +43,7 @@ function nextSlide() {
             var forecastTemplate = Handlebars.compile(forecastTemplateSrc);
             $('#location').html(locTemplate({locationName: loc.region.name}));
             $('#old-forecast').html(forecastTemplate({
-                oldsymbolUrl: 'images/' + oldSymbol, 
+                oldsymbolUrl: 'images/' + oldSymbol,
                 textForecast: helpers.getTextForecast(oldSymbol)
             }));
             break;

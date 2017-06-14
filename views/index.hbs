@@ -1,12 +1,20 @@
 <div id="slides">
     <li class="slide showing" id="forecast">
         <div class="wrapper">
-            <div class="yr-new-symbol">
-                <img id="weather-symbol" src="{{symbolUrl}}" />
+          <div class="yr-location" id="location">
+              <h1 class="yr-location__title">{{locationName}}</h1>
+              <p class="yr-location__metadata">Ål (Buskerud), 436 moh.</p>
+          </div>
+            <div class="yr-forecast">
+              <div class="yr-new-symbol">
+                  <img id="weather-symbol" src="{{symbolUrl}}" />
+              </div>
+              <div class="yr-temperature">
+                  <span id='temperature'>{{temperature}}<sup>°</sup></span>
+              </div>
             </div>
-            <div class="yr-temperature">
-                <span id='temperature'>{{temperature}}°</span>
-                <p id='timestamp'>kl {{timeFrom}} – {{timeTo}}</p>
+            <div class="yr-timestamp">
+              <p id='timestamp'>kl. {{timeFrom}}.00 - {{timeTo}}.00</p>
             </div>
         </div>
     </li>
@@ -34,10 +42,9 @@
     </li>
 </div>
 
-<div class="yr-location" id="location">
-    {{locationName}}
-</div>
 
+
+<!--
 <script id="WeatherTemplateOldForecast" type="text/x-handlebars-template">
     <div class="wrapper">
         <div class="yr-old-symbol">
@@ -57,8 +64,10 @@
         </div>
         <div class="yr-temperature">
             <span id='temperature'>\{{temperature}}°</span>
-            <p id='timestamp'>kl \{{timeFrom}} – \{{timeTo}}</p>
         </div>
+    </div>
+    <div class="yr-timestamp">
+      <p id='timestamp'>kl {{timeFrom}} – {{timeTo}}</p>
     </div>
 </script>
 
@@ -67,6 +76,7 @@
         \{{locationName}}
     </div>
 </script>
+-->
 
 <script type="text/javascript">
     var loc = {{{json locationJsonData}}};

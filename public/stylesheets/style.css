@@ -1,7 +1,18 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0px;
+}
+
 .wrapper {
-    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.yr-forecast{
+  display: flex;
     align-items: center;
 }
 
@@ -9,12 +20,31 @@
     flex-direction: column;
 }
 
+.yr-location {
+    width: 100%;
+    margin: 0 0 4rem 0
+}
+
+.yr-location__title{
+    white-space: nowrap;
+    font-size: 10rem;
+    font-weight: bold;
+    color: #26292A;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.yr-location__metadata{
+  text-align: center;
+  font-size: 2.6rem;
+  margin: 0;
+}
+
 .yr-new-symbol {
-    margin-top: 7%;
 }
 .yr-new-symbol, .yr-old-symbol {
-    padding-right: 150px;
-    width: 30%;
+    display: inline-block;
+    margin: 0 10rem;
 }
 
 .yr-new-symbol img {
@@ -23,12 +53,12 @@
 }
 
 .yr-temperature {
-    text-align: left;
-    width: 30%;
+    display: inline-block;
+    margin: 0 10rem;
 }
 .yr-temperature #temperature {
-    font-size: 15em;
-    color: red;
+    font-size: 25em;
+    color: #C60000;
 }
 
 .yr-temperature #timestamp, .yr-old-forecast span {
@@ -53,15 +83,10 @@
     height: 700px;
 }
 
-
-.yr-location {
-    white-space: nowrap;
-    width: 100%;
-    font-size: 10vw;
-    text-align: center;
-    margin-top: 30px;
-    position: fixed;
-    bottom: 0%;
+.yr-timestamp{
+  font-size: 6rem;
+  font-weight: bold;
+  color: #26292A;
 }
 
 .yr-partners {
@@ -84,7 +109,7 @@ these make the slideshow work
 
 #slides {
     position: relative;
-    height: 300px;
+    height: 100vh;
     padding: 0px;
     margin: 0px;
     list-style-type: none;
