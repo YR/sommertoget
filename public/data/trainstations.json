@@ -4,7 +4,9 @@
         "properties": {
             "name": "Rognan stasjon",
             "id": "1-268124",
-            "old_fashion_name": "Rognan station"
+            "old_fashion_name": "Rognan station",
+            "county": "Nordland",
+            "elevation": 12
         },
         "geometry": {
             "type": "Point",
@@ -16,7 +18,9 @@
         "properties": {
             "name": "Mo i Rana stasjon",
             "id": "1-260277",
-            "old_fashion_name": "Mo i Rana station"
+            "old_fashion_name": "Mo i Rana station",
+            "county": "Nordland",
+            "elevation": 3
         },
         "geometry": {
             "type": "Point",
@@ -28,7 +32,9 @@
         "properties": {
             "name": "Trofors stasjon",
             "id": "1-249902",
-            "old_fashion_name": "Trofors station"
+            "old_fashion_name": "Trofors station",
+            "county": "Nordland",
+            "elevation": 81
         },
         "geometry": {
             "type": "Point",
@@ -40,7 +46,9 @@
         "properties": {
             "name": "Grong stasjon",
             "id": "1-232443",
-            "old_fashion_name": ""
+            "old_fashion_name": "Grong station",
+            "county": "Nord-Tröndelag",
+            "elevation": 50
         },
         "geometry": {
             "type": "Point",
@@ -52,7 +60,9 @@
         "properties": {
             "name": "Steinkjer",
             "id": "1-2296935",
-            "old_fashion_name": "Steinkjer"
+            "old_fashion_name": "Steinkjer",
+            "county": "Nord-Tröndelag",
+            "elevation": 6
         },
         "geometry": {
             "type": "Point",
@@ -64,7 +74,9 @@
         "properties": {
             "name": "Hommelvik",
             "id": "1-212408",
-            "old_fashion_name": "Hommelvik"
+            "old_fashion_name": "Hommelvik",
+            "county": "Sör-Tröndelag",
+            "elevation": 7
         },
         "geometry": {
             "type": "Point",
@@ -76,7 +88,9 @@
         "properties": {
             "name": "Støren stasjon",
             "id": "1-205702",
-            "old_fashion_name": "Stören station"
+            "old_fashion_name": "Stören station",
+            "county": "Sör-Tröndelag",
+            "elevation": 66
         },
         "geometry": {
             "type": "Point",
@@ -88,7 +102,9 @@
         "properties": {
             "name": "Oppdal stasjon",
             "id": "1-192312",
-            "old_fashion_name": "Oppdal station"
+            "old_fashion_name": "Oppdal station",
+            "county": "Sör-Tröndelag",
+            "elevation": 544
         },
         "geometry": {
             "type": "Point",
@@ -100,7 +116,9 @@
         "properties": {
             "name": "Dombås stasjon",
             "id": "1-178762",
-            "old_fashion_name": "Dombaas station"
+            "old_fashion_name": "Dombaas station",
+            "county": "Oppland",
+            "elevation": 659
         },
         "geometry": {
             "type": "Point",
@@ -112,7 +130,9 @@
         "properties": {
             "name": "Åndalsnes",
             "id": "1-190429",
-            "old_fashion_name": "Aandalsnes"
+            "old_fashion_name": "Aandalsnes",
+            "county": "Möre og Romsdal",
+            "elevation":7
         },
         "geometry": {
             "type": "Point",
@@ -124,7 +144,9 @@
         "properties": {
             "name": "Vinstra",
             "id": "1-164194",
-            "old_fashion_name": "Vinstra"
+            "old_fashion_name": "Vinstra",
+            "county": "Oppland",
+            "elevation": 241
         },
         "geometry": {
             "type": "Point",
@@ -136,7 +158,9 @@
         "properties": {
             "name": "Moelv stasjon",
             "id": "1-129673",
-            "old_fashion_name": "Moelv station"
+            "old_fashion_name": "Moelv station",
+            "county": "Hedmark",
+            "elevation": 147
         },
         "geometry": {
             "type": "Point",
@@ -148,7 +172,9 @@
         "properties": {
             "name": "Rena",
             "id": "1-144529",
-            "old_fashion_name": "Rena"
+            "old_fashion_name": "Rena",
+            "county": "Hedmark",
+            "elevation": 223
         },
         "geometry": {
             "type": "Point",
@@ -160,7 +186,9 @@
         "properties": {
             "name": "Alvdal",
             "id": "1-180056",
-            "old_fashion_name": "Alvdal"
+            "old_fashion_name": "Alvdal",
+            "county": "Hedmark",
+            "elevation": 508
         },
         "geometry": {
             "type": "Point",
@@ -172,7 +200,9 @@
         "properties": {
             "name": "Røros stasjon",
             "id": "1-2534808",
-            "old_fashion_name": "Röros station"
+            "old_fashion_name": "Röros station",
+            "county": "Sör-Tröndelag",
+            "elevation": 627
         },
         "geometry": {
             "type": "Point",
@@ -184,7 +214,9 @@
         "properties": {
             "name": "Tynset",
             "id": "1-186990",
-            "old_fashion_name": "Tynset"
+            "old_fashion_name": "Tynset",
+            "county": "Hedmark",
+            "elevation": 493
         },
         "geometry": {
             "type": "Point",
@@ -196,7 +228,9 @@
         "properties": {
             "name": "Elverum stasjon",
             "id": "1-132472",
-            "old_fashion_name": "Elverum station"
+            "old_fashion_name": "Elverum station",
+            "county": "Hedmark",
+            "elevation": 187
         },
         "geometry": {
             "type": "Point",
@@ -208,7 +242,9 @@
         "properties": {
             "name": "Kongsvinger stasjon",
             "id": "1-90091",
-            "old_fashion_name": "Kongsvinger station"
+            "old_fashion_name": "Kongsvinger station",
+            "county": "Hedmark",
+            "elevation": 148
         },
         "geometry": {
             "type": "Point",
@@ -220,7 +256,9 @@
         "properties": {
             "name": "Grorud stasjon",
             "id": "1-73718",
-            "old_fashion_name": "Grorud station"
+            "old_fashion_name": "Grorud station",
+            "county": "Oslo",
+            "elevation": 127
         },
         "geometry": {
             "type": "Point",
@@ -232,7 +270,9 @@
         "properties": {
             "name": "Eidsvoll stasjon",
             "id": "1-186990",
-            "old_fashion_name": "Eidsvol station"
+            "old_fashion_name": "Eidsvol station",
+            "county": "Hedmark",
+            "elevation": 493
         },
         "geometry": {
             "type": "Point",
@@ -244,7 +284,9 @@
         "properties": {
             "name": "Gran stasjon",
             "id": "1-101304",
-            "old_fashion_name": "Gran station"
+            "old_fashion_name": "Gran station",
+            "county": "Oppland",
+            "elevation": 205
         },
         "geometry": {
             "type": "Point",
@@ -256,7 +298,9 @@
         "properties": {
             "name": "Flå stasjon",
             "id": "1-98918",
-            "old_fashion_name": "Flaa station"
+            "old_fashion_name": "Flaa station",
+            "county": "Buskerud",
+            "elevation": 155
         },
         "geometry": {
             "type": "Point",
@@ -268,7 +312,9 @@
         "properties": {
             "name": "Finse stasjon",
             "id": "1-111123",
-            "old_fashion_name": "Finse station"
+            "old_fashion_name": "Finse station",
+            "county": "Hordaland",
+            "elevation": 1222
         },
         "geometry": {
             "type": "Point",
@@ -280,7 +326,9 @@
         "properties": {
             "name": "Flåm stasjon",
             "id": "1-124258",
-            "old_fashion_name": "Flaam station"
+            "old_fashion_name": "Flaam station",
+            "county": "Sogn og Fjordane",
+            "elevation": 2
         },
         "geometry": {
             "type": "Point",
@@ -292,7 +340,9 @@
         "properties": {
             "name": "Voss stasjon",
             "id": "1-2583492",
-            "old_fashion_name": "Voss station"
+            "old_fashion_name": "Voss station",
+            "county": "Hordaland",
+            "elevation": 56
         },
         "geometry": {
             "type": "Point",
@@ -304,7 +354,9 @@
         "properties": {
             "name": "Ål stasjon",
             "id": "1-112697",
-            "old_fashion_name": "Aal station"
+            "old_fashion_name": "Aal station",
+            "county": "Buskerud",
+            "elevation": 436
         },
         "geometry": {
             "type": "Point",
@@ -316,7 +368,9 @@
         "properties": {
             "name": "Hønefoss stasjon",
             "id": "1-2330078",
-            "old_fashion_name": "Hönefos station"
+            "old_fashion_name": "Hönefos station",
+            "county": "Buskerud",
+            "elevation": 96
         },
         "geometry": {
             "type": "Point",
@@ -328,7 +382,9 @@
         "properties": {
             "name": "Stokke",
             "id": "1-32192",
-            "old_fashion_name": "Stokke"
+            "old_fashion_name": "Stokke",
+            "county": "Vestfold",
+            "elevation": 58
         },
         "geometry": {
             "type": "Point",
@@ -340,7 +396,9 @@
         "properties": {
             "name": "Porsgrunn",
             "id": "1-31680",
-            "old_fashion_name": "Porsgrunn"
+            "old_fashion_name": "Porsgrunn",
+            "county": "Telemark",
+            "elevation": 44
         },
         "geometry": {
             "type": "Point",
@@ -352,7 +410,9 @@
         "properties": {
             "name": "Notodden",
             "id": "1-57796",
-            "old_fashion_name": "Notodden"
+            "old_fashion_name": "Notodden",
+            "county": "Telemark",
+            "elevation":31
         },
         "geometry": {
             "type": "Point",
@@ -364,7 +424,9 @@
         "properties": {
             "name": "Nelaug stasjon",
             "id": "1-13478",
-            "old_fashion_name": "Nelaug station"
+            "old_fashion_name": "Nelaug station",
+            "county": "Aust-Agder",
+            "elevation": 142
         },
         "geometry": {
             "type": "Point",
@@ -376,7 +438,9 @@
         "properties": {
             "name": "Marnardal stasjon",
             "id": "1-2224159",
-            "old_fashion_name": "Marnardal station"
+            "old_fashion_name": "Marnardal station",
+            "county": "Vest-Agder",
+            "elevation": 38
         },
         "geometry": {
             "type": "Point",
@@ -388,7 +452,9 @@
         "properties": {
             "name": "Brusand stasjon",
             "id": "1-2863425",
-            "old_fashion_name": "Brusand station"
+            "old_fashion_name": "Brusand station",
+            "county": "Rogaland",
+            "elevation": 3
         },
         "geometry": {
             "type": "Point",
@@ -400,7 +466,9 @@
         "properties": {
             "name": "Sira stasjon",
             "id": "1-2532305",
-            "old_fashion_name": "Sira station"
+            "old_fashion_name": "Sira station",
+            "county": "Vest-Agder",
+            "elevation": 72
         },
         "geometry": {
             "type": "Point",
@@ -412,7 +480,9 @@
         "properties": {
             "name": "Vennesla",
             "id": "1-6600",
-            "old_fashion_name": "Vennesla"
+            "old_fashion_name": "Vennesla",
+            "county": "Vest-Agder",
+            "elevation": 48
         },
         "geometry": {
             "type": "Point",
@@ -424,7 +494,9 @@
         "properties": {
             "name": "Bø stasjon",
             "id": "1-43270",
-            "old_fashion_name": "Bö station"
+            "old_fashion_name": "Bö station",
+            "county": "Telemark",
+            "elevation": 69
         },
         "geometry": {
             "type": "Point",
@@ -436,7 +508,9 @@
         "properties": {
             "name": "Vestfossen stasjon",
             "id": "1-2328430",
-            "old_fashion_name": "Vestfosen station"
+            "old_fashion_name": "Vestfosen station",
+            "county": "Buskerud",
+            "elevation": 22
         },
         "geometry": {
             "type": "Point",
@@ -448,7 +522,9 @@
         "properties": {
             "name": "Ås stasjon",
             "id": "1-60638",
-            "old_fashion_name": "Aas station"
+            "old_fashion_name": "Aas station",
+            "county": "Akershus",
+            "elevation": 94
         },
         "geometry": {
             "type": "Point",
@@ -460,7 +536,9 @@
         "properties": {
             "name": "Råde stasjon",
             "id": "1-47374",
-            "old_fashion_name": "Raade station"
+            "old_fashion_name": "Raade station",
+            "county": "Østfold",
+            "elevation": 17
         },
         "geometry": {
             "type": "Point",
@@ -472,7 +550,9 @@
         "properties": {
             "name": "Sarpsborg stasjon",
             "id": "1-2229918",
-            "old_fashion_name": "Sarpsborg station"
+            "old_fashion_name": "Sarpsborg station",
+            "county": "Østfold",
+            "elevation": 37
         },
         "geometry": {
             "type": "Point",
