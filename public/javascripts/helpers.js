@@ -15,10 +15,10 @@ module.exports = {
 
     writeToFile: function(folderName, fileName, data) {
         // Create folder if not exist
-        if(!fs.existsSync('./public/data/' + folderName)) {
-            fs.mkdirSync('./public/data/' + folderName);
+        if(!fs.existsSync('./public/data/stations/' + folderName)) {
+            fs.mkdirSync('./public/data/stations/' + folderName);
         }
-        fs.writeFile('./public/data/' + folderName + '/' + fileName + '.json', JSON.stringify(data), "utf8", function(err) {
+        fs.writeFile('./public/data/stations/' + folderName + '/' + fileName + '.json', JSON.stringify(data), "utf8", function(err) {
             if(err) {
                 return console.log(err);
             }
