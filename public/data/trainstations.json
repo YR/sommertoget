@@ -1,179 +1,482 @@
-{"stations": [
+{"features": [
     {
-        "name": "Rognan stasjon",
-        "id": "1-268124",
-        "old_fashion_name": "Rognan station"
+        "type": "Feature",
+        "properties": {
+            "name": "Rognan stasjon",
+            "id": "1-268124",
+            "old_fashion_name": "Rognan station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [15.399625, 67.0934945]
+        }
     },
     {
-        "name": "Mo i Rana stasjon",
-        "id": "1-260277",
-        "old_fashion_name": "Mo i Rana station"
+        "type": "Feature",
+        "properties": {
+            "name": "Mo i Rana stasjon",
+            "id": "1-260277",
+            "old_fashion_name": "Mo i Rana station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.1327833, 66.3101695]
+        }
     },
     {
-        "name": "Trofors stasjon",
-        "id": "1-249902",
-        "old_fashion_name": "Trofors station"
+        "type": "Feature",
+        "properties": {
+            "name": "Trofors stasjon",
+            "id": "1-249902",
+            "old_fashion_name": "Trofors station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.3822444, 65.537725]
+        }
     },
     {
-        "name": "Grong stasjon",
-        "id": "1-232443", "Grong station"
+        "type": "Feature",
+        "properties": {
+            "name": "Grong stasjon",
+            "id": "1-232443",
+            "old_fashion_name": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.3385472, 64.4588667]
+        }
     },
     {
-        "name": "Steinkjer",
-        "id": "1-2296935",
-        "old_fashion_name": "Steinkjer"
+        "type": "Feature",
+        "properties": {
+            "name": "Steinkjer",
+            "id": "1-2296935",
+            "old_fashion_name": "Steinkjer"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.4953806, 64.0148417]
+        }
     },
     {
-        "name": "Hommelvik",
-        "id": "1-212408",
-        "old_fashion_name": "Hommelvik"
+        "type": "Feature",
+        "properties": {
+            "name": "Hommelvik",
+            "id": "1-212408",
+            "old_fashion_name": "Hommelvik"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [10.79425, 63.4108334]
+        }
     },
     {
-        "name": "Støren stasjon",
-        "id": "1-205702",
-        "old_fashion_name": "Støren station"
+        "type": "Feature",
+        "properties": {
+            "name": "Støren stasjon",
+            "id": "1-205702",
+            "old_fashion_name": "Stören station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [10.284975, 63.0522361]
+        }
     },
     {
-        "name": "Oppdal stasjon",
-        "id": "1-192312",
-        "old_fashion_name": "Oppdal station"
+        "type": "Feature",
+        "properties": {
+            "name": "Oppdal stasjon",
+            "id": "1-192312",
+            "old_fashion_name": "Oppdal station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.6939139, 62.5928278]
+        }
     },
     {
-        "name": "Dombås stasjon",
-        "id": "1-178762",
-        "old_fashion_name": "Dombaas station"
+        "type": "Feature",
+        "properties": {
+            "name": "Dombås stasjon",
+            "id": "1-178762",
+            "old_fashion_name": "Dombaas station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.1263833, 62.068625]
+        }
     },
     {
-        "name": "Åndalsnes",
-        "id": "1-190429",
-        "old_fashion_name": "Aandalsnes"
+        "type": "Feature",
+        "properties": {
+            "name": "Åndalsnes",
+            "id": "1-190429",
+            "old_fashion_name": "Aandalsnes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [7.6870861, 62.5674917]
+        }
     },
     {
-        "name": "Vinstra",
-        "id": "1-164194",
-        "old_fashion_name": "Vinstra"
+        "type": "Feature",
+        "properties": {
+            "name": "Vinstra",
+            "id": "1-164194",
+            "old_fashion_name": "Vinstra"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.7513417, 61.5949639]
+        }
     },
     {
-        "name": "Moelv",
-        "id": "1-129673",
-        "old_fashion_name": "Moelv"
+        "type": "Feature",
+        "properties": {
+            "name": "Moelv stasjon",
+            "id": "1-129673",
+            "old_fashion_name": "Moelv station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [10.6985806, 60.9298111]
+        }
     },
     {
-        "name": "Rena",
-        "id": "1-144529",
-        "old_fashion_name": "Rena"
+        "type": "Feature",
+        "properties": {
+            "name": "Rena",
+            "id": "1-144529",
+            "old_fashion_name": "Rena"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.3715639, 61.1322195]
+        }
     },
     {
-        "name": "Alvdal",
-        "id": "1-180056",
-        "old_fashion_name": "Alvdal"
+        "type": "Feature",
+        "properties": {
+            "name": "Alvdal",
+            "id": "1-180056",
+            "old_fashion_name": "Alvdal"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [10.6307083, 62.1076778]
+        }
     },
     {
-        "name": "Røros stasjon",
-        "id": "1-2534808",
-        "old_fashion_name": "Røros station"
+        "type": "Feature",
+        "properties": {
+            "name": "Røros stasjon",
+            "id": "1-2534808",
+            "old_fashion_name": "Röros station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.3790667, 62.5747528]
+        }
     },
     {
-        "name": "Tynset",
-        "id": "1-186990",
-        "old_fashion_name": "Tynset"
+        "type": "Feature",
+        "properties": {
+            "name": "Tynset",
+            "id": "1-186990",
+            "old_fashion_name": "Tynset"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [10.7823917, 62.2759361]
+        }
     },
     {
-        "name": "Elverum stasjon",
-        "id": "1-132472",
-        "old_fashion_name": "Elverum station"
+        "type": "Feature",
+        "properties": {
+            "name": "Elverum stasjon",
+            "id": "1-132472",
+            "old_fashion_name": "Elverum station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.5465639, 60.88295]
+        }
     },
     {
-        "name": "Kongsvinger stasjon",
-        "id": "1-90091",
-        "old_fashion_name": "Kongsvinger station"
+        "type": "Feature",
+        "properties": {
+            "name": "Kongsvinger stasjon",
+            "id": "1-90091",
+            "old_fashion_name": "Kongsvinger station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.0041306, 60.1876222]
+        }
     },
     {
-        "name": "Grorud stasjon",
-        "id": "1-73718"
+        "type": "Feature",
+        "properties": {
+            "name": "Grorud stasjon",
+            "id": "1-73718",
+            "old_fashion_name": "Grorud station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [10.8872056, 59.949625]
+        }
     },
     {
-        "name": "Eidsvoll stasjon",
-        "id": "1-186990"
+        "type": "Feature",
+        "properties": {
+            "name": "Eidsvoll stasjon",
+            "id": "1-186990",
+            "old_fashion_name": "Eidsvol station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.2476861, 60.3296945]
+        }
     },
     {
-        "name": "Gran stasjon",
-        "id": "1-101304"
+        "type": "Feature",
+        "properties": {
+            "name": "Gran stasjon",
+            "id": "1-101304",
+            "old_fashion_name": "Gran station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [10.5698194, 60.3590028]
+        }
     },
     {
-        "name": "Flå stasjon",
-        "id": "1-98918"
+        "type": "Feature",
+        "properties": {
+            "name": "Flå stasjon",
+            "id": "1-98918",
+            "old_fashion_name": "Flaa station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.4733278, 60.4321945]
+        }
     },
     {
-        "name": "Finse stasjon",
-        "id": "1-111123"
+        "type": "Feature",
+        "properties": {
+            "name": "Finse stasjon",
+            "id": "1-111123",
+            "old_fashion_name": "Finse station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [7.5041028, 60.601675]
+        }
     },
     {
-        "name": "Flåm stasjon",
-        "id": "1-124258"
+        "type": "Feature",
+        "properties": {
+            "name": "Flåm stasjon",
+            "id": "1-124258",
+            "old_fashion_name": "Flaam station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [7.1131056, 60.8625861]
+        }
     },
     {
-        "name": "Voss stasjon",
-        "id": "1-2583492"
+        "type": "Feature",
+        "properties": {
+            "name": "Voss stasjon",
+            "id": "1-2583492",
+            "old_fashion_name": "Voss station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [6.4103556, 60.6288445]
+        }
     },
     {
-        "name": "Ål stasjon",
-        "id": "1-112697"
+        "type": "Feature",
+        "properties": {
+            "name": "Ål stasjon",
+            "id": "1-112697",
+            "old_fashion_name": "Aal station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [8.5621417, 60.6263806]
+        }
     },
     {
-        "name": "Hønefoss stasjon",
-        "id": "1-2330078"
+        "type": "Feature",
+        "properties": {
+            "name": "Hønefoss stasjon",
+            "id": "1-2330078",
+            "old_fashion_name": "Hönefos station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [10.242775, 60.1693917]
+        }
     },
     {
-        "name": "Stokke",
-        "id": "1-32192"
+        "type": "Feature",
+        "properties": {
+            "name": "Stokke",
+            "id": "1-32192",
+            "old_fashion_name": "Stokke"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [10.3003222, 59.2235861]
+        }
     },
     {
-        "name": "Porsgrunn",
-        "id": "1-31680"
+        "type": "Feature",
+        "properties": {
+            "name": "Porsgrunn",
+            "id": "1-31680",
+            "old_fashion_name": "Porsgrunn"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.6466472, 59.1316611]
+        }
     },
     {
-        "name": "Notodden",
-        "id": "1-57796"
+        "type": "Feature",
+        "properties": {
+            "name": "Notodden",
+            "id": "1-57796",
+            "old_fashion_name": "Notodden"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.2585306, 59.5593528]
+        }
     },
     {
-        "name": "Nelaug stasjon",
-        "id": "1-13478"
+        "type": "Feature",
+        "properties": {
+            "name": "Nelaug stasjon",
+            "id": "1-13478",
+            "old_fashion_name": "Nelaug station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [8.6297417, 58.657675]
+        }
     },
     {
-        "name": "Marnadal stasjon",
-        "id": "1-2224159"
+        "type": "Feature",
+        "properties": {
+            "name": "Marnardal stasjon",
+            "id": "1-2224159",
+            "old_fashion_name": "Marnardal station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [7.5125722, 58.2128584]
+        }
     },
     {
-        "name": "Brusand stasjon",
-        "id": "1-2863425"
+        "type": "Feature",
+        "properties": {
+            "name": "Brusand stasjon",
+            "id": "1-2863425",
+            "old_fashion_name": "Brusand station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [5.7490083, 58.540525]
+        }
     },
     {
-        "name": "Sira stasjon",
-        "id": "1-2532305"
+        "type": "Feature",
+        "properties": {
+            "name": "Sira stasjon",
+            "id": "1-2532305",
+            "old_fashion_name": "Sira station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [6.6604611, 58.4178139]
+        }
     },
     {
-        "name": "Vennesla",
-        "id": "1-6600"
+        "type": "Feature",
+        "properties": {
+            "name": "Vennesla",
+            "id": "1-6600",
+            "old_fashion_name": "Vennesla"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [7.9731444, 58.2685639]
+        }
     },
     {
-        "name": "Bø stasjon",
-        "id": "1-43270"
+        "type": "Feature",
+        "properties": {
+            "name": "Bø stasjon",
+            "id": "1-43270",
+            "old_fashion_name": "Bö station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.0690111, 59.4093834]
+        }
     },
     {
-        "name": "Vestfossen stasjon",
-        "id": "1-2328430"
+        "type": "Feature",
+        "properties": {
+            "name": "Vestfossen stasjon",
+            "id": "1-2328430",
+            "old_fashion_name": "Vestfosen station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.8668111, 59.7338556]
+        }
     },
     {
-        "name": "Ås stasjon",
-        "id": "1-60638"
+        "type": "Feature",
+        "properties": {
+            "name": "Ås stasjon",
+            "id": "1-60638",
+            "old_fashion_name": "Aas station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [10.7940222, 59.6631806]
+        }
     },
     {
-        "name": "Råde stasjon",
-        "id": "1-47374"
+        "type": "Feature",
+        "properties": {
+            "name": "Råde stasjon",
+            "id": "1-47374",
+            "old_fashion_name": "Raade station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [10.8651778, 59.3475473]
+        }
     },
     {
-        "name": "Sarpsborg stasjon",
-        "id": "1-2229918"
+        "type": "Feature",
+        "properties": {
+            "name": "Sarpsborg stasjon",
+            "id": "1-2229918",
+            "old_fashion_name": "Sarpsborg station"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.1180417, 59.2861389]
+        }
     }
 ]}
