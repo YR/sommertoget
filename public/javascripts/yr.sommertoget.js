@@ -10,9 +10,15 @@ function changeForecast() {
     var temperature = loc.forecast.longIntervals[forecastIntervalId].temperature.value.toFixed(0);
     var source = $("#WeatherTemplateForecast").html();
     var template = Handlebars.compile(source);
-    var context = {symbolUrl: symbolFile, timeFrom: timeFrom, timeTo: timeTo, temperature: temperature};
+    var context = {symbolUrl: symbolFile, temperature: temperature};
     var html = template(context);
     $("#forecast").html(html);
+
+    var source = $("#TimeStampTemplate").html();
+    var template = Handlebars.compile(source);
+    var context = {timeFrom: timeFrom, timeTo: timeTo};
+    var html = template(context);
+    $("#timestamp").html(html);
     forecastIntervalId++;
     if(forecastIntervalId >= 4) {
        clearInterval(forecastUpdateInterval);
@@ -41,9 +47,10 @@ function nextSlide() {
         case 1:
             var forecastTemplateSrc = $('#WeatherTemplateOldForecast').html();
             var forecastTemplate = Handlebars.compile(forecastTemplateSrc);
+            var oldSymbolUrl = 'images/' + oldSymbol;
             $('#location').html(locTemplate({locationName: loc.region.name}));
             $('#old-forecast').html(forecastTemplate({
-                oldsymbolUrl: 'images/' + oldSymbol,
+                oldSymbolUrl: oldSymbolUrl,
                 textForecast: helpers.getTextForecast(oldSymbol)
             }));
             break;
