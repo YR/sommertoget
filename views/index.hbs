@@ -43,34 +43,38 @@
 </div>
 
 
-<!--
-
 <script id="WeatherTemplateOldForecast" type="text/x-handlebars-template">
-    <div class="wrapper">
-        <div class="yr-old-symbol">
-            <img id='old-weather-symbol' src=\{{oldsymbolUrl}} width="500" height="500"/>
+        <div class="wrapper">
+            <div class="yr-old-symbol">
+                <img id='old-weather-symbol' src='images/\{{oldSymbolUrl}}' width="500" height="500"/>
+            </div>
+            <div class="yr-old-forecast">
+                <span id='timestamp'>I morgen</span>
+                <p>\{{textForecast}}</p>
+            </div>
         </div>
-        <div class="yr-old-forecast">
-            <span id='timestamp'>I morgen</span>
-            <p>\{{textForecast}}</p>
-        </div>
-    </div>
 </script>
 
 <script id="WeatherTemplateForecast" type="text/x-handlebars-template">
-    <div class="wrapper">
-        <div class="yr-new-symbol">
-            <img id="weather-symbol" src="\{{symbolUrl}}" />
+        <div class="wrapper">
+          <div class="yr-location" id="location">
+              <h1 class="yr-location__title">\{{locationName}}</h1>
+              <p class="yr-location__metadata">Ål (Buskerud), 436 moh.</p>
+          </div>
+            <div class="yr-forecast">
+              <div class="yr-new-symbol">
+                  <img id="weather-symbol" src="\{{symbolUrl}}" />
+              </div>
+              <div class="yr-temperature">
+                  <span id='temperature'>\{{temperature}}<sup>°</sup></span>
+              </div>
+            </div>
+            <div class="yr-timestamp">
+              <p id='timestamp'>kl. \{{timeFrom}}.00 - \{{timeTo}}.00</p>
+            </div>
         </div>
-        <div class="yr-temperature">
-            <span id='temperature'>\{{temperature}}°</span>
-        </div>
-    </div>
-    <div class="yr-timestamp">
-      <p id='timestamp'>kl {{timeFrom}} – {{timeTo}}</p>
-    </div>
 </script>
-
+<!--
 <script id="LocationTemplate" type="text/x-handlebars-template">
     <div class="yr-location">
         \{{locationName}}
