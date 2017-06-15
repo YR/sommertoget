@@ -22,12 +22,12 @@ body {
 
 .yr-location {
     width: 100%;
-    margin: 0 0 4rem 0
+    margin: 0 0 2rem 0
 }
 
 .yr-location__title{
     white-space: nowrap;
-    font-size: 10rem;
+    font-size: 8rem;
     font-weight: bold;
     color: #26292A;
     text-align: center;
@@ -46,15 +46,15 @@ body {
 }
 
 .yr-new-symbol img {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
 }
 
 .yr-temperature sup {
-  font-size: 15rem;
+  font-size: 10rem;
 }
 .yr-temperature #temperature {
-    font-size: 25rem;
+    font-size: 15rem;
     color: #C60000;
 }
 
@@ -63,10 +63,19 @@ body {
     margin-top: 0;
 }
 
+.yr-location__oldtitle{
+    font-family: Cambria, Georgia, serif;
+    white-space: nowrap;
+    font-size: 8rem;
+    font-weight: normal;
+    color: #26292A;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .yr-old-forecast p {
     font-family: Cambria, Georgia, serif;
-    font-size: 10rem;
-    font-weight: bold;
+    font-size: 6rem;
     color: #26292A;
     text-align: center;
 }
@@ -92,8 +101,8 @@ body {
 }
 
 .yr-logo img {
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
 }
 
 /*
