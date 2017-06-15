@@ -7,7 +7,6 @@ var hbs = require('hbs');
 var _ = require('underscore');
 var util = require('util');
 
-var yrApiUrl = 'https://yr.no/api/v0/locations/id/%s';
 var locationData = {};
 
 hbs.registerHelper('json', function(data) {
@@ -43,9 +42,9 @@ function drawToScreen(response) {
 
 router.get('/', (request, response) => {
     var trainPosition = locationHandler.getPosition();
-    locationHandler.getClosestStationFromPosition(trainPosition.lon, trainPosition.lat, function(result){
+    locationHandler.getClosestStationFromPosition(trainPosition.lat, trainPosition.lon, function(result){
         locationData = result;
-        helpers.getForecast(util.format(yrApiUrl, locationData.properties.id) + '/forecast', function(result) {
+        helpers.getForecast(locationData.properties, function(result) {
             locationData.forecast = result;
             drawToScreen(response);
         });

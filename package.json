@@ -21,7 +21,8 @@
         "util": "~0.10.3",
         "request": "~2.81.0",
         "underscore": "~1.8.3",
-        "turf-nearest": "~3.0.12"
+        "@turf/nearest": "~3.0.12", 
+        "@yr/agent": "~5.0.1" 
     },
 
     "repository": "https://github.com/YR/sommertoget.git",

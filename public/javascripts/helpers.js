@@ -3,6 +3,9 @@ var util = require('util');
 var path = require('path');
 var _ = require('underscore');
 var request = require('request');
+var agent = require('@yr/agent');
+
+var yrApiUrl = 'https://yr.no/api/v0/locations/id/%s';
 
 module.exports = {
     isEmptyObject: function (obj) {
@@ -20,12 +23,12 @@ module.exports = {
         if(!fs.existsSync(pathName)) {
             fs.mkdirSync(pathName);
         }
-        var fileName = path.resolve(pathName, fileName + '.json');
+        var fileName = path.resolve(pathName, fileName);
         fs.writeFile(fileName, JSON.stringify(data), "utf8", function(err) {
             if(err) {
                 return console.log(err);
             }
-            console.log(fileName + '.json, ble lagret!');
+            console.log(fileName + ', ble lagret!');
         });
     },
 
@@ -119,14 +122,24 @@ module.exports = {
         }
     },
     
-    getForecast: function(locationUrl, result) {
+    getForecast: function(location, result) {
         self = this;
-        request({url: locationUrl, method: 'GET'}, function(error, response, message) {
-            if (!error && (response.statusCode === 200 || response.statusCode === 304)) {
-                var forecast = JSON.parse(message);
-                self.setNextUpdate(response.headers); 
-                result(forecast);
-            }
-        });
+        var locationUrl = util.format(yrApiUrl, location.id) + '/forecast';
+        agent
+            .get(locationUrl)
+            .timeout(1000)
+            .retry(3)
+            .then((res) => {
+                self.writeToFile(location.name, 'forecast.json', res.body);
+                result(res.body);
+            })
+            .catch((err) => {
+                var fileName =path.resolve('./public/data/stations', location.name, 'forecast.json');
+                fs.readFile(fileName, 'utf-8', (err, data) => {
+                    if(err) throw err;
+                    var forecast = data;
+                    result(JSON.parse(forecast));
+                })
+            });
     }
 }

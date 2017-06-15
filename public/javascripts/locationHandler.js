@@ -4,7 +4,7 @@ var request = require('request');
 var util = require('util');
 var fs = require('fs');
 var path = require('path');
-var turf = require('turf-nearest');
+var turf = require('@turf/nearest');
 
 var yrApiUrl = 'https://yr.no/api/v0/locations/id/%s';
 module.exports = {
