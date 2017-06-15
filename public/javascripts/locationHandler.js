@@ -1,20 +1,31 @@
-var stationFile = './public/data/trainstations.json';
+var stationFile = 'public/data/trainstations.json';
 var helpers = require('./helpers.js');
 var request = require('request');
 var util = require('util');
+var fs = require('fs');
+var path = require('path');
+var turf = require('turf-nearest');
 
 var yrApiUrl = 'https://yr.no/api/v0/locations/id/%s';
 module.exports = {
-    getLocationIdFromPosition: function(lat, lon){
-        var BlindernId = '1-73738';
-        var NesbyenId = '1-113585';
-        var StormyriId = '1-111842';
-        var ÅlStasjonId = '1-112697';
-        return ÅlStasjonId;
+    getClosestStationFromPosition: function(lat, lon, result) {
+        var fileName = path.resolve(process.mainModule.filename, '../../', stationFile);
+        var trainStations = JSON.parse(fs.readFileSync(fileName, 'utf8'));
+        var trainPosition = {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "Point",
+                "coordinates": [lon, lat]
+            }
+        };
+        var closestStation = turf(trainPosition, trainStations);
+        result(closestStation);
     },
 
-    getPostision: function(){
-
+    getPosition: function() {
+        var geoPosition = {"lon": 8.579369, "lat": 60.631813}
+        return geoPosition;
     },
     
     getAllStationData: function(stationId, result) {

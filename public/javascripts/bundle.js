@@ -80094,6 +80094,7 @@ WError.prototype.cause = function we_cause(c)
 },{"./node-type-emitter":394,"events":86,"foreachasync":240,"fs":1,"path":121,"util":174}],396:[function(require,module,exports){
 var fs = require('fs');
 var util = require('util');
+var path = require('path');
 var _ = require('underscore');
 var request = require('request');
 
@@ -80108,11 +80109,13 @@ module.exports = {
     },
 
     writeToFile: function(folderName, fileName, data) {
+        var pathName = path.resolve('./public/data/stations', folderName);
         // Create folder if not exist
-        if(!fs.existsSync('./public/data/stations/' + folderName)) {
-            fs.mkdirSync('./public/data/stations/' + folderName);
+        if(!fs.existsSync(pathName)) {
+            fs.mkdirSync(pathName);
         }
-        fs.writeFile('./public/data/stations/' + folderName + '/' + fileName + '.json', JSON.stringify(data), "utf8", function(err) {
+        var fileName = path.resolve(pathName, fileName + '.json');
+        fs.writeFile(fileName, JSON.stringify(data), "utf8", function(err) {
             if(err) {
                 return console.log(err);
             }
@@ -80212,7 +80215,7 @@ module.exports = {
     
     getForecast: function(locationUrl, result) {
         self = this;
-        request({url: 'https://yr.no' + locationUrl, method: 'GET'}, function(error, response, message) {
+        request({url: locationUrl, method: 'GET'}, function(error, response, message) {
             if (!error && (response.statusCode === 200 || response.statusCode === 304)) {
                 var forecast = JSON.parse(message);
                 self.setNextUpdate(response.headers); 
@@ -80221,7 +80224,7 @@ module.exports = {
         });
     }
 }
-},{"fs":1,"request":329,"underscore":387,"util":174}],397:[function(require,module,exports){
+},{"fs":1,"path":121,"request":329,"underscore":387,"util":174}],397:[function(require,module,exports){
 var util = require('util');
 var _ = require('underscore');
 var helpers = require('./helpers.js');
@@ -80260,12 +80263,12 @@ function nextSlide() {
 
     switch(currentSlide) {
         case 0:
-            $('#location').html(locTemplate({locationName: loc.name}));
+            $('#location').html(locTemplate({locationName: loc.properties.name}));
             break;
         case 1:
             var forecastTemplateSrc = $('#WeatherTemplateOldForecast').html();
             var forecastTemplate = Handlebars.compile(forecastTemplateSrc);
-            $('#location').html(locTemplate({locationName: loc.region.name}));
+            $('#location').html(locTemplate({locationName: loc.properties.county}));
             $('#old-forecast').html(forecastTemplate({
                 oldsymbolUrl: 'images/' + oldSymbol, 
                 textForecast: helpers.getTextForecast(oldSymbol)

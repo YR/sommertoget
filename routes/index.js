@@ -5,6 +5,7 @@ var locationHandler = require('../public/javascripts/locationHandler.js');
 var request = require('request');
 var hbs = require('hbs');
 var _ = require('underscore');
+var util = require('util');
 
 var yrApiUrl = 'https://yr.no/api/v0/locations/id/%s';
 var locationData = {};
@@ -14,7 +15,7 @@ hbs.registerHelper('json', function(data) {
 });
 
 function getTrendSeriesForOldSymbol() {
-var midnightIndex = 23;
+    var midnightIndex = 23;
     var startHour = 6;
     var startIndex = midnightIndex - new Date().getHours() + startHour;
     var endIndex = startIndex + 10;
@@ -33,7 +34,7 @@ function drawToScreen(response) {
         timeTo: new Date(locationData.forecast.longIntervals[0].end).getHours(),
         symbolUrl: newSymbol,
         temperature: locationData.forecast.longIntervals[0].temperature.value.toFixed(0),
-        locationName: locationData.name,
+        locationName: locationData.properties.name,
         locationJsonData: locationData,
         oldSymbolUrl: oldSymbol,
         textForecast: helpers.getTextForecast(oldSymbol)
@@ -41,10 +42,13 @@ function drawToScreen(response) {
 }
 
 router.get('/', (request, response) => {
-    var locationId = locationHandler.getLocationIdFromPosition(0, 0);
-    locationHandler.getAllStationData(locationId, function(data) {
-        locationData = data;
-        drawToScreen(response);
+    var trainPosition = locationHandler.getPosition();
+    locationHandler.getClosestStationFromPosition(trainPosition.lon, trainPosition.lat, function(result){
+        locationData = result;
+        helpers.getForecast(util.format(yrApiUrl, locationData.properties.id) + '/forecast', function(result) {
+            locationData.forecast = result;
+            drawToScreen(response);
+        });
     });
 });
 

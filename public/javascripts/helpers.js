@@ -121,7 +121,7 @@ module.exports = {
     
     getForecast: function(locationUrl, result) {
         self = this;
-        request({url: 'https://yr.no' + locationUrl, method: 'GET'}, function(error, response, message) {
+        request({url: locationUrl, method: 'GET'}, function(error, response, message) {
             if (!error && (response.statusCode === 200 || response.statusCode === 304)) {
                 var forecast = JSON.parse(message);
                 self.setNextUpdate(response.headers); 

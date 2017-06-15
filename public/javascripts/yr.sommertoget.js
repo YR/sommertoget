@@ -36,12 +36,12 @@ function nextSlide() {
 
     switch(currentSlide) {
         case 0:
-            $('#location').html(locTemplate({locationName: loc.name}));
+            $('#location').html(locTemplate({locationName: loc.properties.name}));
             break;
         case 1:
             var forecastTemplateSrc = $('#WeatherTemplateOldForecast').html();
             var forecastTemplate = Handlebars.compile(forecastTemplateSrc);
-            $('#location').html(locTemplate({locationName: loc.region.name}));
+            $('#location').html(locTemplate({locationName: loc.properties.county}));
             $('#old-forecast').html(forecastTemplate({
                 oldsymbolUrl: 'images/' + oldSymbol, 
                 textForecast: helpers.getTextForecast(oldSymbol)
