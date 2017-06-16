@@ -31,9 +31,14 @@ function nextSlide() {
     var locTemplateSrc = $('#LocationTemplate').html();
     var locTemplate = Handlebars.compile(locTemplateSrc);
 
+    if(currentSlide > 1) {
+        //reset forecast interval
+        forecastIntervalId = 0;
+        changeForecast();
+    }
+
     if(currentSlide >= 2) {
         clearInterval(slideInterval);
-        forecastIntervalId = 0;
         forecastUpdateInterval = setInterval(changeForecast, 2000);
     }
 
