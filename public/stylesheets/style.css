@@ -67,7 +67,7 @@ body {
     font-family: Cambria, Georgia, serif;
     white-space: nowrap;
     font-size: 8rem;
-    font-weight: normal;
+    font-weight: bold;
     color: #26292A;
     text-align: center;
     margin-bottom: 2rem;
@@ -81,8 +81,8 @@ body {
 }
 
 .yr-old-symbol img {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
 }
 
 .yr-timestamp{
@@ -91,17 +91,27 @@ body {
   text-align: center;
 }
 
-.yr-partners {
-    justify-content: space-between;
-}
-
-.yr-partners img {
-    margin: 0 6rem;
+.logo-wrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
 .yr-logo img {
     width: 400px;
     height: 400px;
+}
+
+.yr-partners {
+  position: absolute;
+  bottom: 2em;
+}
+
+.yr-partners img {
+    margin: 0 6rem;
 }
 
 /*
