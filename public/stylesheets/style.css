@@ -1,75 +1,112 @@
-.wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0px;
 }
 
-#logos .wrapper {
+.wrapper {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     flex-direction: column;
 }
 
-.yr-new-symbol {
-    margin-top: 7%;
+.yr-forecast{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
 }
-.yr-new-symbol, .yr-old-symbol {
-    padding-right: 150px;
-    width: 30%;
+
+.yr-location {
+    width: 100%;
+    margin: 0 0 2rem 0
+}
+
+.yr-location__title{
+    white-space: nowrap;
+    font-size: 10rem;
+    font-weight: bold;
+    color: #26292A;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.yr-location__metadata{
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.yr-old-symbol {
+    display: flex;
+    align-items: center;
+}
+
+.yr-new-symbol{
 }
 
 .yr-new-symbol img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
 
-.yr-temperature {
-    text-align: left;
-    width: 30%;
+.yr-temperature sup {
+  font-size: 10rem;
+}
+
+.yr-temperature{
 }
 .yr-temperature #temperature {
-    font-size: 15em;
-    color: red;
+    font-size: 18rem;
+    color: #C60000;
 }
 
-.yr-temperature #timestamp, .yr-old-forecast span {
-    width: 100%;
-    font-size: 5em;
+.yr-temperature #timestamp{
+    font-size: 5rem;
     margin-top: 0;
 }
 
-.yr-old-forecast {
-    width: 50%;
-    margin-top: 5%;
+.yr-location__oldtitle{
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    white-space: nowrap;
+    font-size: 10rem;
+    font-weight: bold;
+    color: #26292A;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .yr-old-forecast p {
-    margin-bottom: 0;
-    margin-top: 0;
-    font-size: 6em;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 7rem;
+    color: #26292A;
+    text-align: center;
 }
 
 .yr-old-symbol img {
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 600px;
 }
 
-
-.yr-location {
-    white-space: nowrap;
-    width: 100%;
-    font-size: 10vw;
-    text-align: center;
-    margin-top: 30px;
-    position: fixed;
-    bottom: 0%;
+.yr-timestamp{
+  font-size: 6rem;
+  color: #26292A;
+  text-align: center;
+  margin: 0;
 }
 
-.yr-partners {
-    justify-content: space-between;
-}
-
-.yr-partners img {
-    margin-right: 100px;
+.logo-wrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
 .yr-logo img {
@@ -77,9 +114,13 @@
     height: 600px;
 }
 
-.yr-gps-missing {
-    color: red;
-    font-size: 3em;
+.yr-partners {
+  position: absolute;
+  bottom: 4em;
+}
+
+.yr-partners img {
+    margin: 0 6rem;
 }
 
 /*
@@ -89,7 +130,7 @@ these make the slideshow work
 
 #slides {
     position: relative;
-    height: 300px;
+    height: 100vh;
     padding: 0px;
     margin: 0px;
     list-style-type: none;

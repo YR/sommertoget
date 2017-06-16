@@ -53075,8 +53075,17 @@ module.exports = {
 
 }).call(this,require("buffer").Buffer)
 },{"./utils":326,"assert-plus":229,"buffer":49,"crypto":59,"sshpk":405}],328:[function(require,module,exports){
-arguments[4][98][0].apply(exports,arguments)
-},{"dup":98}],329:[function(require,module,exports){
+
+var indexOf = [].indexOf;
+
+module.exports = function(arr, obj){
+  if (indexOf) return arr.indexOf(obj);
+  for (var i = 0; i < arr.length; ++i) {
+    if (arr[i] === obj) return i;
+  }
+  return -1;
+};
+},{}],329:[function(require,module,exports){
 module.exports      = isTypedArray
 isTypedArray.strict = isStrictTypedArray
 isTypedArray.loose  = isLooseTypedArray
@@ -86715,9 +86724,9 @@ module.exports = {
             .get(locationUrl)
             .timeout(1000)
             .retry(3)
-            .then((res) => {
-                self.writeToFile(location.name, 'forecast.json', res.body);
-                result(res.body);
+            .then((data) => {
+                self.writeToFile(location.name, 'forecast.json', data.body);
+                result(data.body);
             })
             .catch((err) => {
                 var fileName =path.resolve('./public/data/stations', location.name, 'forecast.json');
@@ -86743,9 +86752,15 @@ function changeForecast() {
     var temperature = loc.forecast.longIntervals[forecastIntervalId].temperature.value.toFixed(0);
     var source = $("#WeatherTemplateForecast").html();
     var template = Handlebars.compile(source);
-    var context = {symbolUrl: symbolFile, timeFrom: timeFrom, timeTo: timeTo, temperature: temperature};
+    var context = {symbolUrl: symbolFile, temperature: temperature};
     var html = template(context);
     $("#forecast").html(html);
+
+    var source = $("#TimeStampTemplate").html();
+    var template = Handlebars.compile(source);
+    var context = {timeFrom: timeFrom, timeTo: timeTo};
+    var html = template(context);
+    $("#timestamp").html(html);
     forecastIntervalId++;
     if(forecastIntervalId >= 4) {
        clearInterval(forecastUpdateInterval);
@@ -86756,7 +86771,7 @@ function changeForecast() {
 function nextSlide() {
     var locTemplateSrc = $('#LocationTemplate').html();
     var locTemplate = Handlebars.compile(locTemplateSrc);
-    
+
     if(currentSlide >= 2) {
         clearInterval(slideInterval);
         forecastIntervalId = 0;
@@ -86774,9 +86789,10 @@ function nextSlide() {
         case 1:
             var forecastTemplateSrc = $('#WeatherTemplateOldForecast').html();
             var forecastTemplate = Handlebars.compile(forecastTemplateSrc);
+            var oldSymbolUrl = 'images/' + oldSymbol;
             $('#location').html(locTemplate({locationName: loc.properties.county}));
             $('#old-forecast').html(forecastTemplate({
-                oldsymbolUrl: 'images/' + oldSymbol, 
+                oldSymbolUrl: oldSymbolUrl,
                 textForecast: helpers.getTextForecast(oldSymbol)
             }));
             break;
@@ -86796,7 +86812,7 @@ var trendSeries = _.map(loc.forecast.shortIntervals, function(interval) {
      return interval.symbol.n;
 });
 var oldSymbol = helpers.calculateOldSymbol(_.first(trendSeries, 10));
-var forecastUpdateInterval = setInterval(changeForecast, 1000);
+var forecastUpdateInterval = setInterval(changeForecast, 2000);
 var gpsEndPoint = socket.connect('http://localhost:2000', { reconnect: true});
 gpsEndPoint.on('position', function(data) {
     currentPosition = data.position;

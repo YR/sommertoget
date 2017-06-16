@@ -6,12 +6,13 @@
 
     "scripts": {
         "start": "node ./bin/www",
-         "build-js": "browserify index.js > ./public/javascripts/bundle.js",
+         "build-js": "browserify ./index.js > ./public/javascripts/bundle.js",
          "build": "npm run build-js"
     },
 
     "dependencies": {
         "body-parser": "~1.17.1",
+        "browserify": "^14.4.0",
         "cookie-parser": "~1.4.3",
         "debug": "~2.6.3",
         "express": "~4.15.2",
