@@ -6,28 +6,32 @@ var fs = require('fs');
 var path = require('path');
 var turf = require('@turf/nearest');
 
+var currentPosition = {};
+
 var yrApiUrl = 'https://yr.no/api/v0/locations/id/%s';
 module.exports = {
     getClosestStationFromPosition: function(lat, lon, result) {
         var fileName = path.resolve(process.mainModule.filename, '../../', stationFile);
-        var trainStations = JSON.parse(fs.readFileSync(fileName, 'utf8'));
-        var trainPosition = {
-            "type": "Feature",
-            "properties": {},
-            "geometry": {
-                "type": "Point",
-                "coordinates": [lon, lat]
-            }
-        };
-        var closestStation = turf(trainPosition, trainStations);
-        result(closestStation);
+        fs.readFile(fileName, 'utf8', function(err, data) {
+            if(err) throw error;
+            var trainStations = JSON.parse(data);
+            var trainPosition = {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [lon, lat]
+                }
+            };
+            var closestStation = turf(trainPosition, trainStations);
+            result(closestStation);
+        });
     },
 
-    getPosition: function() {
-        var geoPosition = {"lon": 8.579369, "lat": 60.631813}
-        return geoPosition;
+    getPosition: function(result) {
+        result(gpsEndPoint.position);
     },
-    
+
     getAllStationData: function(stationId, result) {
         var stationData = {};
         getLocationData(stationId, function(data) {
@@ -39,7 +43,7 @@ module.exports = {
                 result(stationData);
             });
         });
-    },
+    }
 }
 
 function getLocationData(placeId, result) {

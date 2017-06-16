@@ -2,6 +2,7 @@ var util = require('util');
 var _ = require('underscore');
 var helpers = require('./helpers.js');
 var Handlebars = require('hbs');
+var socket = require('socket.io-client');
 
 function changeForecast() {
     var symbolFile = helpers.getSymbolFromFile(loc.forecast.longIntervals[forecastIntervalId].symbol);
@@ -57,9 +58,14 @@ var slideInterval;
 var forecastIntervalId = 0;
 var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
+var currentPosition;
 
 var trendSeries = _.map(loc.forecast.shortIntervals, function(interval) {
      return interval.symbol.n;
 });
 var oldSymbol = helpers.calculateOldSymbol(_.first(trendSeries, 10));
 var forecastUpdateInterval = setInterval(changeForecast, 1000);
+var gpsEndPoint = socket.connect('http://localhost:2000', { reconnect: true});
+gpsEndPoint.on('position', function(data) {
+    currentPosition = data.position;
+});

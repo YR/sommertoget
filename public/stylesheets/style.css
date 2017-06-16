@@ -77,6 +77,11 @@
     height: 600px;
 }
 
+.yr-gps-missing {
+    color: red;
+    font-size: 3em;
+}
+
 /*
 essential styles:
 these make the slideshow work

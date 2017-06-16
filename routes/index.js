@@ -40,13 +40,22 @@ function drawToScreen(response) {
     });
 }
 
+function missingGps(response) {
+    response.render('gpserror');
+}
+
 router.get('/', (request, response) => {
-    var trainPosition = locationHandler.getPosition();
-    locationHandler.getClosestStationFromPosition(trainPosition.lat, trainPosition.lon, function(result){
-        locationData = result;
-        helpers.getForecast(locationData.properties, function(result) {
-            locationData.forecast = result;
-            drawToScreen(response);
+    locationHandler.getPosition(function(trainPosition) {
+        if(!trainPosition) {
+            missingGps(response);
+            return;
+        }
+        locationHandler.getClosestStationFromPosition(trainPosition.lat, trainPosition.lng, function(closestStation){
+            locationData = closestStation;
+            helpers.getForecast(locationData.properties, function(forecast) {
+                locationData.forecast = forecast;
+                drawToScreen(response);
+            });
         });
     });
 });

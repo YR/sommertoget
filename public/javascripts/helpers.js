@@ -129,9 +129,9 @@ module.exports = {
             .get(locationUrl)
             .timeout(1000)
             .retry(3)
-            .then((res) => {
-                self.writeToFile(location.name, 'forecast.json', res.body);
-                result(res.body);
+            .then((data) => {
+                self.writeToFile(location.name, 'forecast.json', data.body);
+                result(data.body);
             })
             .catch((err) => {
                 var fileName =path.resolve('./public/data/stations', location.name, 'forecast.json');
