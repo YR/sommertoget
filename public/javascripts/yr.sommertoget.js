@@ -71,6 +71,7 @@ var forecastIntervalId = 0;
 var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
 var currentPosition;
+var lastPosition;
 
 var trendSeries = _.map(loc.forecast.shortIntervals, function(interval) {
      return interval.symbol.n;
@@ -78,6 +79,10 @@ var trendSeries = _.map(loc.forecast.shortIntervals, function(interval) {
 var oldSymbol = helpers.calculateOldSymbol(_.first(trendSeries, 10));
 var forecastUpdateInterval = setInterval(changeForecast, 2000);
 var gpsEndPoint = socket.connect('http://localhost:2000', { reconnect: true});
-gpsEndPoint.on('position', function(data) {
-    currentPosition = data.position;
+gpsEndPoint.on('gpsPosition', function(position) {
+    if(currentPosition) {
+        if(currentPosition.lat != position.lat && currentPosition.lng != position.lng)
+            window.location.reload(true);
+    }
+    currentPosition = position;
 });
