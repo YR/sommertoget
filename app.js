@@ -51,6 +51,10 @@ gpsEndPoint.on('connect', function() {
     console.log(util.format('Koblet til GPS-endepunkt %s', config.gpsEndPoint));
 });
 
+gpsEndPoint.on('disconnect', function() {
+    console.log('Koblet fra GPS-endepunkt');
+});
+
 gpsEndPoint.on('gpsPosition', function(position) {
     gpsEndPoint.position = position;
     console.log(util.format('Posisjon: %d, %d', position.lat, position.lng));
