@@ -3,6 +3,7 @@ var _ = require('underscore');
 var helpers = require('./helpers');
 var Handlebars = require('hbs');
 var socket = require('socket.io-client');
+var config = require('../../config');
 
 function changeForecast() {
     var symbolFile = helpers.getSymbolFromFile(loc.forecast.longIntervals[forecastIntervalId].symbol);
@@ -90,7 +91,8 @@ var oldSymbol = helpers.calculateOldSymbol(_.first(trendSeries, 10));
 var forecastUpdateInterval = setInterval(changeForecast, 2000);
 var pageUpdateInterval = setInterval(checkTimeAndReload, 60000);
 
-var gpsEndPoint = socket.connect('http://localhost:2000', { reconnect: true});
+var gpsEndPoint = socket.connect(config.gpsEndPoint, { reconnect: true});
+
 gpsEndPoint.on('gpsPosition', function(position) {
     if(currentPosition) {
         if(currentPosition.lat != position.lat && currentPosition.lng != position.lng)
