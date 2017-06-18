@@ -21,6 +21,13 @@ module.exports = {
         this.cacheExpires = new Date(expiresHeader);
     },
 
+    checkIfDateIsTomorrow: function(dateToCheck) {
+        var tomorrow = new Date(new Date().getTime() + 24 * 60 * 60 * 1000);
+        if(dateToCheck.getDay() == tomorrow.getDay())
+            return true;
+        return false;
+    },
+
     writeToFile: function(folderName, fileName, data) {
         var pathName = path.resolve('./public/data/stations', folderName);
         // Create folder if not exist

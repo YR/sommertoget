@@ -6,10 +6,12 @@ var socket = require('socket.io-client');
 
 function changeForecast() {
     var symbolFile = helpers.getSymbolFromFile(loc.forecast.longIntervals[forecastIntervalId].symbol);
-    var timeFrom = new Date(loc.forecast.longIntervals[forecastIntervalId].start).getHours();
-    var timeTo = new Date(loc.forecast.longIntervals[forecastIntervalId].end).getHours();
+    var timeFrom = new Date(loc.forecast.longIntervals[forecastIntervalId].start);
+    var hoursFrom = timeFrom.getHours();
+    var hoursTo = new Date(loc.forecast.longIntervals[forecastIntervalId].end).getHours();
     var temperature = loc.forecast.longIntervals[forecastIntervalId].temperature.value.toFixed(0);
-    var source = $("#WeatherTemplateForecast").html();
+    var dayText = helpers.checkIfDateIsTomorrow(timeFrom) ? 'I morgen' : 'I dag';
+    var source = $("#WeatherForecastTemplate").html();
     var template = Handlebars.compile(source);
     var context = {symbolUrl: symbolFile, temperature: temperature};
     var html = template(context);
@@ -17,7 +19,7 @@ function changeForecast() {
 
     var source = $("#TimeStampTemplate").html();
     var template = Handlebars.compile(source);
-    var context = {timeFrom: timeFrom, timeTo: timeTo};
+    var context = {hoursFrom: hoursFrom, hoursTo: hoursTo, dayText: dayText};
     var html = template(context);
     $("#timestamp").html(html);
     forecastIntervalId++;
@@ -51,7 +53,7 @@ function nextSlide() {
             $('#location').html(locTemplate({locationName: loc.properties.name}));
             break;
         case 1:
-            var forecastTemplateSrc = $('#WeatherTemplateOldForecast').html();
+            var forecastTemplateSrc = $('#WeatherOldForecastTemplate').html();
             var forecastTemplate = Handlebars.compile(forecastTemplateSrc);
             var oldSymbolUrl = 'images/' + oldSymbol;
             $('#location').html(locTemplate({locationName: loc.properties.county}));

@@ -26,14 +26,16 @@ function getTrendSeriesForOldSymbol() {
 function drawToScreen(response) {
     var oldSymbolTrendSeries = getTrendSeriesForOldSymbol();
     var newSymbol = helpers.getSymbolFromFile(locationData.forecast.longIntervals[0].symbol);
-    var oldSymbol = helpers.calculateOldSymbol(_.first(oldSymbolTrendSeries, 10))
+    var oldSymbol = helpers.calculateOldSymbol(_.first(oldSymbolTrendSeries, 10));
+    var timeFrom = new Date(locationData.forecast.longIntervals[0].start);
 
     response.setHeader('expires', helpers.cacheExpires);
     response.render('index', {
-        timeFrom: new Date(locationData.forecast.longIntervals[0].start).getHours(),
-        timeTo: new Date(locationData.forecast.longIntervals[0].end).getHours(),
+        hoursFrom: timeFrom.getHours(),
+        hoursTo: new Date(locationData.forecast.longIntervals[0].end).getHours(),
         symbolUrl: newSymbol,
         temperature: locationData.forecast.longIntervals[0].temperature.value.toFixed(0),
+        dayText: helpers.checkIfDateIsTomorrow(timeFrom) ? 'I morgen' : 'I dag',
         locationName: locationData.properties.name,
         locationJsonData: locationData,
         oldSymbolUrl: oldSymbol,
