@@ -4,10 +4,14 @@ var path = require('path');
 var _ = require('underscore');
 var request = require('request');
 var agent = require('@yr/agent');
+var config = require('../../config');
 
-var yrApiUrl = 'https://yr.no/api/v0/locations/id/%s';
+var cacheExpires;
 
 module.exports = {
+
+    cacheExpires,
+
     isEmptyObject: function (obj) {
         return !Object.keys(obj).length;
     },
@@ -28,7 +32,7 @@ module.exports = {
             if(err) {
                 return console.log(err);
             }
-            console.log(fileName + ', ble lagret!');
+            console.log(util.format('%s, ble lagret!', fileName));
         });
     },
 
@@ -124,12 +128,16 @@ module.exports = {
     
     getForecast: function(location, result) {
         self = this;
-        var locationUrl = util.format(yrApiUrl, location.id) + '/forecast';
+        var locationUrl = util.format(config.yrApiLocationUrl, location.id) + '/forecast';
+        
+        if(self.cacheExpires && self.cacheExpires > new Date())
+            return;
         agent
             .get(locationUrl)
             .timeout(1000)
             .retry(3)
             .then((data) => {
+                self.setNextUpdate(data.headers);
                 self.writeToFile(location.name, 'forecast.json', data.body);
                 result(data.body);
             })

@@ -7,6 +7,8 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var images = require('./routes/images');
 var io = require('socket.io-client');
+var config = require('./config');
+var util = require('util');
 
 var app = express();
 
@@ -44,14 +46,14 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-gpsEndPoint = io.connect('http://localhost:2000', { reconnect: true});
+gpsEndPoint = io.connect(config.gpsEndPoint, { reconnect: true});
 gpsEndPoint.on('connect', function() {
-    console.log('Koblet til GPS-endepunkt');
+    console.log(util.format('Koblet til GPS-endepunkt %s', config.gpsEndPoint));
 });
 
 gpsEndPoint.on('gpsPosition', function(position) {
     gpsEndPoint.position = position;
-    console.log('Posisjon: ' + position.lat + ',' + position.lng);
+    console.log(util.format('Posisjon: %d, %d', position.lat, position.lng));
 });
 
 module.exports = app;

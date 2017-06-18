@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var helpers = require('../public/javascripts/helpers.js');
-var locationHandler = require('../public/javascripts/locationHandler.js');
+var helpers = require('../public/javascripts/helpers');
+var locationHandler = require('../public/javascripts/locationHandler');
 var request = require('request');
 var hbs = require('hbs');
 var _ = require('underscore');
@@ -28,6 +28,7 @@ function drawToScreen(response) {
     var newSymbol = helpers.getSymbolFromFile(locationData.forecast.longIntervals[0].symbol);
     var oldSymbol = helpers.calculateOldSymbol(_.first(oldSymbolTrendSeries, 10))
 
+    response.setHeader('expires', helpers.cacheExpires);
     response.render('index', {
         timeFrom: new Date(locationData.forecast.longIntervals[0].start).getHours(),
         timeTo: new Date(locationData.forecast.longIntervals[0].end).getHours(),

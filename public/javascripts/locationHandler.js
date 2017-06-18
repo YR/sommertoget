@@ -1,5 +1,6 @@
+var config = require('../../config')
 var stationFile = 'public/data/trainstations.json';
-var helpers = require('./helpers.js');
+var helpers = require('./helpers');
 var request = require('request');
 var util = require('util');
 var fs = require('fs');
@@ -8,7 +9,6 @@ var turf = require('@turf/nearest');
 
 var currentPosition = {};
 
-var yrApiUrl = 'https://yr.no/api/v0/locations/id/%s';
 module.exports = {
     getClosestStationFromPosition: function(lat, lon, result) {
         var fileName = path.resolve(process.mainModule.filename, '../../', stationFile);
@@ -47,7 +47,7 @@ module.exports = {
 }
 
 function getLocationData(placeId, result) {
-    var url = util.format(yrApiUrl, placeId);
+    var url = util.format(config.yrApiLocationUrl, placeId);
     request({url: url, method: 'GET'}, function(error, response, message) {
         if (!error && (response.statusCode === 200 || response.statusCode === 304)) {
             var location = JSON.parse(message);

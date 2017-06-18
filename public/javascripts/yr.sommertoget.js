@@ -1,6 +1,6 @@
 var util = require('util');
 var _ = require('underscore');
-var helpers = require('./helpers.js');
+var helpers = require('./helpers');
 var Handlebars = require('hbs');
 var socket = require('socket.io-client');
 
@@ -66,6 +66,13 @@ function nextSlide() {
     }
 }
 
+function checkTimeAndReload() {
+    var hoursNow = new Date().getHours();
+    var forecastHoursFrom = new Date(loc.forecast.longIntervals[0].start).getHours();
+    if (forecastHoursFrom < hoursNow)
+        window.location.reload(true);
+}
+
 var slideInterval;
 var forecastIntervalId = 0;
 var slides = document.querySelectorAll('#slides .slide');
@@ -76,8 +83,11 @@ var lastPosition;
 var trendSeries = _.map(loc.forecast.shortIntervals, function(interval) {
      return interval.symbol.n;
 });
+
 var oldSymbol = helpers.calculateOldSymbol(_.first(trendSeries, 10));
 var forecastUpdateInterval = setInterval(changeForecast, 2000);
+var pageUpdateInterval = setInterval(checkTimeAndReload, 60000);
+
 var gpsEndPoint = socket.connect('http://localhost:2000', { reconnect: true});
 gpsEndPoint.on('gpsPosition', function(position) {
     if(currentPosition) {
