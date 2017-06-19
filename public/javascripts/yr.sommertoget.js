@@ -63,10 +63,11 @@ function nextSlide() {
             var forecastTemplateSrc = $('#WeatherOldForecastTemplate').html();
             var forecastTemplate = Handlebars.compile(forecastTemplateSrc);
             var oldSymbolUrl = 'images/' + oldSymbol;
-            $('#location').html(locTemplate({locationName: loc.properties.county}));
+
             $('#old-forecast').html(forecastTemplate({
                 oldSymbolUrl: oldSymbolUrl,
-                textForecast: helpers.getTextForecast(oldSymbol)
+                textForecast: helpers.getTextForecast(oldSymbol),
+                county: loc.properties.county
             }));
             break;
         case 2:
@@ -87,7 +88,6 @@ var forecastIntervalId = 0;
 var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
 var currentPosition;
-var lastPosition;
 
 var trendSeries = _.map(loc.forecast.shortIntervals, function(interval) {
      return interval.symbol.n;

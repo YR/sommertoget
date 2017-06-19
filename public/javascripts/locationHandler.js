@@ -28,11 +28,6 @@ module.exports = {
         });
     },
 
-    getPosition: function(result) {
-        result({"lat": 60.415021, "lng": 9.4789693});
-        //result(gpsEndPoint.position);
-    },
-
     getAllStationData: function(stationId, result) {
         var stationData = {};
         getLocationData(stationId, function(data) {

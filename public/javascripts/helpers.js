@@ -8,6 +8,7 @@ var config = require('../../config');
 var debug = require('debug');
 
 var cacheExpires;
+var cachedForecast;
 
 module.exports = {
 
@@ -24,7 +25,7 @@ module.exports = {
 
     checkIfDateIsTomorrow: function(dateToCheck) {
         var tomorrow = new Date(new Date().getTime() + 24 * 60 * 60 * 1000);
-        if(dateToCheck.getDay() == tomorrow.getDay())
+        if(dateToCheck.getDay() === tomorrow.getDay())
             return true;
         return false;
     },
@@ -138,14 +139,17 @@ module.exports = {
         self = this;
         var locationUrl = util.format(config.yrApiLocationUrl, location.id) + '/forecast';
         
-        if(self.cacheExpires && self.cacheExpires > new Date())
+        if(self.cacheExpires && self.cacheExpires > new Date()) {
+            result(self.cachedForecast);
             return;
+        }
         agent
             .get(locationUrl)
             .timeout(1000)
             .retry(3)
             .then((data) => {
                 self.setNextUpdate(data.headers);
+                self.cachedForecast = data.body;
                 self.writeToFile(location.id, 'forecast.json', data.body);
                 result(data.body);
             })

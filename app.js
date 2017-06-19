@@ -7,6 +7,7 @@ var index = require('./routes/index');
 var io = require('socket.io-client');
 var config = require('./config');
 var util = require('util');
+var debug = require('debug');
 
 var app = express();
 
@@ -44,18 +45,18 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-// gpsEndPoint = io.connect(config.gpsEndPoint, { reconnect: true});
-// gpsEndPoint.on('connect', function() {
-//     console.log(util.format('Koblet til GPS-endepunkt %s', config.gpsEndPoint));
-// });
+gpsEndPoint = io.connect(config.gpsEndPoint, { reconnect: true});
+gpsEndPoint.on('connect', function() {
+    debug(util.format('Koblet til GPS-endepunkt %s', config.gpsEndPoint));
+});
 
-// gpsEndPoint.on('disconnect', function() {
-//     console.log('Koblet fra GPS-endepunkt');
-// });
+gpsEndPoint.on('disconnect', function() {
+    debug('Koblet fra GPS-endepunkt');
+});
 
-// gpsEndPoint.on('gpsPosition', function(position) {
-//     gpsEndPoint.position = position;
-//     console.log(util.format('Posisjon: %d, %d', position.lat, position.lng));
-// });
+gpsEndPoint.on('gpsPosition', function(position) {
+    gpsEndPoint.position = position;
+    debug(util.format('Posisjon: %d, %d', position.lat, position.lng));
+});
 
 module.exports = app;

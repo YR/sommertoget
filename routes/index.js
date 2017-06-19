@@ -51,17 +51,16 @@ function missingGps(response) {
 }
 
 router.get('/', (request, response) => {
-    locationHandler.getPosition(function(trainPosition) {
-        if(!trainPosition) {
-            missingGps(response);
-            return;
-        }
-        locationHandler.getClosestStationFromPosition(trainPosition.lat, trainPosition.lng, function(closestStation){
-            locationData = closestStation;
-            helpers.getForecast(locationData.properties, function(forecast) {
-                locationData.forecast = forecast;
-                drawToScreen(response);
-            });
+    var trainPosition = gpsEndPoint.position;
+    if(!trainPosition) {
+        missingGps(response);
+        return;
+    }
+    locationHandler.getClosestStationFromPosition(trainPosition.lat, trainPosition.lng, function(closestStation) {
+        locationData = closestStation;
+        helpers.getForecast(locationData.properties, function(forecast) {
+            locationData.forecast = forecast;
+            drawToScreen(response);
         });
     });
 });
