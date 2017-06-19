@@ -5,7 +5,8 @@ var request = require('request');
 var util = require('util');
 var fs = require('fs');
 var path = require('path');
-var turf = require('@turf/nearest');
+var turfNearest = require('@turf/nearest');
+var turfDistance = require('@turf/distance');
 
 var currentPosition = {};
 
@@ -23,7 +24,10 @@ module.exports = {
                     "coordinates": [lon, lat]
                 }
             };
-            var closestStation = turf(trainPosition, trainStations);
+            
+            var closestStation = turfNearest(trainPosition, trainStations);
+            var distance = turfDistance(trainPosition, closestStation);
+            closestStation.properties.distance = distance;
             result(closestStation);
         });
     },

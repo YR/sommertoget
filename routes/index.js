@@ -6,6 +6,7 @@ var request = require('request');
 var hbs = require('hbs');
 var _ = require('underscore');
 var util = require('util');
+var config = require('../config');
 
 var locationData = {};
 
@@ -46,17 +47,29 @@ function drawToScreen(response) {
     });
 }
 
-function missingGps(response) {
-    response.render('gpserror');
+function displayYrPage(response, cause) {
+    var message = '';
+    if(cause === 'missing_gps')
+        message = 'Mangler GPS-signal. Forsøker igjen...';
+    if(cause === 'max_distance')
+        message = 'For langt til nærmeste stasjon...';
+    response.render('yrpage', {
+        message: message,
+        cause: cause
+    });
 }
 
 router.get('/', (request, response) => {
     var trainPosition = gpsEndPoint.position;
     if(!trainPosition) {
-        missingGps(response);
+        displayYrPage(response, 'missing_gps');
         return;
     }
     locationHandler.getClosestStationFromPosition(trainPosition.lat, trainPosition.lng, function(closestStation) {
+        if(closestStation.properties.distance > config.stationMaxDistance) {
+            displayYrPage(response, 'max_distance');
+            return;
+        }
         locationData = closestStation;
         helpers.getForecast(locationData.properties, function(forecast) {
             locationData.forecast = forecast;

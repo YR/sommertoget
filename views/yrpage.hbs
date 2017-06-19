@@ -6,15 +6,20 @@
         <img id="nrk-logo" src="images/logo-nrk.svg" width="250" height="250"/>
         <img id="met-logo" src="images/logo-met.svg" width="250" height="250"/>
     </div>
+    <div class='yr-gps-missing'>
+        {{message}}
+    </div>
 </div>
-<div class='yr-gps-missing'>
-    Mangler GPS-signal. Forsøker igjen...
-</div>
+
 <script>
     var time = new Date().getTime();
+    var cause = '{{cause}}';
+    var refreshMissingGps = 10 * 1000; //10 sek
+    var refreshMaxDistanceFromStation = 5 * 60 * 1000; //5 min
+    var refreshInterval = (cause == 'missing_gps' ? refreshMissingGps : refreshMaxDistanceFromStation);
 
     function refresh() {
-        if(new Date().getTime() - time >= 10000) 
+        if(new Date().getTime() - time >= refreshInterval) 
             window.location.reload(true);
         else 
             setTimeout(refresh, 1000);
