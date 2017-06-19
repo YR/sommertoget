@@ -62,6 +62,10 @@ function nextSlide() {
         case 1:
             var forecastTemplateSrc = $('#WeatherOldForecastTemplate').html();
             var forecastTemplate = Handlebars.compile(forecastTemplateSrc);
+            var trendSeries = _.map(loc.forecast.shortIntervals, function(interval) {
+                return interval.symbol.n;
+            });
+            var oldSymbol = helpers.calculateOldSymbol(_.first(trendSeries, 10));
             var oldSymbolUrl = 'images/' + oldSymbol;
 
             $('#old-forecast').html(forecastTemplate({
@@ -89,13 +93,12 @@ var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
 var currentPosition;
 
-var trendSeries = _.map(loc.forecast.shortIntervals, function(interval) {
-     return interval.symbol.n;
-});
-
-var oldSymbol = helpers.calculateOldSymbol(_.first(trendSeries, 10));
-var forecastUpdateInterval = setInterval(changeForecast, 2000);
-var pageUpdateInterval = setInterval(checkTimeAndReload, 60000);
+var forecastUpdateInterval;
+var pageUpdateInterval;
+if(page != 'yrpage') {
+    forecastUpdateInterval = setInterval(changeForecast, 2000);
+    pageUpdateInterval= setInterval(checkTimeAndReload, 60000);
+};
 
 var gpsEndPoint = socket.connect(config.gpsEndPoint, { reconnect: true});
 
