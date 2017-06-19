@@ -3,7 +3,7 @@
         <div class="wrapper">
           <div class="yr-location" id="location">
               <h1 class="yr-location__title">{{locationName}}</h1>
-              <p class="yr-location__metadata">Ål (Buskerud), 436 moh.</p>
+              <p class="yr-location__metadata">{{municipality}} ({{county}}), {{elevation}} moh.</p>
           </div>
             <div class="yr-forecast" id="forecast">
               <div class="yr-new-symbol">
@@ -74,7 +74,7 @@
 
 <script id="LocationTemplate" type="text/x-handlebars-template">
     <h1 class="yr-location__title">\{{locationName}}</h1>
-    <p class="yr-location__metadata">Ål (Buskerud), 436 moh.</p>
+    <p class="yr-location__metadata">\{{municipality}} (\{{county}}), \{{elevation}} moh.</p>
 </script>
 
 <script type="text/javascript">

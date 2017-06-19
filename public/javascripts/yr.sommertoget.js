@@ -51,7 +51,13 @@ function nextSlide() {
 
     switch(currentSlide) {
         case 0:
-            $('#location').html(locTemplate({locationName: loc.properties.name}));
+            $('#location').html(locTemplate(
+                {
+                    locationName: loc.properties.name,
+                    municipality: loc.properties.municipality,
+                    county: loc.properties.county,
+                    elevation: loc.properties.elevation
+                }));
             break;
         case 1:
             var forecastTemplateSrc = $('#WeatherOldForecastTemplate').html();
