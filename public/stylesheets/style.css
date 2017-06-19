@@ -47,8 +47,6 @@ body {
     align-items: center;
 }
 
-.yr-new-symbol{
-}
 
 .yr-new-symbol img {
     width: 400px;
@@ -59,8 +57,6 @@ body {
   font-size: 10rem;
 }
 
-.yr-temperature{
-}
 .yr-temperature #temperature {
     font-size: 18rem;
     color: #C60000;
@@ -121,6 +117,10 @@ body {
 
 .yr-partners img {
     margin: 0 6rem;
+}
+
+.yr-message {
+    font-size: 1rem;
 }
 
 /*

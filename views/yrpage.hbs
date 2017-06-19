@@ -6,7 +6,7 @@
         <img id="nrk-logo" src="images/logo-nrk.svg" width="250" height="250"/>
         <img id="met-logo" src="images/logo-met.svg" width="250" height="250"/>
     </div>
-    <div class='yr-gps-missing'>
+    <div class='yr-message'>
         {{message}}
     </div>
 </div>
@@ -18,12 +18,12 @@
     var refreshMaxDistanceFromStation = 5 * 60 * 1000; //5 min
     var refreshInterval = (cause == 'missing_gps' ? refreshMissingGps : refreshMaxDistanceFromStation);
 
-    function refresh() {
+    function refreshYrPage() {
         if(new Date().getTime() - time >= refreshInterval) 
             window.location.reload(true);
         else 
-            setTimeout(refresh, 1000);
+            setTimeout(refreshYrPage, 1000);
      }
 
-     setTimeout(refresh, 1000);
+     setTimeout(refreshYrPage, 1000);
     </script>
