@@ -145,11 +145,11 @@ module.exports = {
             .retry(3)
             .then((data) => {
                 self.setNextUpdate(data.headers);
-                self.writeToFile(location.name, 'forecast.json', data.body);
+                self.writeToFile(location.id, 'forecast.json', data.body);
                 result(data.body);
             })
             .catch((err) => {
-                var fileName =path.resolve('./public/data/stations', location.name, 'forecast.json');
+                var fileName =path.resolve('./public/data/stations', location.id, 'forecast.json');
                 fs.readFile(fileName, 'utf-8', (err, data) => {
                     if(err) throw err;
                     var forecast = data;
