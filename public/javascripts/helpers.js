@@ -5,6 +5,7 @@ var _ = require('underscore');
 var request = require('request');
 var agent = require('@yr/agent');
 var config = require('../../config');
+var debug = require('debug');
 
 var cacheExpires;
 
@@ -37,9 +38,9 @@ module.exports = {
         var fileName = path.resolve(pathName, fileName);
         fs.writeFile(fileName, JSON.stringify(data), "utf8", function(err) {
             if(err) {
-                return console.log(err);
+                return debug(err);
             }
-            console.log(util.format('%s, ble lagret!', fileName));
+            debug(util.format('%s, ble lagret!', fileName));
         });
     },
 

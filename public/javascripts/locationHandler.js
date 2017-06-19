@@ -29,18 +29,20 @@ module.exports = {
     },
 
     getPosition: function(result) {
-        result(gpsEndPoint.position);
+        result({"lat": 60.415021, "lng": 9.4789693});
+        //result(gpsEndPoint.position);
     },
 
     getAllStationData: function(stationId, result) {
         var stationData = {};
         getLocationData(stationId, function(data) {
             stationData = data;
-            helpers.writeToFile(stationData.name, 'location', stationData);
-            helpers.getForecast(stationData._links.forecast.href, function(data) {
-                stationData.forecast = data;
-                helpers.writeToFile(stationData.name, 'forecast', stationData.forecast);
-                result(stationData);
+            helpers.writeToFile(stationData.name, 'location', stationData, function() {
+                helpers.getForecast(stationData._links.forecast.href, function(data) {
+                    stationData.forecast = data;
+                    helpers.writeToFile(stationData.name, 'forecast', stationData.forecast);
+                    result(stationData);
+                });
             });
         });
     }
