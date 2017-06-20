@@ -26,7 +26,7 @@ function changeForecast() {
     forecastIntervalId++;
     if(forecastIntervalId >= 4) {
        clearInterval(forecastUpdateInterval);
-        slideInterval = setInterval(nextSlide, 2000);
+        slideInterval = setInterval(nextSlide, 5000);
     }
 }
 
@@ -42,7 +42,7 @@ function nextSlide() {
 
     if(currentSlide >= 2) {
         clearInterval(slideInterval);
-        forecastUpdateInterval = setInterval(changeForecast, 2000);
+        forecastUpdateInterval = setInterval(changeForecast, 5000);
     }
 
     slides[currentSlide].className = 'slide';
@@ -96,7 +96,7 @@ var currentPosition;
 var forecastUpdateInterval;
 var pageUpdateInterval;
 if(page != 'yrpage') {
-    forecastUpdateInterval = setInterval(changeForecast, 2000);
+    forecastUpdateInterval = setInterval(changeForecast, 5000);
     pageUpdateInterval= setInterval(checkTimeAndReload, 60000);
 };
 
