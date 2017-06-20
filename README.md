@@ -6,9 +6,10 @@ App som skal brukes på NRKs Sommertog
 2. `cd sommertoget`
 3. Installer avhengigheter `npm install`
 4. Installer browsersify: `npm install -g browserify` (evt bruk sudo foran)
+5. Kopier config_sample.js til config.js og gjør nødvendige endringer
 
 ## Bygg applikasjon
-`npm build`
+`npm run build`
 
 ## Start app
 1. Start server: `npm start`
