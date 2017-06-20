@@ -10,7 +10,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [15.399625, 67.0934945]
+            "coordinates": [15.3965613, 67.09334]
         }
     },
     {
@@ -24,7 +24,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [14.1327833, 66.3101695]
+            "coordinates": [14.1308413, 66.30959]
         }
     },
     {
@@ -38,7 +38,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [13.3822444, 65.537725]
+            "coordinates": [13.3805213, 65.53794]
         }
     },
     {
@@ -52,27 +52,27 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [12.3385472, 64.4588667]
+            "coordinates": [12.3348913, 64.45837]
         }
     },
     {
         "type": "Feature",
         "properties": {
-            "name": "Steinkjer",
+            "name": "Steinkjer stasjon",
             "id": "1-2296935",
-            "municipality": "Steinkjer",
+            "municipality": "Steinkjer stasjon",
             "county": "Nord-Trøndelag",
             "elevation": 6
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [11.4953806, 64.0148417]
+            "coordinates": [11.4923969, 64.0127166]
         }
     },
     {
         "type": "Feature",
         "properties": {
-            "name": "Hommelvik",
+            "name": "Hommelvik stasjon",
             "id": "1-212408",
             "municipality": "Malvik",
             "county": "Sør-Trøndelag",
@@ -80,7 +80,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [10.79425, 63.4108334]
+            "coordinates": [10.781367, 63.412303]
         }
     },
     {
@@ -94,7 +94,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [10.284975, 63.0522361]
+            "coordinates": [10.2826483, 63.051684]
         }
     },
     {
@@ -108,7 +108,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [9.6939139, 62.5928278]
+            "coordinates": [9.6920213, 62.59296]
         }
     },
     {
@@ -122,13 +122,13 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [9.1263833, 62.068625]
+            "coordinates": [9.1236613, 62.06862]
         }
     },
     {
         "type": "Feature",
         "properties": {
-            "name": "Åndalsnes",
+            "name": "Åndalsnes stasjon",
             "id": "1-190429",
             "municipality": "Rauma",
             "county": "Møre og Romsdal",
@@ -136,13 +136,13 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [7.6870861, 62.5674917]
+            "coordinates": [7.6849667, 62.56741]
         }
     },
     {
         "type": "Feature",
         "properties": {
-            "name": "Vinstra",
+            "name": "Vinstra stasjon",
             "id": "1-164194",
             "municipality": "Nord-Fron",
             "county": "Oppland",
@@ -150,7 +150,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [9.7513417, 61.5949639]
+            "coordinates": [9.7451521, 61.5953747]
         }
     },
     {
@@ -164,13 +164,13 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [10.6985806, 60.9298111]
+            "coordinates": [10.6961813, 60.92982]
         }
     },
     {
         "type": "Feature",
         "properties": {
-            "name": "Rena",
+            "name": "Rena stasjon",
             "id": "1-144529",
             "municipality": "Åmot",
             "county": "Hedmark",
@@ -178,13 +178,13 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [11.3715639, 61.1322195]
+            "coordinates": [11.3676707, 61.134551]
         }
     },
     {
         "type": "Feature",
         "properties": {
-            "name": "Alvdal",
+            "name": "Alvdal stasjon",
             "id": "1-180056",
             "municipality": "Alvdal",
             "county": "Hedmark",
@@ -192,7 +192,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [10.6307083, 62.1076778]
+            "coordinates": [10.6319598, 62.108633]
         }
     },
     {
@@ -206,13 +206,13 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [11.3790667, 62.5747528]
+            "coordinates": [11.3779402, 62.5746727]
         }
     },
     {
         "type": "Feature",
         "properties": {
-            "name": "Tynset",
+            "name": "Tynset stasjon",
             "id": "1-186990",
             "municipality": "Tynset",
             "county": "Hedmark",
@@ -220,7 +220,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [10.7823917, 62.2759361]
+            "coordinates": [10.7741799, 62.2749134]
         }
     },
     {
@@ -234,7 +234,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [11.5465639, 60.88295]
+            "coordinates": [11.5440213, 60.88286]
         }
     },
     {
@@ -248,7 +248,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [12.0041306, 60.1876222]
+            "coordinates": [12.0016673, 60.187716]
         }
     },
     {
@@ -262,7 +262,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [10.8872056, 59.949625]
+            "coordinates": [10.8857405, 59.9497552]
         }
     },
     {
@@ -276,7 +276,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [11.2476861, 60.3296945]
+            "coordinates": [11.2459013, 60.3297]
         }
     },
     {
@@ -290,7 +290,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [10.5698194, 60.3590028]
+            "coordinates": [10.5679569, 60.3589821]
         }
     },
     {
@@ -304,7 +304,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [9.4733278, 60.4321945]
+            "coordinates": [9.4699613, 60.432201]
         }
     },
     {
@@ -318,7 +318,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [7.5041028, 60.601675]
+            "coordinates": [7.5019313, 60.60189]
         }
     },
     {
@@ -332,7 +332,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [7.1131056, 60.8625861]
+            "coordinates": [7.1120794, 60.8631959]
         }
     },
     {
@@ -346,7 +346,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [6.4103556, 60.6288445]
+            "coordinates": [6.4081712, 60.6288419]
         }
     },
     {
@@ -360,7 +360,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [8.5621417, 60.6263806]
+            "coordinates": [8.5589549, 60.6264683]
         }
     },
     {
@@ -374,13 +374,13 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [10.242775, 60.1693917]
+            "coordinates": [10.2559742, 60.1699609]
         }
     },
     {
         "type": "Feature",
         "properties": {
-            "name": "Stokke",
+            "name": "Stokke stasjon",
             "id": "1-32192",
             "municipality": "Sandefjord",
             "county": "Vestfold",
@@ -388,13 +388,13 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [10.3003222, 59.2235861]
+            "coordinates": [10.2983007, 59.2213172]
         }
     },
     {
         "type": "Feature",
         "properties": {
-            "name": "Porsgrunn",
+            "name": "Porsgrunn stasjon",
             "id": "1-31680",
             "municipality": "Porsgrunn",
             "county": "Telemark",
@@ -402,13 +402,13 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [9.6466472, 59.1316611]
+            "coordinates": [9.6565281, 59.139378]
         }
     },
     {
         "type": "Feature",
         "properties": {
-            "name": "Notodden",
+            "name": "Notodden stasjon",
             "id": "1-57796",
             "municipality": "Notodden",
             "county": "Telemark",
@@ -416,7 +416,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [9.2585306, 59.5593528]
+            "coordinates": [9.2646798, 59.5583872]
         }
     },
     {
@@ -430,7 +430,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [8.6297417, 58.657675]
+            "coordinates": [8.6281513, 58.65753]
         }
     },
     {
@@ -444,7 +444,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [7.5125722, 58.2128584]
+            "coordinates": [7.5098913, 58.21282]
         }
     },
     {
@@ -458,7 +458,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [5.7490083, 58.540525]
+            "coordinates": [5.7468513, 58.54042]
         }
     },
     {
@@ -472,13 +472,13 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [6.6604611, 58.4178139]
+            "coordinates": [6.6585375, 58.4173468]
         }
     },
     {
         "type": "Feature",
         "properties": {
-            "name": "Vennesla",
+            "name": "Vennesla stasjon",
             "id": "1-6600",
             "municipality": "Vennesla",
             "county": "Vest-Agder",
@@ -486,7 +486,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [7.9731444, 58.2685639]
+            "coordinates": [7.965506, 58.253194]
         }
     },
     {
@@ -500,7 +500,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [9.0690111, 59.4093834]
+            "coordinates": [9.0674319, 59.4097477]
         }
     },
     {
@@ -514,7 +514,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [9.8668111, 59.7338556]
+            "coordinates": [9.8647213, 59.73433]
         }
     },
     {
@@ -528,7 +528,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [10.7940222, 59.6631806]
+            "coordinates": [10.7921162, 59.6632088]
         }
     },
     {
@@ -542,7 +542,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [10.8651778, 59.3475473]
+            "coordinates": [10.8645248, 59.3473015]
         }
     },
     {
@@ -556,7 +556,7 @@
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [11.1180417, 59.2861389]
+            "coordinates": [11.1160583, 59.286015]
         }
     }
 ]}
