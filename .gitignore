@@ -2,3 +2,4 @@ public/data/stations/*
 public/javascripts/bundle.js
 node_modules/*
 .vscode/*
+./config.js
