@@ -156,7 +156,11 @@ module.exports = {
             .catch((err) => {
                 var fileName =path.resolve('./public/data/stations', location.id, 'forecast.json');
                 fs.readFile(fileName, 'utf-8', (err, data) => {
-                    if(err) throw err;
+                    if(err) {
+                        console.log(util.format('Noe gikk galt: %s', err.message));
+                        result({"error": "network_error"});
+                        return;
+                    }
                     var forecast = data;
                     result(JSON.parse(forecast));
                 })

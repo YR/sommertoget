@@ -49,10 +49,17 @@ function drawToScreen(response) {
 
 function displayYrPage(response, cause) {
     var message = '';
-    if(cause === 'missing_gps')
-        message = 'Mangler GPS-signal. Forsøker igjen...';
-    if(cause === 'max_distance')
-        message = 'For langt til nærmeste stasjon...';
+    switch (cause) {
+        case 'missing_gps':
+            message = 'Mangler GPS-signal. Forsøker igjen...';
+            break;
+        case 'max_distance':
+            message = 'For langt til nærmeste stasjon...';
+            break;
+        case 'network_error':
+            message = 'Ingen kontakt med internett. Forsøker igjen...';
+            break;
+    }
     response.render('yrpage', {
         message: message,
         cause: cause
@@ -72,6 +79,10 @@ router.get('/', (request, response) => {
         }
         locationData = closestStation;
         helpers.getForecast(locationData.properties, function(forecast) {
+            if(forecast.hasOwnProperty('error')) {
+                displayYrPage(response, forecast.error);
+                return;
+            }
             locationData.forecast = forecast;
             drawToScreen(response);
         });

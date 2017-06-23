@@ -21,7 +21,7 @@
     var cause = '{{cause}}';
     var refreshMissingGps = 10 * 1000; //10 sek
     var refreshMaxDistanceFromStation = 5 * 60 * 1000; //5 min
-    var refreshInterval = (cause == 'missing_gps' ? refreshMissingGps : refreshMaxDistanceFromStation);
+    var refreshInterval = (cause == 'missing_gps' || cause == 'network_error' ? refreshMissingGps : refreshMaxDistanceFromStation);
 
     function refreshYrPage() {
         if(new Date().getTime() - time >= refreshInterval) 
