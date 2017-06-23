@@ -3,849 +3,289 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Rognan stasjon",
-				"id": "1-268124",
-				"municipality": "Saltdal",
-				"county": "Nordland",
-				"elevation": 12
+				"name": "Nerdrum stasjon",
+				"id": "1-74933",
+				"municipality": "Fet",
+				"county": "Akershus",
+				"elevation": 107
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [ 15.3965613, 67.09334 ]
+				"coordinates": [
+					11.14223293,
+					59.92249468
+				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Mo i Rana stasjon",
-				"id": "1-260277",
-				"municipality": "Rana",
-				"county": "Nordland",
-				"elevation": 3
+				"name": "Lillestrøm stasjon",
+				"id": "1-73701",
+				"municipality": "Skedsmo",
+				"county": "Akershus",
+				"elevation": 109
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [ 14.1308413, 66.30959 ]
+				"coordinates": [
+					11.0460258,
+					59.95366269
+				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Trofors stasjon",
-				"id": "1-249902",
-				"municipality": "Grane",
-				"county": "Nordland",
-				"elevation": 81
+				"name": "Sagdalen stasjon",
+				"id": "1-73699",
+				"municipality": "Skedsmo",
+				"county": "Akershus",
+				"elevation": 133
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [ 13.3805213, 65.53794 ]
+				"coordinates": [
+					11.01705042,
+					59.95604794
+				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Grong stasjon",
-				"id": "1-232443",
-				"municipality": "Grong",
-				"county": "Nord-Trøndelag",
-				"elevation": 50
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 12.3348913, 64.45837 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Steinkjer stasjon",
-				"id": "1-2296935",
-				"municipality": "Steinkjer stasjon",
-				"county": "Nord-Trøndelag",
-				"elevation": 6
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 11.4923969, 64.0127166 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hommelvik stasjon",
-				"id": "1-212408",
-				"municipality": "Malvik",
-				"county": "Sør-Trøndelag",
-				"elevation": 7
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 10.781367, 63.412303 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Støren stasjon",
-				"id": "1-205702",
-				"municipality": "Midtre Gauldal",
-				"county": "Sør-Trøndelag",
-				"elevation": 66
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 10.2826483, 63.051684 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Oppdal stasjon",
-				"id": "1-192312",
-				"municipality": "Oppdal",
-				"county": "Sør Trøndelag",
-				"elevation": 544
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 9.6920213, 62.59296 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Dombås stasjon",
-				"id": "1-178762",
-				"municipality": "Dovre",
-				"county": "Oppland",
-				"elevation": 659
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 9.1236613, 62.06862 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Åndalsnes stasjon",
-				"id": "1-190429",
-				"municipality": "Rauma",
-				"county": "Møre og Romsdal",
-				"elevation": 7
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 7.6849667, 62.56741 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Vinstra stasjon",
-				"id": "1-164194",
-				"municipality": "Nord-Fron",
-				"county": "Oppland",
-				"elevation": 241
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 9.7451521, 61.5953747 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Moelv stasjon",
-				"id": "1-129673",
-				"municipality": "Ringsaker",
-				"county": "Hedmark",
-				"elevation": 147
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 10.6961813, 60.92982 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Rena stasjon",
-				"id": "1-144529",
-				"municipality": "Åmot",
-				"county": "Hedmark",
-				"elevation": 223
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 11.3676707, 61.134551 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Alvdal stasjon",
-				"id": "1-180056",
-				"municipality": "Alvdal",
-				"county": "Hedmark",
-				"elevation": 508
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 10.6319598, 62.108633 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Røros stasjon",
-				"id": "1-2534808",
-				"municipality": "Røros",
-				"county": "Sør-Trøndelag",
-				"elevation": 627
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 11.3779402, 62.5746727 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Tynset stasjon",
-				"id": "1-186990",
-				"municipality": "Tynset",
-				"county": "Hedmark",
-				"elevation": 493
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 10.7741799, 62.2749134 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Elverum stasjon",
-				"id": "1-132472",
-				"municipality": "Elverum",
-				"county": "Hedmark",
-				"elevation": 187
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 11.5440213, 60.88286 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kongsvinger stasjon",
-				"id": "1-90091",
-				"municipality": "Kongsvinger",
-				"county": "Hedmark",
+				"name": "Strømmen stasjon",
+				"id": "1-73731",
+				"municipality": "Skedsmo",
+				"county": "Akershus",
 				"elevation": 148
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [ 12.0016673, 60.187716 ]
+				"coordinates": [
+					11.00249283,
+					59.94987446
+				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Grorud stasjon",
-				"id": "1-73718",
+				"name": "Lørenskog stasjon",
+				"id": "1-73726",
+				"municipality": "Lørenskog",
+				"county": "Akershus",
+				"elevation": 160
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.95086502,
+					59.94341764
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Fjellhamar stasjon",
+				"id": "1-2251902",
+				"municipality": "Lørenskog",
+				"county": "Akershus",
+				"elevation": 159
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.98341425,
+					59.94104598
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Solbråtan stasjon",
+				"id": "1-74342",
+				"municipality": "Oppegård",
+				"county": "Akershus",
+				"elevation": 108
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.80420035,
+					59.80149474
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kolbotn stasjon",
+				"id": "1-74342",
+				"municipality": "Oppegård",
+				"county": "Akershus",
+				"elevation": 100
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.801041,
+					59.81080416
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Hanaborg stasjon",
+				"id": "1-73766",
+				"municipality": "Lørenskog",
+				"county": "Akershus",
+				"elevation": 173
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.96680239,
+					59.9388622
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Myrvoll stasjon",
+				"id": "1-74436",
+				"municipality": "Oppegård",
+				"county": "Akershus",
+				"elevation": 120
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.8008635,
+					59.78588813
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kjelsås stasjon",
+				"id": "1-73639",
 				"municipality": "Oslo",
 				"county": "Oslo",
-				"elevation": 127
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 10.8857405, 59.9497552 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Eidsvoll stasjon",
-				"id": "1-103149",
-				"municipality": "Eidsvoll",
-				"county": "Akershus",
-				"elevation": 493
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 11.2459013, 60.3297 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Gran stasjon",
-				"id": "1-101304",
-				"municipality": "Gran",
-				"county": "Oppland",
-				"elevation": 205
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 10.5679569, 60.3589821 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Flå stasjon",
-				"id": "1-98918",
-				"municipality": "Flå",
-				"county": "Buskerud",
 				"elevation": 155
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [ 9.4699613, 60.432201 ]
+				"coordinates": [
+					10.7826674,
+					59.96609046
+				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Finse stasjon",
-				"id": "1-111123",
-				"municipality": "Ulvik",
-				"county": "Hordaland",
-				"elevation": 1222
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 7.5019313, 60.60189 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Flåm stasjon",
-				"id": "1-124258",
-				"municipality": "Aurland",
-				"county": "Sogn og Fjordane",
-				"elevation": 2
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 7.1120794, 60.8631959 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Voss stasjon",
-				"id": "1-2583492",
-				"municipality": "Voss",
-				"county": "Hordaland",
-				"elevation": 56
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 6.4081712, 60.6288419 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Ål stasjon",
-				"id": "1-112697",
-				"municipality": "Ål",
-				"county": "Buskerud",
-				"elevation": 436
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 8.562249, 60.626371 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hønefoss stasjon",
-				"id": "1-2330078",
-				"municipality": "Ringerike",
-				"county": "Buskerud",
-				"elevation": 96
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 10.2559742, 60.1699609 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Stokke stasjon",
-				"id": "1-32192",
-				"municipality": "Sandefjord",
-				"county": "Vestfold",
-				"elevation": 58
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 10.2983007, 59.2213172 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Porsgrunn stasjon",
-				"id": "1-31680",
-				"municipality": "Porsgrunn",
-				"county": "Telemark",
-				"elevation": 44
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 9.6565281, 59.139378 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Notodden stasjon",
-				"id": "1-57796",
-				"municipality": "Notodden",
-				"county": "Telemark",
-				"elevation": 31
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 9.2646798, 59.5583872 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nelaug stasjon",
-				"id": "1-13478",
-				"municipality": "Åmli",
-				"county": "Aust-Agder",
-				"elevation": 142
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 8.6281513, 58.65753 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Marnardal stasjon",
-				"id": "1-2224159",
-				"municipality": "Marnardal",
-				"county": "Vest-Agder",
-				"elevation": 38
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 7.5098913, 58.21282 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Brusand stasjon",
-				"id": "1-2863425",
-				"municipality": "Hå",
-				"county": "Rogaland",
-				"elevation": 3
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 5.7468513, 58.54042 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Sira stasjon",
-				"id": "1-2532305",
-				"municipality": "Flekkefjord",
-				"county": "Vest-Agder",
-				"elevation": 72
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 6.6585375, 58.4173468 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Vennesla stasjon",
-				"id": "1-6600",
-				"municipality": "Vennesla",
-				"county": "Vest-Agder",
-				"elevation": 48
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 7.965506, 58.253194 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bø stasjon",
-				"id": "1-43270",
-				"municipality": "Bø",
-				"county": "Telemark",
-				"elevation": 69
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 9.0674319, 59.4097477 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Vestfossen stasjon",
-				"id": "1-2328430",
-				"municipality": "Øvre Eiker",
-				"county": "Buskerud",
-				"elevation": 22
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 9.8647213, 59.73433 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Ås stasjon",
-				"id": "1-60638",
-				"municipality": "Ås",
+				"name": "Vevelstad stasjon",
+				"id": "1-74621",
+				"municipality": "Ski",
 				"county": "Akershus",
-				"elevation": 94
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 10.7921162, 59.6632088 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Råde stasjon",
-				"id": "1-47374",
-				"municipality": "Råde",
-				"county": "Østfold",
-				"elevation": 17
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 10.8645248, 59.3473015 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Sarpsborg stasjon",
-				"id": "1-2229918",
-				"municipality": "Sarpsborg",
-				"county": "Østfold",
-				"elevation": 37
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [ 11.1160583, 59.286015 ]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Singsås stasjon",
-				"id": "1-2423476",
-				"municipality": "Midtre Gauldal",
-				"county": "Sør-Trøndelag",
-				"elevation": 175
+				"elevation": 111
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.72900369,
-					62.95619925
+					10.83785465,
+					59.75552955
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Vakås stasjon",
-				"id": "1-73159",
-				"municipality": "Asker",
-				"county": "Akershus",
-				"elevation": 74
+				"name": "Tøyen stasjon",
+				"id": "1-73825",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 76
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.46691023,
-					59.84970942
+					10.78049964,
+					59.92113258
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Kvål stasjon",
-				"id": "1-2896695",
-				"municipality": "Melhus",
-				"county": "Sør-Trøndelag",
-				"elevation": 47
+				"name": "Alna stasjon",
+				"id": "1-73781",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 100
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.28003588,
-					63.23356129
+					10.8342582,
+					59.931038
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Jåttåvågen stasjon",
-				"id": "1-2259205",
-				"municipality": "Stavanger",
-				"county": "Rogaland",
+				"name": "Nationaltheatret stasjon",
+				"id": "1-2263804",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 10
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.73337843,
+					59.9149768
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Oslo S stasjon",
+				"id": "1-73905",
+				"municipality": "Oslo",
+				"county": "Oslo",
 				"elevation": 3
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					5.7292519,
-					58.91374956
+					10.75391563,
+					59.91070824
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Snartemo stasjon",
-				"id": "1-5373",
-				"municipality": "Hægebostad",
-				"county": "Vest-Agder",
-				"elevation": 151
+				"name": "Nordstrand stasjon",
+				"id": "1-74096",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 41
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					7.2109947,
-					58.33148984
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Rosenholm stasjon",
-				"id": "1-511570",
-				"municipality": "Oppegård",
-				"county": "Akershus",
-				"elevation": 103
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.79783025,
-					59.82379462
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Skoppum stasjon",
-				"id": "1-2298818",
-				"municipality": "Horten",
-				"county": "Vestfold",
-				"elevation": 39
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.41039018,
-					59.38843724
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Ganddal stasjon",
-				"id": "1-15553",
-				"municipality": "Sandnes",
-				"county": "Rogaland",
-				"elevation": 22
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.71697774,
-					58.82340346
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bråstad stasjon",
-				"id": "1-7390",
-				"municipality": "Arendal",
-				"county": "Aust-Agder",
-				"elevation": 38
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.68977177,
-					58.46276513
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Messel stasjon",
-				"id": "1-2427162",
-				"municipality": "Froland",
-				"county": "Aust-Agder",
-				"elevation": 71
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.64836288,
-					58.50707861
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Vigrestad stasjon",
-				"id": "1-2863606",
-				"municipality": "Hå",
-				"county": "Rogaland",
-				"elevation": 33
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.6885165,
-					58.56992081
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Ogna stasjon",
-				"id": "1-8492",
-				"municipality": "Hå",
-				"county": "Rogaland",
-				"elevation": 4
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.80316733,
-					58.51969174
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Arendal stasjon",
-				"id": "1-7396",
-				"municipality": "Arendal",
-				"county": "Aust-Agder",
-				"elevation": 2
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.76946685,
-					58.46510582
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kristiansand stasjon",
-				"id": "2-8504698",
-				"municipality": "Kristiansand",
-				"county": "Vest-Agder",
-				"elevation": 7
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					7.98770052,
-					58.14573544
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lunner stasjon",
-				"id": "1-101606",
-				"municipality": "Lunner",
-				"county": "Oppland",
-				"elevation": 282
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.58477221,
-					60.30545217
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Mariero stasjon",
-				"id": "1-2784513",
-				"municipality": "Stavanger",
-				"county": "Rogaland",
-				"elevation": 14
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.75340023,
-					58.93536335
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Ronglan stasjon",
-				"id": "1-218029",
-				"municipality": "Levanger",
-				"county": "Nord-Trøndelag",
-				"elevation": 61
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.1127898,
-					63.66639068
+					10.78558261,
+					59.86379469
 				]
 			}
 		},
@@ -856,7 +296,7 @@
 				"id": "1-74131",
 				"municipality": "Oslo",
 				"county": "Oslo",
-				"elevation": 100
+				"elevation": 51
 			},
 			"geometry": {
 				"type": "Point",
@@ -869,527 +309,85 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Verdal stasjon",
-				"id": "1-533325",
-				"municipality": "Verdal",
-				"county": "Nord-Trøndelag",
-				"elevation": 6
+				"name": "Holmlia stasjon",
+				"id": "1-74208",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 79
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					11.48403647,
-					63.79100767
+					10.79698177,
+					59.83451006
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Røkland stasjon",
-				"id": "1-2276788",
-				"municipality": "Saltdal",
-				"county": "Nordland",
-				"elevation": 25
+				"name": "Hauketo stasjon",
+				"id": "1-74170",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 64
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					15.3191534,
-					66.98567833
+					10.80298719,
+					59.84634833
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Jørstad stasjon",
-				"id": "1-228607",
-				"municipality": "Snåsa",
-				"county": "Nord-Trøndelag",
-				"elevation": 49
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.23544055,
-					64.20486006
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lønsdal stasjon",
-				"id": "1-263361",
-				"municipality": "Saltdal",
-				"county": "Nordland",
-				"elevation": 511
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					15.46286915,
-					66.74275915
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Meråker stasjon",
-				"id": "1-213680",
-				"municipality": "Meråker",
-				"county": "Nord-Trøndelag",
-				"elevation": 223
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.76047739,
-					63.42292053
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Melhus stasjon",
-				"id": "1-211854",
-				"municipality": "Melhus",
-				"county": "Sør-Trøndelag",
-				"elevation": 24
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.27597969,
-					63.28474754
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Selsbakk stasjon",
-				"id": "1-211355",
-				"municipality": "Trondheim",
-				"county": "Sør-Trøndelag",
-				"elevation": 66
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.37317688,
-					63.38951076
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Leangen stasjon",
-				"id": "1-211106",
-				"municipality": "Trondheim",
-				"county": "Sør-Trøndelag",
-				"elevation": 33
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.46374733,
-					63.43705427
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Trondheim stasjon",
-				"id": "1-2411146",
-				"municipality": "Trondheim",
-				"county": "Sør-Trøndelag",
-				"elevation": 5
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.39891327,
-					63.43657939
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Ler stasjon",
-				"id": "1-205329",
-				"municipality": "Melhus",
-				"county": "Sør-Trøndelag",
-				"elevation": 26
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.29772805,
-					63.19770332
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hell stasjon",
-				"id": "1-212242",
-				"municipality": "Stjørdal",
-				"county": "Nord-Trøndelag",
-				"elevation": 3
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.89990847,
-					63.44617781
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Sandnes stasjon",
-				"id": "1-2791362",
-				"municipality": "Sandnes",
-				"county": "Rogaland",
-				"elevation": 7
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.73342867,
-					58.84698929
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Os stasjon",
-				"id": "1-187044",
-				"municipality": "Os",
-				"county": "Hedmark",
-				"elevation": 602
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.2268569,
-					62.49745675
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bjorli stasjon",
-				"id": "1-184760",
-				"municipality": "Lesja",
-				"county": "Oppland",
-				"elevation": 574
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.20119583,
-					62.25848074
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Atna stasjon",
-				"id": "1-165069",
-				"municipality": "Stor-Elvdal",
-				"county": "Hedmark",
-				"elevation": 356
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.83459861,
-					61.73268789
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kvam stasjon",
-				"id": "1-2716425",
-				"municipality": "Nord-Fron",
-				"county": "Oppland",
-				"elevation": 252
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.7025015,
-					61.66487225
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Steinvik stasjon",
-				"id": "1-156489",
-				"municipality": "Stor-Elvdal",
-				"county": "Hedmark",
-				"elevation": 237
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.32384394,
-					61.25147946
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Fauske stasjon",
-				"id": "1-270221",
-				"municipality": "Fauske",
-				"county": "Nordland",
-				"elevation": 34
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					15.39964,
-					67.26431192
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Haugastøl stasjon",
-				"id": "1-111505",
-				"municipality": "Hol",
-				"county": "Buskerud",
-				"elevation": 988
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					7.8695261,
-					60.51152189
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Harran stasjon",
-				"id": "1-236328",
-				"municipality": "Grong",
-				"county": "Nord-Trøndelag",
-				"elevation": 100
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.49226989,
-					64.56807801
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Marienborg stasjon",
-				"id": "1-211102",
-				"municipality": "Trondheim",
-				"county": "Sør-Trøndelag",
-				"elevation": 10
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.37886449,
-					63.42199618
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bryne stasjon",
-				"id": "1-2259666",
-				"municipality": "Time",
-				"county": "Rogaland",
-				"elevation": 29
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.64907533,
-					58.7332526
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Stai stasjon",
-				"id": "1-155988",
-				"municipality": "Stor-Elvdal",
-				"county": "Hedmark",
-				"elevation": 259
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.05884318,
-					61.49398057
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nesbyen stasjon",
-				"id": "1-113587",
-				"municipality": "Nes",
-				"county": "Buskerud",
-				"elevation": 168
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.11331713,
-					60.57678516
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bergen stasjon",
-				"id": "2-9222705",
-				"municipality": "Bergen",
-				"county": "Hordaland",
-				"elevation": 4
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.33486286,
-					60.38971238
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Arna stasjon",
-				"id": "1-92364",
-				"municipality": "Bergen",
-				"county": "Hordaland",
-				"elevation": 38
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.46758726,
-					60.42071009
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Gjerdåker stasjon",
-				"id": "1-2584614",
-				"municipality": "Voss",
-				"county": "Hordaland",
+				"name": "Rosenholm stasjon",
+				"id": "1-511570",
+				"municipality": "Oppegård",
+				"county": "Akershus",
 				"elevation": 86
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					6.46318346,
-					60.63938554
+					10.79783025,
+					59.82379462
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Storekvina stasjon",
-				"id": "1-2380579",
-				"municipality": "Kvinesdal",
-				"county": "Vest-Agder",
-				"elevation": 134
+				"name": "Sørumsand stasjon",
+				"id": "1-74678",
+				"municipality": "Sørum",
+				"county": "Akershus",
+				"elevation": 121
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					6.95787497,
-					58.37954252
+					11.24023088,
+					59.9857559
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Sirvåg stasjon",
-				"id": "1-8514",
-				"municipality": "Hå",
-				"county": "Rogaland",
-				"elevation": 14
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.80701604,
-					58.5027964
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Rotvoll stasjon",
-				"id": "1-211106",
-				"municipality": "Trondheim",
+				"name": "Haltdalen stasjon",
+				"id": "1-200123",
+				"municipality": "Holtålen",
 				"county": "Sør-Trøndelag",
-				"elevation": 33
+				"elevation": 304
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.48068748,
-					63.43660366
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lassemoen stasjon",
-				"id": "1-236037",
-				"municipality": "Namsskogan",
-				"county": "Nord-Trøndelag",
-				"elevation": 136
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.71385141,
-					64.69612172
+					11.14526665,
+					62.9283636
 				]
 			}
 		},
@@ -1413,119 +411,17 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Værnes stasjon",
-				"id": "1-212242",
-				"municipality": "Stjørdal",
-				"county": "Nord-Trøndelag",
-				"elevation": 3
+				"name": "Asker stasjon",
+				"id": "1-2235083",
+				"municipality": "Asker",
+				"county": "Akershus",
+				"elevation": 104
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.91383542,
-					63.45399783
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lunden stasjon",
-				"id": "1-124292",
-				"municipality": "Aurland",
-				"county": "Sogn og Fjordane",
-				"elevation": 15
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					7.11417045,
-					60.85057953
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Haltdalen stasjon",
-				"id": "1-200123",
-				"municipality": "Holtålen",
-				"county": "Sør-Trøndelag",
-				"elevation": 300
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.14526665,
-					62.9283636
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lundamo stasjon",
-				"id": "1-205467",
-				"municipality": "Melhus",
-				"county": "Sør-Trøndelag",
-				"elevation": 34
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.27992062,
-					63.15201243
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Tverlandet stasjon",
-				"id": "1-538544",
-				"municipality": "Bodø",
-				"county": "Nordland",
-				"elevation": 20
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					14.74641902,
-					67.30070691
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Blomheller stasjon",
-				"id": "1-124445",
-				"municipality": "Aurland",
-				"county": "Sogn og Fjordane",
-				"elevation": 461
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					7.10207707,
-					60.77173531
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Røra stasjon",
-				"id": "1-223566",
-				"municipality": "Inderøy",
-				"county": "Nord-Trøndelag",
-				"elevation": 51
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.40156579,
-					63.85722835
+					10.43532159,
+					59.83392787
 				]
 			}
 		},
@@ -1536,7 +432,7 @@
 				"id": "1-2855389",
 				"municipality": "Fet",
 				"county": "Akershus",
-				"elevation": 106
+				"elevation": 108
 			},
 			"geometry": {
 				"type": "Point",
@@ -1549,102 +445,1173 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Bulken stasjon",
-				"id": "1-109584",
-				"municipality": "Voss",
-				"county": "Hordaland",
-				"elevation": 58
+				"name": "Vakås stasjon",
+				"id": "1-73159",
+				"municipality": "Asker",
+				"county": "Akershus",
+				"elevation": 76
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					6.28493716,
-					60.63060469
+					10.46691023,
+					59.84970942
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Egersund stasjon",
-				"id": "1-3616",
-				"municipality": "Eigersund",
+				"name": "Hvalstad stasjon",
+				"id": "1-73124",
+				"municipality": "Asker",
+				"county": "Akershus",
+				"elevation": 64
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.46164764,
+					59.85889898
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Billingstad stasjon",
+				"id": "1-73065",
+				"municipality": "Asker",
+				"county": "Akershus",
+				"elevation": 42
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.48307194,
+					59.87476659
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Høn stasjon",
+				"id": "1-73159",
+				"municipality": "Asker",
+				"county": "Akershus",
+				"elevation": 89
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.45503437,
+					59.84318995
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bondivatn stasjon",
+				"id": "1-73272",
+				"municipality": "Asker",
+				"county": "Akershus",
+				"elevation": 103
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.43319881,
+					59.81999433
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Gullhella stasjon",
+				"id": "1-73272",
+				"municipality": "Asker",
+				"county": "Akershus",
+				"elevation": 108
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.43635456,
+					59.80668712
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Heggedal stasjon",
+				"id": "1-73366",
+				"municipality": "Asker",
+				"county": "Akershus",
+				"elevation": 99
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.43111028,
+					59.78677286
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Blommenholm stasjon",
+				"id": "1-72955",
+				"municipality": "Bærum",
+				"county": "Akershus",
+				"elevation": 26
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.55460716,
+					59.89733241
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Stabekk stasjon",
+				"id": "1-72920",
+				"municipality": "Bærum",
+				"county": "Akershus",
+				"elevation": 21
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.60710658,
+					59.90820025
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Høvik stasjon",
+				"id": "1-2234520",
+				"municipality": "Bærum",
+				"county": "Akershus",
+				"elevation": 26
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.58021612,
+					59.9006355
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sandvika stasjon",
+				"id": "1-72993",
+				"municipality": "Bærum",
+				"county": "Akershus",
+				"elevation": 10
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.52514919,
+					59.89286264
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Moelv stasjon",
+				"id": "1-129673",
+				"municipality": "Ringsaker",
+				"county": "Hedmark",
+				"elevation": 147
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.69897818,
+					60.92935819
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Vikersund stasjon",
+				"id": "10-973419",
+				"municipality": "Modum",
+				"county": "Buskerud",
+				"elevation": 68
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.99850114,
+					59.96950957
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lier stasjon",
+				"id": "1-72401",
+				"municipality": "Lier",
+				"county": "Buskerud",
+				"elevation": 13
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.29010716,
+					59.76335661
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Askim stasjon",
+				"id": "1-61974",
+				"municipality": "Askim",
+				"county": "Østfold",
+				"elevation": 131
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.16316276,
+					59.58183075
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Reitan stasjon",
+				"id": "1-200796",
+				"municipality": "Holtålen",
+				"county": "Sør-Trøndelag",
+				"elevation": 542
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.3780767,
+					62.8077879
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Eidsberg stasjon",
+				"id": "1-62306",
+				"municipality": "Eidsberg",
+				"county": "Østfold",
+				"elevation": 153
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.30358944,
+					59.51375039
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Mjøndalen stasjon",
+				"id": "1-2245875",
+				"municipality": "Nedre Eiker",
+				"county": "Buskerud",
+				"elevation": 5
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.01172992,
+					59.7510108
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Tomter stasjon",
+				"id": "1-60662",
+				"municipality": "Hobøl",
+				"county": "Østfold",
+				"elevation": 99
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.00265131,
+					59.65994467
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Mysen stasjon",
+				"id": "1-62110",
+				"municipality": "Eidsberg",
+				"county": "Østfold",
+				"elevation": 107
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.32368785,
+					59.55244743
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Hokksund stasjon",
+				"id": "1-2327441",
+				"municipality": "Øvre Eiker",
+				"county": "Buskerud",
+				"elevation": 9
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.90904381,
+					59.76804134
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kråkstad stasjon",
+				"id": "1-60561",
+				"municipality": "Ski",
+				"county": "Akershus",
+				"elevation": 94
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.89164975,
+					59.68308095
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Skotbu stasjon",
+				"id": "1-511688",
+				"municipality": "Ski",
+				"county": "Akershus",
+				"elevation": 128
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.94773547,
+					59.6651758
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Nyland stasjon",
+				"id": "1-73753",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 122
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.87192964,
+					59.9440143
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Vestby stasjon",
+				"id": "1-2247763",
+				"municipality": "Vestby",
+				"county": "Akershus",
+				"elevation": 59
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.74841045,
+					59.60372557
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ås stasjon",
+				"id": "1-60638",
+				"municipality": "Ås",
+				"county": "Akershus",
+				"elevation": 94
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.79445429,
+					59.66325633
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Knapstad stasjon",
+				"id": "1-512262",
+				"municipality": "Hobøl",
+				"county": "Østfold",
+				"elevation": 113
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.03256764,
+					59.62492729
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sonsveien stasjon",
+				"id": "1-2600618",
+				"municipality": "Vestby",
+				"county": "Akershus",
+				"elevation": 24
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.72668822,
+					59.5169601
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Spydeberg stasjon",
+				"id": "1-2232883",
+				"municipality": "Spydeberg",
+				"county": "Østfold",
+				"elevation": 108
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.07956866,
+					59.62102355
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Brakerøya stasjon",
+				"id": "1-58732",
+				"municipality": "Drammen",
+				"county": "Buskerud",
+				"elevation": 4
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.233028,
+					59.74382307
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Heia stasjon",
+				"id": "1-47821",
+				"municipality": "Rakkestad",
+				"county": "Østfold",
+				"elevation": 134
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.32931746,
+					59.4742329
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Vestfossen stasjon",
+				"id": "1-2328430",
+				"municipality": "Øvre Eiker",
+				"county": "Buskerud",
+				"elevation": 23
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.86597368,
+					59.73348595
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Singsås stasjon",
+				"id": "1-2423476",
+				"municipality": "Midtre Gauldal",
+				"county": "Sør-Trøndelag",
+				"elevation": 176
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.72900369,
+					62.95619925
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Notodden stasjon",
+				"id": "1-57796",
+				"municipality": "Notodden",
+				"county": "Telemark",
+				"elevation": 33
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.26754188,
+					59.55914215
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lunner stasjon",
+				"id": "1-101606",
+				"municipality": "Lunner",
+				"county": "Oppland",
+				"elevation": 280
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.58477221,
+					60.30545217
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sande stasjon",
+				"id": "1-59284",
+				"municipality": "Sande",
+				"county": "Vestfold",
+				"elevation": 8
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.20486982,
+					59.58507179
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ålen stasjon",
+				"id": "1-200694",
+				"municipality": "Holtålen",
+				"county": "Sør-Trøndelag",
+				"elevation": 474
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.3086583,
+					62.84727138
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Rakkestad stasjon",
+				"id": "1-48016",
+				"municipality": "Rakkestad",
+				"county": "Østfold",
+				"elevation": 103
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.33918384,
+					59.42728014
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Tønsberg stasjon",
+				"id": "1-2805977",
+				"municipality": "Tønsberg",
+				"county": "Vestfold",
+				"elevation": 15
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.40975207,
+					59.27198678
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Nydalen stasjon",
+				"id": "1-73743",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 126
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.76909844,
+					59.95240109
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sarpsborg stasjon",
+				"id": "1-2229918",
+				"municipality": "Sarpsborg",
+				"county": "Østfold",
+				"elevation": 38
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.11835242,
+					59.28602831
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Råde stasjon",
+				"id": "1-47374",
+				"municipality": "Råde",
+				"county": "Østfold",
+				"elevation": 19
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.86528686,
+					59.34759008
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Moss stasjon",
+				"id": "1-2416436",
+				"municipality": "Moss",
+				"county": "Østfold",
+				"elevation": 4
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.65701099,
+					59.43196911
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Skoppum stasjon",
+				"id": "1-2298818",
+				"municipality": "Horten",
+				"county": "Vestfold",
+				"elevation": 42
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.41039018,
+					59.38843724
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Rygge stasjon",
+				"id": "1-508790",
+				"municipality": "Rygge",
+				"county": "Østfold",
+				"elevation": 27
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.74890191,
+					59.37743694
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Nisterud stasjon",
+				"id": "1-44537",
+				"municipality": "Skien",
+				"county": "Telemark",
+				"elevation": 98
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.48665272,
+					59.29993676
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bø stasjon",
+				"id": "1-43270",
+				"municipality": "Bø",
+				"county": "Telemark",
+				"elevation": 70
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.0686299,
+					59.40924969
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Paradis stasjon",
+				"id": "1-2259293",
+				"municipality": "Stavanger",
 				"county": "Rogaland",
-				"elevation": 11
+				"elevation": 6
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					6.00221523,
-					58.46134696
+					5.74258497,
+					58.9554575
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Bodø stasjon",
-				"id": "1-2806673",
-				"municipality": "Bodø",
-				"county": "Nordland",
+				"name": "Kvål stasjon",
+				"id": "1-2896695",
+				"municipality": "Melhus",
+				"county": "Sør-Trøndelag",
+				"elevation": 49
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.28003588,
+					63.23356129
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Berkåk stasjon",
+				"id": "1-199176",
+				"municipality": "Rennebu",
+				"county": "Sør-Trøndelag",
+				"elevation": 451
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.01417679,
+					62.8233488
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bryn stasjon",
+				"id": "1-73911",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 79
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.81768242,
+					59.90807646
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Fredrikstad stasjon",
+				"id": "1-2754899",
+				"municipality": "Fredrikstad",
+				"county": "Østfold",
 				"elevation": 7
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					14.39129579,
-					67.28646035
+					10.95073489,
+					59.20902005
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Lillehammer stasjon",
-				"id": "1-143669",
-				"municipality": "Lillehammer",
-				"county": "Oppland",
-				"elevation": 197
+				"name": "Jåttåvågen stasjon",
+				"id": "1-2259205",
+				"municipality": "Stavanger",
+				"county": "Rogaland",
+				"elevation": 9
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.46113986,
-					61.11462721
+					5.7292519,
+					58.91374956
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Gudå stasjon",
-				"id": "1-213306",
-				"municipality": "Meråker",
-				"county": "Nord-Trøndelag",
-				"elevation": 85
+				"name": "Sandnes sentrum stasjon",
+				"id": "1-2791361",
+				"municipality": "Sandnes",
+				"county": "Rogaland",
+				"elevation": 5
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					11.61752949,
-					63.44370526
+					5.73662681,
+					58.85233265
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Rombak stasjon",
-				"id": "1-283738",
-				"municipality": "Narvik",
+				"name": "Hamar stasjon",
+				"id": "1-2833196",
+				"municipality": "Hamar",
+				"county": "Hedmark",
+				"elevation": 126
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.07615737,
+					60.79137912
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ljosanbotn stasjon",
+				"id": "1-2607117",
+				"municipality": "Voss",
+				"county": "Hordaland",
+				"elevation": 702
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90121089,
+					60.70865852
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Slependen stasjon",
+				"id": "1-72991",
+				"municipality": "Bærum",
+				"county": "Akershus",
+				"elevation": 32
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.50286536,
+					59.88534897
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Flåm stasjon",
+				"id": "1-124258",
+				"municipality": "Aurland",
+				"county": "Sogn og Fjordane",
+				"elevation": 4
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.11409696,
+					60.86294111
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Mariero stasjon",
+				"id": "1-2784513",
+				"municipality": "Stavanger",
+				"county": "Rogaland",
+				"elevation": 5
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.75340023,
+					58.93536335
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Trofors stasjon",
+				"id": "1-249902",
+				"municipality": "Grane",
 				"county": "Nordland",
-				"elevation": 264
+				"elevation": 81
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					17.79084777,
-					68.40364951
+					13.38244998,
+					65.53866068
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Snartemo stasjon",
+				"id": "1-5373",
+				"municipality": "Hægebostad",
+				"county": "Vest-Agder",
+				"elevation": 150
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.2109947,
+					58.33148984
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Larvik stasjon",
+				"id": "1-32911",
+				"municipality": "Larvik",
+				"county": "Vestfold",
+				"elevation": 2
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.03009567,
+					59.05023586
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sandefjord stasjon",
+				"id": "2-8410741",
+				"municipality": "Sandefjord",
+				"county": "Vestfold",
+				"elevation": 15
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.22194404,
+					59.13548866
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Skien stasjon",
+				"id": "1-31394",
+				"municipality": "Skien",
+				"county": "Telemark",
+				"elevation": 43
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.60364877,
+					59.21915351
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Grong stasjon",
+				"id": "1-232443",
+				"municipality": "Grong",
+				"county": "Nord-Trøndelag",
+				"elevation": 51
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.33695612,
+					64.4583083
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Namsskogan stasjon",
+				"id": "1-240860",
+				"municipality": "Namsskogan",
+				"county": "Nord-Trøndelag",
+				"elevation": 216
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					13.1521781,
+					64.925643
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Halden stasjon",
+				"id": "1-2228131",
+				"municipality": "Halden",
+				"county": "Østfold",
+				"elevation": 2
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.38308419,
+					59.12008005
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Finse stasjon",
+				"id": "1-111123",
+				"municipality": "Ulvik",
+				"county": "Hordaland",
+				"elevation": 1223
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.50487316,
+					60.60161029
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Messel stasjon",
+				"id": "1-2427162",
+				"municipality": "Froland",
+				"county": "Aust-Agder",
+				"elevation": 45
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.64836288,
+					58.50707861
 				]
 			}
 		},
@@ -1668,11 +1635,198 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Hallingskeid stasjon",
+				"id": "1-110781",
+				"municipality": "Ulvik",
+				"county": "Hordaland",
+				"elevation": 1111
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.25235087,
+					60.66801958
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kjose stasjon",
+				"id": "1-31773",
+				"municipality": "Larvik",
+				"county": "Vestfold",
+				"elevation": 36
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.91268468,
+					59.11048624
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Drangedal stasjon",
+				"id": "1-30315",
+				"municipality": "Drangedal",
+				"county": "Telemark",
+				"elevation": 75
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.06470328,
+					59.09624524
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Vegårshei stasjon",
+				"id": "1-22241",
+				"municipality": "Vegårshei",
+				"county": "Aust-Agder",
+				"elevation": 184
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.85552346,
+					58.76099204
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Neslandsvatn stasjon",
+				"id": "1-21156",
+				"municipality": "Drangedal",
+				"county": "Telemark",
+				"elevation": 72
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.15615155,
+					58.97127126
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Flaten stasjon",
+				"id": "1-2396005",
+				"municipality": "Åmli",
+				"county": "Aust-Agder",
+				"elevation": 140
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.68081444,
+					58.63639422
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sandnes stasjon",
+				"id": "1-2791362",
+				"municipality": "Sandnes",
+				"county": "Rogaland",
+				"elevation": 7
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.73342867,
+					58.84698929
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Øksnavadporten stasjon",
+				"id": "1-2606175",
+				"municipality": "Klepp",
+				"county": "Rogaland",
+				"elevation": 30
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.70141552,
+					58.78676172
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Nelaug stasjon",
+				"id": "1-13478",
+				"municipality": "Åmli",
+				"county": "Aust-Agder",
+				"elevation": 141
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.63026068,
+					58.65748592
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Klepp stasjon",
+				"id": "1-15657",
+				"municipality": "Klepp",
+				"county": "Rogaland",
+				"elevation": 28
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.67803815,
+					58.77173107
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Varhaug stasjon",
+				"id": "1-2863757",
+				"municipality": "Hå",
+				"county": "Rogaland",
+				"elevation": 45
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.64650379,
+					58.6184392
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"name": "Nærbø stasjon",
 				"id": "1-8179",
 				"municipality": "Hå",
 				"county": "Rogaland",
-				"elevation": 27
+				"elevation": 32
 			},
 			"geometry": {
 				"type": "Point",
@@ -1685,34 +1839,374 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Kotsøy stasjon",
-				"id": "1-2422827",
-				"municipality": "Midtre Gauldal",
-				"county": "Sør-Trøndelag",
-				"elevation": 124
+				"name": "Vigrestad stasjon",
+				"id": "1-2863606",
+				"municipality": "Hå",
+				"county": "Rogaland",
+				"elevation": 33
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.56097061,
-					62.97648868
+					5.6885165,
+					58.56992081
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Høsøien stasjon",
-				"id": "1-194127",
-				"municipality": "Røros",
-				"county": "Sør-Trøndelag",
-				"elevation": 620
+				"name": "Ganddal stasjon",
+				"id": "1-15553",
+				"municipality": "Sandnes",
+				"county": "Rogaland",
+				"elevation": 22
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					11.30200535,
-					62.54693708
+					5.71697774,
+					58.82340346
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ogna stasjon",
+				"id": "1-8492",
+				"municipality": "Hå",
+				"county": "Rogaland",
+				"elevation": 5
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.80316733,
+					58.51969174
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Brusand stasjon",
+				"id": "1-2863425",
+				"municipality": "Hå",
+				"county": "Rogaland",
+				"elevation": 3
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.74910139,
+					58.54053806
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bråstad stasjon",
+				"id": "1-7390",
+				"municipality": "Arendal",
+				"county": "Aust-Agder",
+				"elevation": 39
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.68977177,
+					58.46276513
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Arendal stasjon",
+				"id": "1-7396",
+				"municipality": "Arendal",
+				"county": "Aust-Agder",
+				"elevation": 8
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.76946685,
+					58.46510582
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Grua stasjon",
+				"id": "1-101845",
+				"municipality": "Lunner",
+				"county": "Oppland",
+				"elevation": 372
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.66480128,
+					60.25914052
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Leirsund stasjon",
+				"id": "1-73552",
+				"municipality": "Skedsmo",
+				"county": "Akershus",
+				"elevation": 111
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.08153132,
+					59.994661
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Jaren stasjon",
+				"id": "1-101132",
+				"municipality": "Gran",
+				"county": "Oppland",
+				"elevation": 207
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.55564604,
+					60.39325149
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Rombak stasjon",
+				"id": "1-283738",
+				"municipality": "Narvik",
+				"county": "Nordland",
+				"elevation": 269
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					17.79084777,
+					68.40364951
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Katterat stasjon",
+				"id": "1-283744",
+				"municipality": "Narvik",
+				"county": "Nordland",
+				"elevation": 377
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					17.96571178,
+					68.39741411
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Eikenes stasjon",
+				"id": "1-31638",
+				"municipality": "Larvik",
+				"county": "Vestfold",
+				"elevation": 32
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.89581318,
+					59.14731266
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Eidsvoll stasjon",
+				"id": "1-103149",
+				"municipality": "Eidsvoll",
+				"county": "Akershus",
+				"elevation": 125
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.24804869,
+					60.32996458
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ronglan stasjon",
+				"id": "1-218029",
+				"municipality": "Levanger",
+				"county": "Nord-Trøndelag",
+				"elevation": 62
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.1127898,
+					63.66639068
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Vennesla stasjon",
+				"id": "1-6635",
+				"municipality": "Vennesla",
+				"county": "Vest-Agder",
+				"elevation": 43
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.9678741,
+					58.25304824
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Audnedal stasjon",
+				"id": "1-5976",
+				"municipality": "Audnedal",
+				"county": "Vest-Agder",
+				"elevation": 106
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.36704726,
+					58.31898083
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Gyland stasjon",
+				"id": "1-4694",
+				"municipality": "Flekkefjord",
+				"county": "Vest-Agder",
+				"elevation": 122
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.83943686,
+					58.38440758
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sira stasjon",
+				"id": "1-2532305",
+				"municipality": "Flekkefjord",
+				"county": "Vest-Agder",
+				"elevation": 73
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.66021496,
+					58.41925892
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Hellvik stasjon",
+				"id": "1-3420",
+				"municipality": "Eigersund",
+				"county": "Rogaland",
+				"elevation": 20
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.89737821,
+					58.48590382
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Moi stasjon",
+				"id": "1-4058",
+				"municipality": "Lund",
+				"county": "Rogaland",
+				"elevation": 59
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.55132103,
+					58.45820781
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kristiansand stasjon",
+				"id": "2-8504698",
+				"municipality": "Kristiansand",
+				"county": "Vest-Agder",
+				"elevation": 5
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.98770052,
+					58.14573544
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Urdland stasjon",
+				"id": "1-2584922",
+				"municipality": "Voss",
+				"county": "Hordaland",
+				"elevation": 305
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.59302137,
+					60.67943822
 				]
 			}
 		},
@@ -1740,7 +2234,7 @@
 				"id": "5-51440",
 				"municipality": "Voss",
 				"county": "Hordaland",
-				"elevation": 17
+				"elevation": 16
 			},
 			"geometry": {
 				"type": "Point",
@@ -1753,1088 +2247,17 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Majavatn stasjon",
-				"id": "1-244061",
-				"municipality": "Grane",
-				"county": "Nordland",
-				"elevation": 319
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					13.36762054,
-					65.16490377
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Glåmos stasjon",
-				"id": "1-193866",
-				"municipality": "Røros",
-				"county": "Sør-Trøndelag",
-				"elevation": 638
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.41629225,
-					62.67454584
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Sparbu stasjon",
-				"id": "1-223352",
-				"municipality": "Steinkjer",
-				"county": "Nord-Trøndelag",
-				"elevation": 38
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.428721,
-					63.91889199
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hallingskeid stasjon",
-				"id": "1-110781",
-				"municipality": "Ulvik",
-				"county": "Hordaland",
-				"elevation": 1110
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					7.25235087,
-					60.66801958
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Høvik stasjon",
-				"id": "1-2234520",
-				"municipality": "Bærum",
-				"county": "Akershus",
-				"elevation": 23
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.58021612,
-					59.9006355
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Asker stasjon",
-				"id": "1-2235083",
-				"municipality": "Asker",
-				"county": "Akershus",
-				"elevation": 104
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.43532159,
-					59.83392787
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Stabekk stasjon",
-				"id": "1-72920",
-				"municipality": "Bærum",
-				"county": "Akershus",
-				"elevation": 20
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.60710658,
-					59.90820025
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Solbråtan stasjon",
-				"id": "1-74342",
-				"municipality": "Oppegård",
-				"county": "Akershus",
-				"elevation": 100
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.80420035,
-					59.80149474
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Drangedal stasjon",
-				"id": "1-30315",
-				"municipality": "Drangedal",
-				"county": "Telemark",
-				"elevation": 75
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.06470328,
-					59.09624524
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lier stasjon",
-				"id": "1-72401",
-				"municipality": "Lier",
-				"county": "Buskerud",
-				"elevation": 140
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.29010716,
-					59.76335661
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Alna stasjon",
-				"id": "1-73781",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 100
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.8342582,
-					59.931038
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Fredrikstad stasjon",
-				"id": "1-2754899",
-				"municipality": "Fredrikstad",
-				"county": "Østfold",
-				"elevation": 7
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.95073489,
-					59.20902005
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Halden stasjon",
-				"id": "1-2228131",
-				"municipality": "Halden",
-				"county": "Østfold",
-				"elevation": 2
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.38308419,
-					59.12008005
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bryn stasjon",
-				"id": "1-73911",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 78
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.81768242,
-					59.90807646
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nerdrum stasjon",
-				"id": "1-74933",
-				"municipality": "Fet",
-				"county": "Akershus",
-				"elevation": 107
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.14223293,
-					59.92249468
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Årnes stasjon",
-				"id": "1-2800590",
-				"municipality": "Nes i Akershus",
-				"county": "Akershus",
-				"elevation": 127
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.46463552,
-					60.12390728
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kvitfjell stasjon",
-				"id": "1-155033",
-				"municipality": "Ringebu",
-				"county": "Oppland",
-				"elevation": 228
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.16572926,
-					61.47255901
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kongsvoll stasjon",
-				"id": "1-185524",
-				"municipality": "Oppdal",
-				"county": "Sør-Trøndelag",
-				"elevation": 886
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.60569174,
-					62.30715568
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Levanger stasjon",
-				"id": "1-218839",
-				"municipality": "Levanger",
-				"county": "Nord-Trøndelag",
-				"elevation": 4
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.30053288,
-					63.74444723
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nordby stasjon",
-				"id": "1-87761",
-				"municipality": "Ullensaker",
-				"county": "Akershus",
-				"elevation": 203
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.18171269,
-					60.15550914
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Vaksdal stasjon",
-				"id": "1-93154",
-				"municipality": "Vaksdal",
-				"county": "Hordaland",
-				"elevation": 16
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.73527692,
-					60.47876436
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Askim stasjon",
-				"id": "1-61974",
-				"municipality": "Askim",
-				"county": "Østfold",
-				"elevation": 130
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.16316276,
-					59.58183075
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Øksnavadporten stasjon",
-				"id": "1-2606175",
-				"municipality": "Klepp",
-				"county": "Rogaland",
-				"elevation": 35
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.70141552,
-					58.78676172
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Åsen stasjon",
-				"id": "1-218282",
-				"municipality": "Levanger",
-				"county": "Nord-Trøndelag",
-				"elevation": 70
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.05229351,
-					63.60936213
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hellvik stasjon",
-				"id": "1-3420",
+				"name": "Egersund stasjon",
+				"id": "1-3616",
 				"municipality": "Eigersund",
 				"county": "Rogaland",
-				"elevation": 18
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.89737821,
-					58.48590382
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Gyland stasjon",
-				"id": "1-4694",
-				"municipality": "Flekkefjord",
-				"county": "Vest-Agder",
-				"elevation": 123
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					6.83943686,
-					58.38440758
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Neslandsvatn stasjon",
-				"id": "1-21156",
-				"municipality": "Drangedal",
-				"county": "Telemark",
-				"elevation": 72
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.15615155,
-					58.97127126
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Fjellhamar stasjon",
-				"id": "1-2251902",
-				"municipality": "Lørenskog",
-				"county": "Akershus",
-				"elevation": 155
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.98341425,
-					59.94104598
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kjose stasjon",
-				"id": "1-31773",
-				"municipality": "Larvik",
-				"county": "Vestfold",
-				"elevation": 39
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.91268468,
-					59.11048624
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Heggedal stasjon",
-				"id": "1-73366",
-				"municipality": "Asker",
-				"county": "Akershus",
-				"elevation": 99
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.43111028,
-					59.78677286
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hokksund stasjon",
-				"id": "1-2327441",
-				"municipality": "Øvre Eiker",
-				"county": "Buskerud",
-				"elevation": 8
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.90904381,
-					59.76804134
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Tolga stasjon",
-				"id": "1-186660",
-				"municipality": "Tolga",
-				"county": "Hedmark",
-				"elevation": 543
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.99605586,
-					62.40480632
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Stavanger stasjon",
-				"id": "1-2791370",
-				"municipality": "Stavanger",
-				"county": "Rogaland",
-				"elevation": 9
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.73295886,
-					58.9664551
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bleiken stasjon",
-				"id": "1-100907",
-				"municipality": "Gran",
-				"county": "Oppland",
-				"elevation": 298
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.50052608,
-					60.46896015
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Berekvam stasjon",
-				"id": "1-124431",
-				"municipality": "Aurland",
-				"county": "Sogn og Fjordane",
-				"elevation": 333
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					7.09603033,
-					60.78830575
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Drammen stasjon",
-				"id": "1-2815108",
-				"municipality": "Drammen",
-				"county": "Buskerud",
-				"elevation": 1
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.20452515,
-					59.74027735
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Tøyen stasjon",
-				"id": "1-73825",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 69
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.78049964,
-					59.92113258
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Sonsveien stasjon",
-				"id": "1-2600618",
-				"municipality": "Vestby",
-				"county": "Akershus",
-				"elevation": 30
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.72668822,
-					59.5169601
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Søsterbekk stasjon",
-				"id": "1-283897",
-				"municipality": "Narvik",
-				"county": "Nordland",
-				"elevation": 471
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					18.00386144,
-					68.43545288
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Mysen stasjon",
-				"id": "1-62110",
-				"municipality": "Eidsberg",
-				"county": "Østfold",
-				"elevation": 106
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.32368785,
-					59.55244743
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Tomter stasjon",
-				"id": "1-60662",
-				"municipality": "Hobøl",
-				"county": "Østfold",
-				"elevation": 98
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.00265131,
-					59.65994467
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bjørnfjell stasjon",
-				"id": "1-283902",
-				"municipality": "Narvik",
-				"county": "Nordland",
-				"elevation": 513
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					18.07105127,
-					68.43209181
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bergsgrav stasjon",
-				"id": "1-223864",
-				"municipality": "Verdal",
-				"county": "Nord-Trøndelag",
-				"elevation": 6
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.47133559,
-					63.77144384
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Håreina stasjon",
-				"id": "1-124318",
-				"municipality": "Aurland",
-				"county": "Sogn og Fjordane",
-				"elevation": 50
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					7.12263127,
-					60.83998609
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Sagdalen stasjon",
-				"id": "1-73699",
-				"municipality": "Skedsmo",
-				"county": "Akershus",
-				"elevation": 134
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.01705042,
-					59.95604794
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Rånåsfoss stasjon",
-				"id": "1-2858733",
-				"municipality": "Sørum",
-				"county": "Akershus",
-				"elevation": 124
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.32779271,
-					60.02931006
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hanaborg stasjon",
-				"id": "1-73766",
-				"municipality": "Lørenskog",
-				"county": "Akershus",
-				"elevation": 170
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.96680239,
-					59.9388622
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Evenstad stasjon",
-				"id": "1-156255",
-				"municipality": "Stor-Elvdal",
-				"county": "Hedmark",
-				"elevation": 254
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.09943234,
-					61.42332304
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Ustaoset stasjon",
-				"id": "1-96929",
-				"municipality": "Hol",
-				"county": "Buskerud",
-				"elevation": 990
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.04550331,
-					60.49628126
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Rakkestad stasjon",
-				"id": "1-48016",
-				"municipality": "Rakkestad",
-				"county": "Østfold",
-				"elevation": 103
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.33918384,
-					59.42728014
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hovin stasjon",
-				"id": "1-2488571",
-				"municipality": "Melhus",
-				"county": "Sør-Trøndelag",
-				"elevation": 53
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.23047693,
-					63.09892281
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Løten stasjon",
-				"id": "1-131727",
-				"municipality": "Løten",
-				"county": "Hedmark",
-				"elevation": 231
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.34239341,
-					60.81868481
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bondivatn stasjon",
-				"id": "1-73272",
-				"municipality": "Asker",
-				"county": "Akershus",
-				"elevation": 110
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.43319881,
-					59.81999433
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Skiple stasjon",
-				"id": "1-2583802",
-				"municipality": "Voss",
-				"county": "Hordaland",
-				"elevation": 386
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					6.6798718,
-					60.68120994
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Skarnes stasjon",
-				"id": "1-2263803",
-				"municipality": "Sør-Odal",
-				"county": "Hedmark",
-				"elevation": 138
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.6805284,
-					60.25375449
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Vikersund stasjon",
-				"id": "10-973419",
-				"municipality": "Modum",
-				"county": "Buskerud",
-				"elevation": 68
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.99850114,
-					59.96950957
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lerkendal stasjon",
-				"id": "1-211229",
-				"municipality": "Trondheim",
-				"county": "Sør-Trøndelag",
-				"elevation": 72
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.40995448,
-					63.41389401
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Snåsa stasjon",
-				"id": "1-2871781",
-				"municipality": "Snåsa",
-				"county": "Nord-Trøndelag",
-				"elevation": 69
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.37986581,
-					64.24599871
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Gausel stasjon",
-				"id": "1-15403",
-				"municipality": "Stavanger",
-				"county": "Rogaland",
-				"elevation": 12
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.74032822,
-					58.89973497
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Ringebu stasjon",
-				"id": "1-164806",
-				"municipality": "Ringebu",
-				"county": "Oppland",
-				"elevation": 200
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.13939742,
-					61.52910149
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Skansen stasjon",
-				"id": "1-2819393",
-				"municipality": "Trondheim",
-				"county": "Sør-Trøndelag",
 				"elevation": 14
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.37771849,
-					63.43120082
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Harestua stasjon",
-				"id": "1-85509",
-				"municipality": "Lunner",
-				"county": "Oppland",
-				"elevation": 238
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.72254664,
-					60.20625335
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hauerseter stasjon",
-				"id": "1-2841642",
-				"municipality": "Ullensaker",
-				"county": "Akershus",
-				"elevation": 216
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.19494973,
-					60.18543612
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Ygre stasjon",
-				"id": "1-2584617",
-				"municipality": "Voss",
-				"county": "Hordaland",
-				"elevation": 166
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					6.5077609,
-					60.64541113
+					6.00221523,
+					58.46134696
 				]
 			}
 		},
@@ -2845,7 +2268,7 @@
 				"id": "1-110127",
 				"municipality": "Voss",
 				"county": "Hordaland",
-				"elevation": 294
+				"elevation": 341
 			},
 			"geometry": {
 				"type": "Point",
@@ -2858,1173 +2281,119 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Paradis stasjon",
-				"id": "1-2259293",
-				"municipality": "Stavanger",
-				"county": "Rogaland",
-				"elevation": 18
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.74258497,
-					58.9554575
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Haugenstua stasjon",
-				"id": "1-73722",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 156
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.90944544,
-					59.95120255
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hamar stasjon",
-				"id": "1-2833196",
-				"municipality": "Hamar",
-				"county": "Hedmark",
-				"elevation": 125
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.07615737,
-					60.79137912
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hauketo stasjon",
-				"id": "1-74170",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 63
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.80298719,
-					59.84634833
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nyland stasjon",
-				"id": "1-73753",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 120
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.87192964,
-					59.9440143
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Urdland stasjon",
-				"id": "1-2584922",
+				"name": "Ørneberget stasjon",
+				"id": "5-51800",
 				"municipality": "Voss",
 				"county": "Hordaland",
-				"elevation": 304
+				"elevation": 754
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					6.59302137,
-					60.67943822
+					6.94099685,
+					60.70362896
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Oppegård stasjon",
-				"id": "1-74566",
-				"municipality": "Oppegård",
-				"county": "Akershus",
-				"elevation": 97
+				"name": "Fauske stasjon",
+				"id": "1-270221",
+				"municipality": "Fauske",
+				"county": "Nordland",
+				"elevation": 37
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.81304716,
-					59.76511383
+					15.39964,
+					67.26431192
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Blommenholm stasjon",
-				"id": "1-72955",
-				"municipality": "Bærum",
-				"county": "Akershus",
+				"name": "Røkland stasjon",
+				"id": "1-2276788",
+				"municipality": "Saltdal",
+				"county": "Nordland",
 				"elevation": 25
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.55460716,
-					59.89733241
+					15.3191534,
+					66.98567833
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Billingstad stasjon",
-				"id": "1-73065",
-				"municipality": "Asker",
-				"county": "Akershus",
-				"elevation": 41
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.48307194,
-					59.87476659
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Sandvika stasjon",
-				"id": "1-72993",
-				"municipality": "Bærum",
-				"county": "Akershus",
-				"elevation": 12
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.52514919,
-					59.89286264
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Leirsund stasjon",
-				"id": "1-73552",
-				"municipality": "Skedsmo",
-				"county": "Akershus",
-				"elevation": 108
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.08153132,
-					59.994661
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hjerkinn stasjon",
-				"id": "1-178953",
-				"municipality": "Dovre",
-				"county": "Oppland",
-				"elevation": 1017
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.5413149,
-					62.21969116
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lademoen stasjon",
-				"id": "1-2824154",
-				"municipality": "Trondheim",
-				"county": "Sør-Trøndelag",
-				"elevation": 4
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.41775669,
-					63.43733055
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nisterud stasjon",
-				"id": "1-44537",
-				"municipality": "Skien",
-				"county": "Telemark",
-				"elevation": 99
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.48665272,
-					59.29993676
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Sandefjord stasjon",
-				"id": "2-8410741",
-				"municipality": "Sandefjord",
-				"county": "Vestfold",
-				"elevation": 17
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.22194404,
-					59.13548866
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Rise stasjon",
-				"id": "1-7359",
-				"municipality": "Arendal",
-				"county": "Aust-Agder",
-				"elevation": 44
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.62357112,
-					58.46841645
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Gjøvik stasjon",
-				"id": "1-2797682",
-				"municipality": "Gjøvik",
-				"county": "Oppland",
-				"elevation": 130
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.69449488,
-					60.79753342
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Eikenes stasjon",
-				"id": "1-31638",
-				"municipality": "Larvik",
-				"county": "Vestfold",
-				"elevation": 32
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.89581318,
-					59.14731266
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nordstrand stasjon",
-				"id": "1-74096",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 43
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.78558261,
-					59.86379469
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Gulskogen stasjon",
-				"id": "1-58730",
-				"municipality": "Drammen",
-				"county": "Buskerud",
-				"elevation": 8
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.16067799,
-					59.74378066
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Breland stasjon",
-				"id": "1-2189",
-				"municipality": "Marnardal",
-				"county": "Vest-Agder",
-				"elevation": 176
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					7.71987147,
-					58.19962276
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Brakerøya stasjon",
-				"id": "1-58732",
-				"municipality": "Drammen",
-				"county": "Buskerud",
-				"elevation": 3
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.233028,
-					59.74382307
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Mosjøen stasjon",
-				"id": "1-2831517",
-				"municipality": "Vefsn",
+				"name": "Rognan stasjon",
+				"id": "1-268124",
+				"municipality": "Saltdal",
 				"county": "Nordland",
-				"elevation": 7
+				"elevation": 5
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					13.19925004,
-					65.84532238
+					15.39904981,
+					67.09342641
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Lilleby stasjon",
-				"id": "1-2810161",
-				"municipality": "Trondheim",
-				"county": "Sør-Trøndelag",
-				"elevation": 9
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.43231478,
-					63.43993656
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lindeberg stasjon",
-				"id": "1-88097",
-				"municipality": "Sørum",
-				"county": "Akershus",
-				"elevation": 153
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.1287517,
-					60.03974221
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Gjerstad stasjon",
-				"id": "1-21609",
-				"municipality": "Gjerstad",
-				"county": "Aust-Agder",
-				"elevation": 36
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.02311951,
-					58.87015518
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Audnedal stasjon",
-				"id": "1-5976",
-				"municipality": "Audnedal",
-				"county": "Vest-Agder",
-				"elevation": 106
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					7.36704726,
-					58.31898083
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bjerka stasjon",
-				"id": "1-257427",
-				"municipality": "Hemnes",
+				"name": "Dunderland stasjon",
+				"id": "10-976600",
+				"municipality": "Rana",
 				"county": "Nordland",
-				"elevation": 15
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					13.83164478,
-					66.14977363
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Froland stasjon",
-				"id": "1-13993",
-				"municipality": "Froland",
-				"county": "Aust-Agder",
-				"elevation": 49
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.65535468,
-					58.53010215
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Eidsvoll verk stasjon",
-				"id": "1-2377499",
-				"municipality": "Eidsvoll",
-				"county": "Akershus",
-				"elevation": 196
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.16940716,
-					60.28779672
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Raufoss stasjon",
-				"id": "1-2263516",
-				"municipality": "Vestre Toten",
-				"county": "Oppland",
-				"elevation": 317
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.61362199,
-					60.72218076
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Darbu stasjon",
-				"id": "1-58116",
-				"municipality": "Øvre Eiker",
-				"county": "Buskerud",
-				"elevation": 60
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.79999279,
-					59.70164802
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lesjaverk stasjon",
-				"id": "1-178303",
-				"municipality": "Lesja",
-				"county": "Oppland",
-				"elevation": 632
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.53801137,
-					62.19237281
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Reinunga stasjon",
-				"id": "1-2340343",
-				"municipality": "Aurland",
-				"county": "Sogn og Fjordane",
-				"elevation": 769
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					7.13904976,
-					60.74392097
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Varingskollen stasjon",
-				"id": "1-2600964",
-				"municipality": "Nittedal",
-				"county": "Akershus",
-				"elevation": 139
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.8466392,
-					60.10625915
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Grefsen stasjon",
-				"id": "1-73742",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 109
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.78013861,
-					59.94153885
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Rygge stasjon",
-				"id": "1-508790",
-				"municipality": "Rygge",
-				"county": "Østfold",
-				"elevation": 26
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.74890191,
-					59.37743694
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Haga stasjon",
-				"id": "1-88023",
-				"municipality": "Nes i Akershus",
-				"county": "Akershus",
-				"elevation": 126
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.37314334,
-					60.05386819
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hegra stasjon",
-				"id": "1-523993",
-				"municipality": "Stjørdal",
-				"county": "Nord-Trøndelag",
-				"elevation": 19
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.10400504,
-					63.46114335
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Moi stasjon",
-				"id": "1-4058",
-				"municipality": "Lund",
-				"county": "Rogaland",
-				"elevation": 58
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					6.55132103,
-					58.45820781
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Namsskogan stasjon",
-				"id": "1-240860",
-				"municipality": "Namsskogan",
-				"county": "Nord-Trøndelag",
-				"elevation": 215
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					13.1521781,
-					64.925643
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Ljosanbotn stasjon",
-				"id": "1-2607117",
-				"municipality": "Voss",
-				"county": "Hordaland",
-				"elevation": 655
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					6.90121089,
-					60.70865852
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Eidsberg stasjon",
-				"id": "1-62306",
-				"municipality": "Eidsberg",
-				"county": "Østfold",
-				"elevation": 152
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.30358944,
-					59.51375039
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kongsberg stasjon",
-				"id": "1-2242935",
-				"municipality": "Kongsberg",
-				"county": "Buskerud",
-				"elevation": 161
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.65121333,
-					59.67215033
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Svingen stasjon",
-				"id": "1-2855389",
-				"municipality": "Fet",
-				"county": "Akershus",
-				"elevation": 106
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.17769093,
-					59.92913659
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nordagutu stasjon",
-				"id": "1-44154",
-				"municipality": "Sauherad",
-				"county": "Telemark",
-				"elevation": 112
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.3228955,
-					59.41831367
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Greverud stasjon",
-				"id": "1-74566",
-				"municipality": "Oppegård",
-				"county": "Akershus",
-				"elevation": 97
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.80717174,
-					59.77230285
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Blaker stasjon",
-				"id": "1-2481961",
-				"municipality": "Sørum",
-				"county": "Akershus",
-				"elevation": 114
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.30132205,
-					60.00498894
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Reimegrend stasjon",
-				"id": "1-110134",
-				"municipality": "Voss",
-				"county": "Hordaland",
-				"elevation": 464
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					6.7307443,
-					60.67817329
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lørenskog stasjon",
-				"id": "1-73726",
-				"municipality": "Lørenskog",
-				"county": "Akershus",
-				"elevation": 159
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.95086502,
-					59.94341764
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Ski stasjon",
-				"id": "1-60389",
-				"municipality": "Ski",
-				"county": "Akershus",
 				"elevation": 128
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.83403739,
-					59.71964242
+					14.83817794,
+					66.44617712
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Flaten stasjon",
-				"id": "1-2396005",
-				"municipality": "Åmli",
-				"county": "Aust-Agder",
-				"elevation": 140
+				"name": "Lønsdal stasjon",
+				"id": "1-263361",
+				"municipality": "Saltdal",
+				"county": "Nordland",
+				"elevation": 513
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					8.68081444,
-					58.63639422
+					15.46286915,
+					66.74275915
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Kambo stasjon",
-				"id": "1-46450",
-				"municipality": "Moss",
-				"county": "Østfold",
-				"elevation": 13
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.6952966,
-					59.48103141
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Skogn stasjon",
-				"id": "1-217851",
-				"municipality": "Levanger",
-				"county": "Nord-Trøndelag",
-				"elevation": 49
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.19429265,
-					63.7050987
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Geilo stasjon",
-				"id": "1-2817271",
-				"municipality": "Hol",
-				"county": "Buskerud",
-				"elevation": 795
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.20657694,
-					60.53466432
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nittedal stasjon",
-				"id": "1-87117",
-				"municipality": "Nittedal",
-				"county": "Akershus",
-				"elevation": 235
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.86274515,
-					60.05824671
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bodung stasjon",
-				"id": "1-87937",
-				"municipality": "Nes i Akershus",
-				"county": "Akershus",
-				"elevation": 128
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.41997365,
-					60.08495297
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Åneby stasjon",
-				"id": "1-86938",
-				"municipality": "Nittedal",
-				"county": "Akershus",
-				"elevation": 204
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.86252511,
-					60.08547467
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Langlete stasjon",
-				"id": "1-200034",
-				"municipality": "Holtålen",
-				"county": "Sør-Trøndelag",
-				"elevation": 236
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.97986066,
-					62.96039556
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Larvik stasjon",
-				"id": "1-32911",
-				"municipality": "Larvik",
-				"county": "Vestfold",
-				"elevation": 44
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.03009567,
-					59.05023586
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Grua stasjon",
-				"id": "1-101845",
-				"municipality": "Lunner",
-				"county": "Oppland",
-				"elevation": 371
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.66480128,
-					60.25914052
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lillestrøm stasjon",
-				"id": "1-73701",
-				"municipality": "Skedsmo",
-				"county": "Akershus",
-				"elevation": 109
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.0460258,
-					59.95366269
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Upsete stasjon",
-				"id": "1-514655",
-				"municipality": "Aurland",
-				"county": "Sogn og Fjordane",
-				"elevation": 880
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					7.01238741,
-					60.72543251
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Moss stasjon",
-				"id": "1-2416436",
-				"municipality": "Moss",
-				"county": "Østfold",
+				"name": "Mo i Rana stasjon",
+				"id": "1-260277",
+				"municipality": "Rana",
+				"county": "Nordland",
 				"elevation": 3
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.65701099,
-					59.43196911
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Katterat stasjon",
-				"id": "1-283744",
-				"municipality": "Narvik",
-				"county": "Nordland",
-				"elevation": 373
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					17.96571178,
-					68.39741411
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hvalstad stasjon",
-				"id": "1-73124",
-				"municipality": "Asker",
-				"county": "Akershus",
-				"elevation": 64
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.46164764,
-					59.85889898
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Reitan stasjon",
-				"id": "1-200796",
-				"municipality": "Holtålen",
-				"county": "Sør-Trøndelag",
-				"elevation": 533
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.3780767,
-					62.8077879
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Trykkerud stasjon",
-				"id": "1-2551877",
-				"municipality": "Sauherad",
-				"county": "Telemark",
-				"elevation": 118
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.33619073,
-					59.51216492
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Vegårshei stasjon",
-				"id": "1-22241",
-				"municipality": "Vegårshei",
-				"county": "Aust-Agder",
-				"elevation": 183
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.85552346,
-					58.76099204
+					14.13295751,
+					66.30954206
 				]
 			}
 		},
@@ -4048,408 +2417,255 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Holmlia stasjon",
-				"id": "1-74208",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 76
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.79698177,
-					59.83451006
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Vatnahalsen stasjon",
-				"id": "1-2340343",
-				"municipality": "Aurland",
-				"county": "Sogn og Fjordane",
-				"elevation": 769
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					7.12951291,
-					60.74385808
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Stange stasjon",
-				"id": "1-117509",
-				"municipality": "Stange",
-				"county": "Hedmark",
-				"elevation": 224
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.19475083,
-					60.71809691
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Sørumsand stasjon",
-				"id": "1-74678",
-				"municipality": "Sørum",
-				"county": "Akershus",
-				"elevation": 120
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.24023088,
-					59.9857559
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Narvik stasjon",
-				"id": "1-2263438",
-				"municipality": "Narvik",
+				"name": "Majavatn stasjon",
+				"id": "1-244061",
+				"municipality": "Grane",
 				"county": "Nordland",
-				"elevation": 46
+				"elevation": 319
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					17.44111108,
-					68.44184498
+					13.36762054,
+					65.16490377
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Mjølfjell stasjon",
-				"id": "1-110114",
-				"municipality": "Voss",
-				"county": "Hordaland",
-				"elevation": 627
+				"name": "Drevvatn stasjon",
+				"id": "1-256874",
+				"municipality": "Vefsn",
+				"county": "Nordland",
+				"elevation": 93
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					6.83978515,
-					60.69380451
+					13.45591146,
+					66.07111418
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Spikkestad stasjon",
-				"id": "1-58714",
-				"municipality": "Røyken",
-				"county": "Buskerud",
-				"elevation": 138
+				"name": "Bjerka stasjon",
+				"id": "1-257427",
+				"municipality": "Hemnes",
+				"county": "Nordland",
+				"elevation": 6
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.34069732,
-					59.74564819
+					13.83164478,
+					66.14977363
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Opphus stasjon",
-				"id": "1-156373",
-				"municipality": "Stor-Elvdal",
-				"county": "Hedmark",
-				"elevation": 244
+				"name": "Mosjøen stasjon",
+				"id": "1-2831517",
+				"municipality": "Vefsn",
+				"county": "Nordland",
+				"elevation": 7
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					11.26117852,
-					61.33102229
+					13.19925004,
+					65.84532238
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Gullhella stasjon",
-				"id": "1-73272",
-				"municipality": "Asker",
-				"county": "Akershus",
-				"elevation": 110
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.43635456,
-					59.80668712
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Vevelstad stasjon",
-				"id": "1-74621",
-				"municipality": "Ski",
-				"county": "Akershus",
-				"elevation": 110
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.83785465,
-					59.75552955
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Berkåk stasjon",
-				"id": "1-199176",
-				"municipality": "Rennebu",
-				"county": "Sør-Trøndelag",
-				"elevation": 426
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.01417679,
-					62.8233488
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lysaker stasjon",
-				"id": "1-72880",
-				"municipality": "Oslo",
-				"county": "Akershus",
-				"elevation": 13
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.63594348,
-					59.91360213
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Strømmen stasjon",
-				"id": "1-73731",
-				"municipality": "Skedsmo",
-				"county": "Akershus",
-				"elevation": 147
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.00249283,
-					59.94987446
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Jaren stasjon",
-				"id": "1-101132",
-				"municipality": "Gran",
-				"county": "Oppland",
-				"elevation": 207
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.55564604,
-					60.39325149
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Rognes stasjon",
-				"id": "1-205832",
-				"municipality": "Midtre Gauldal",
-				"county": "Sør-Trøndelag",
-				"elevation": 106
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.4571208,
-					63.00652595
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Høybråten stasjon",
-				"id": "1-73722",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 156
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.9274654,
-					59.94811907
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nationaltheatret stasjon",
-				"id": "1-2263804",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 13
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.73337843,
-					59.9149768
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Slependen stasjon",
-				"id": "1-72991",
-				"municipality": "Bærum",
-				"county": "Akershus",
-				"elevation": 31
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.50286536,
-					59.88534897
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kolbotn stasjon",
-				"id": "1-74342",
-				"municipality": "Oppegård",
-				"county": "Akershus",
+				"name": "Harran stasjon",
+				"id": "1-236328",
+				"municipality": "Grong",
+				"county": "Nord-Trøndelag",
 				"elevation": 100
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.801041,
-					59.81080416
+					12.49226989,
+					64.56807801
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Hunderfossen stasjon",
-				"id": "1-2807848",
-				"municipality": "Lillehammer",
-				"county": "Oppland",
-				"elevation": 176
+				"name": "Snåsa stasjon",
+				"id": "1-2871781",
+				"municipality": "Snåsa",
+				"county": "Nord-Trøndelag",
+				"elevation": 71
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.43863337,
-					61.22340761
+					12.37986581,
+					64.24599871
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Hanestad stasjon",
-				"id": "1-173646",
-				"municipality": "Rendalen",
-				"county": "Hedmark",
-				"elevation": 381
+				"name": "Jørstad stasjon",
+				"id": "1-228607",
+				"municipality": "Snåsa",
+				"county": "Nord-Trøndelag",
+				"elevation": 51
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.8816344,
-					61.83861955
+					12.23544055,
+					64.20486006
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Knapstad stasjon",
-				"id": "1-512262",
-				"municipality": "Hobøl",
-				"county": "Østfold",
-				"elevation": 115
+				"name": "Meråker stasjon",
+				"id": "1-213680",
+				"municipality": "Meråker",
+				"county": "Nord-Trøndelag",
+				"elevation": 221
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					11.03256764,
-					59.62492729
+					11.76047739,
+					63.42292053
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Vieren stasjon",
-				"id": "1-2520615",
-				"municipality": "Ulvik",
-				"county": "Hordaland",
-				"elevation": 781
+				"name": "Steinkjer stasjon",
+				"id": "1-2296935",
+				"municipality": "Steinkjer",
+				"county": "Nord-Trøndelag",
+				"elevation": 4
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					6.97953957,
-					60.70929693
+					11.49407318,
+					64.01253791
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Ålen stasjon",
-				"id": "1-200694",
-				"municipality": "Holtålen",
-				"county": "Sør-Trøndelag",
-				"elevation": 470
+				"name": "Oppegård stasjon",
+				"id": "1-74566",
+				"municipality": "Oppegård",
+				"county": "Akershus",
+				"elevation": 97
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					11.3086583,
-					62.84727138
+					10.81304716,
+					59.76511383
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Verdal stasjon",
+				"id": "1-533325",
+				"municipality": "Verdal",
+				"county": "Nord-Trøndelag",
+				"elevation": 7
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.48403647,
+					63.79100767
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Åsen stasjon",
+				"id": "1-218282",
+				"municipality": "Levanger",
+				"county": "Nord-Trøndelag",
+				"elevation": 71
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.05229351,
+					63.60936213
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sparbu stasjon",
+				"id": "1-223352",
+				"municipality": "Steinkjer",
+				"county": "Nord-Trøndelag",
+				"elevation": 34
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.428721,
+					63.91889199
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Røra stasjon",
+				"id": "1-223566",
+				"municipality": "Inderøy",
+				"county": "Nord-Trøndelag",
+				"elevation": 52
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.40156579,
+					63.85722835
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kopperå stasjon",
+				"id": "1-213736",
+				"municipality": "Meråker",
+				"county": "Nord-Trøndelag",
+				"elevation": 331
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.84862833,
+					63.39208762
 				]
 			}
 		},
@@ -4460,7 +2676,7 @@
 				"id": "1-218743",
 				"municipality": "Stjørdal",
 				"county": "Nord-Trøndelag",
-				"elevation": 65
+				"elevation": 66
 			},
 			"geometry": {
 				"type": "Point",
@@ -4473,17 +2689,765 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Høn stasjon",
-				"id": "1-73159",
-				"municipality": "Asker",
-				"county": "Akershus",
-				"elevation": 74
+				"name": "Hegra stasjon",
+				"id": "1-523993",
+				"municipality": "Stjørdal",
+				"county": "Nord-Trøndelag",
+				"elevation": 18
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.45503437,
-					59.84318995
+					11.10400504,
+					63.46114335
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Gudå stasjon",
+				"id": "1-213306",
+				"municipality": "Meråker",
+				"county": "Nord-Trøndelag",
+				"elevation": 86
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.61752949,
+					63.44370526
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Stjørdal stasjon",
+				"id": "1-212169",
+				"municipality": "Stjørdal",
+				"county": "Nord-Trøndelag",
+				"elevation": 7
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.91349821,
+					63.47040468
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Hommelvik stasjon",
+				"id": "1-212408",
+				"municipality": "Malvik",
+				"county": "Sør-Trøndelag",
+				"elevation": 8
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.79444675,
+					63.41176321
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Vikhammar stasjon",
+				"id": "1-2201775",
+				"municipality": "Malvik",
+				"county": "Sør-Trøndelag",
+				"elevation": 5
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.62300942,
+					63.43873932
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Hell stasjon",
+				"id": "1-212242",
+				"municipality": "Stjørdal",
+				"county": "Nord-Trøndelag",
+				"elevation": 3
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.89990847,
+					63.44617781
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Narvik stasjon",
+				"id": "1-2263438",
+				"municipality": "Narvik",
+				"county": "Nordland",
+				"elevation": 44
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					17.44111108,
+					68.44184498
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Marienborg stasjon",
+				"id": "1-211102",
+				"municipality": "Trondheim",
+				"county": "Sør-Trøndelag",
+				"elevation": 8
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.37886449,
+					63.42199618
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Trondheim S stasjon",
+				"id": "1-2411146",
+				"municipality": "Trondheim",
+				"county": "Sør-Trøndelag",
+				"elevation": 4
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.39891327,
+					63.43657939
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Skansen stasjon",
+				"id": "1-2819393",
+				"municipality": "Trondheim",
+				"county": "Sør-Trøndelag",
+				"elevation": 4
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.37771849,
+					63.43120082
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Leangen stasjon",
+				"id": "1-211106",
+				"municipality": "Trondheim",
+				"county": "Sør-Trøndelag",
+				"elevation": 33
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.46374733,
+					63.43705427
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lademoen stasjon",
+				"id": "1-2824154",
+				"municipality": "Trondheim",
+				"county": "Sør-Trøndelag",
+				"elevation": 6
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.41775669,
+					63.43733055
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Selsbakk stasjon",
+				"id": "1-211355",
+				"municipality": "Trondheim",
+				"county": "Sør-Trøndelag",
+				"elevation": 66
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.37317688,
+					63.38951076
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Heimdal stasjon",
+				"id": "1-2673200",
+				"municipality": "Trondheim",
+				"county": "Sør-Trøndelag",
+				"elevation": 142
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.35771316,
+					63.35086809
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ler stasjon",
+				"id": "1-205329",
+				"municipality": "Melhus",
+				"county": "Sør-Trøndelag",
+				"elevation": 25
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.29772805,
+					63.19770332
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Rognes stasjon",
+				"id": "1-205832",
+				"municipality": "Midtre Gauldal",
+				"county": "Sør-Trøndelag",
+				"elevation": 100
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.4571208,
+					63.00652595
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Støren stasjon",
+				"id": "1-205702",
+				"municipality": "Midtre Gauldal",
+				"county": "Sør-Trøndelag",
+				"elevation": 65
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.28510778,
+					63.05155448
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kotsøy stasjon",
+				"id": "1-2422827",
+				"municipality": "Midtre Gauldal",
+				"county": "Sør-Trøndelag",
+				"elevation": 126
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.56097061,
+					62.97648868
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Glåmos stasjon",
+				"id": "1-193866",
+				"municipality": "Røros",
+				"county": "Sør-Trøndelag",
+				"elevation": 639
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.41629225,
+					62.67454584
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kongsvoll stasjon",
+				"id": "1-185524",
+				"municipality": "Oppdal",
+				"county": "Sør-Trøndelag",
+				"elevation": 886
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.60569174,
+					62.30715568
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Os stasjon",
+				"id": "1-187044",
+				"municipality": "Os",
+				"county": "Hedmark",
+				"elevation": 600
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.2268569,
+					62.49745675
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Røros stasjon",
+				"id": "1-2534808",
+				"municipality": "Røros",
+				"county": "Sør-Trøndelag",
+				"elevation": 629
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.38259091,
+					62.57409953
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Høybråten stasjon",
+				"id": "1-73722",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 155
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.9274654,
+					59.94811907
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Høsøien stasjon",
+				"id": "1-194127",
+				"municipality": "Røros",
+				"county": "Sør-Trøndelag",
+				"elevation": 622
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.30200535,
+					62.54693708
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Tynset stasjon",
+				"id": "1-186990",
+				"municipality": "Tynset",
+				"county": "Hedmark",
+				"elevation": 491
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.77570209,
+					62.27478529
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Tolga stasjon",
+				"id": "1-186660",
+				"municipality": "Tolga",
+				"county": "Hedmark",
+				"elevation": 539
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.99605586,
+					62.40480632
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Åndalsnes stasjon",
+				"id": "1-190429",
+				"municipality": "Rauma",
+				"county": "Møre og Romsdal",
+				"elevation": 4
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.69155615,
+					62.56716411
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Melhus stasjon",
+				"id": "1-211854",
+				"municipality": "Melhus",
+				"county": "Sør-Trøndelag",
+				"elevation": 19
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.27597969,
+					63.28474754
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bellingmo stasjon",
+				"id": "1-180690",
+				"municipality": "Alvdal",
+				"county": "Hedmark",
+				"elevation": 475
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.77945601,
+					62.03269524
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bjorli stasjon",
+				"id": "1-184760",
+				"municipality": "Lesja",
+				"county": "Oppland",
+				"elevation": 574
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.20119583,
+					62.25848074
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Alvdal stasjon",
+				"id": "1-180056",
+				"municipality": "Alvdal",
+				"county": "Hedmark",
+				"elevation": 505
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.63199021,
+					62.10956754
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lesja stasjon",
+				"id": "1-178641",
+				"municipality": "Lesja",
+				"county": "Oppland",
+				"elevation": 633
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.85262252,
+					62.1187027
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lesjaverk stasjon",
+				"id": "1-178303",
+				"municipality": "Lesja",
+				"county": "Oppland",
+				"elevation": 632
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.53801137,
+					62.19237281
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Dombås stasjon",
+				"id": "1-178762",
+				"municipality": "Dovre",
+				"county": "Oppland",
+				"elevation": 659
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.12593092,
+					62.0686566
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Spikkestad stasjon",
+				"id": "1-58714",
+				"municipality": "Røyken",
+				"county": "Buskerud",
+				"elevation": 139
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.34069732,
+					59.74564819
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Hjerkinn stasjon",
+				"id": "1-178953",
+				"municipality": "Dovre",
+				"county": "Oppland",
+				"elevation": 1016
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.5413149,
+					62.21969116
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Eidsvoll verk stasjon",
+				"id": "1-2377499",
+				"municipality": "Eidsvoll",
+				"county": "Akershus",
+				"elevation": 183
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.16940716,
+					60.28779672
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Stryken stasjon",
+				"id": "1-86571",
+				"municipality": "Lunner",
+				"county": "Oppland",
+				"elevation": 241
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.72032634,
+					60.16617137
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Gjøvik stasjon",
+				"id": "1-2797682",
+				"municipality": "Gjøvik",
+				"county": "Oppland",
+				"elevation": 129
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.69449488,
+					60.79753342
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Oslo Lufthavn Gardermoen stasjon",
+				"id": "1-86450",
+				"municipality": "Ullensaker",
+				"county": "Akershus",
+				"elevation": 196
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.09621226,
+					60.19143854
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Stokke stasjon",
+				"id": "1-32192",
+				"municipality": "Sandefjord",
+				"county": "Vestfold",
+				"elevation": 59
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.30023396,
+					59.22140917
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bodø stasjon",
+				"id": "1-2806673",
+				"municipality": "Bodø",
+				"county": "Nordland",
+				"elevation": 4
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					14.39129579,
+					67.28646035
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Løten stasjon",
+				"id": "1-131727",
+				"municipality": "Løten",
+				"county": "Hedmark",
+				"elevation": 231
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.34239341,
+					60.81868481
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ilseng stasjon",
+				"id": "1-131917",
+				"municipality": "Stange",
+				"county": "Hedmark",
+				"elevation": 154
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.22227953,
+					60.7767652
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Grefsen stasjon",
+				"id": "1-73742",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 109
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.78013861,
+					59.94153885
 				]
 			}
 		},
@@ -4494,7 +3458,7 @@
 				"id": "1-130685",
 				"municipality": "Ringsaker",
 				"county": "Hedmark",
-				"elevation": 134
+				"elevation": 133
 			},
 			"geometry": {
 				"type": "Point",
@@ -4507,238 +3471,102 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Lunde stasjon",
-				"id": "1-2289353",
-				"municipality": "Nome",
-				"county": "Telemark",
-				"elevation": 77
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.10054437,
-					59.29913925
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kråkstad stasjon",
-				"id": "1-60561",
-				"municipality": "Ski",
-				"county": "Akershus",
-				"elevation": 92
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.89164975,
-					59.68308095
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nydalen stasjon",
-				"id": "1-73743",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 117
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.76909844,
-					59.95240109
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Mørkved stasjon",
-				"id": "1-269411",
-				"municipality": "Bodø",
-				"county": "Nordland",
-				"elevation": 12
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					14.55795511,
-					67.28398706
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Skotbu stasjon",
-				"id": "1-511688",
-				"municipality": "Ski",
-				"county": "Akershus",
-				"elevation": 166
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.94773547,
-					59.6651758
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Eina stasjon",
-				"id": "1-116268",
-				"municipality": "Vestre Toten",
-				"county": "Oppland",
-				"elevation": 401
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.59693797,
-					60.63051175
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bolstadøyri stasjon",
-				"id": "1-512946",
+				"name": "Bulken stasjon",
+				"id": "1-109584",
 				"municipality": "Voss",
 				"county": "Hordaland",
-				"elevation": 8
+				"elevation": 52
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					5.95772593,
-					60.63780057
+					6.28493716,
+					60.63060469
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Spydeberg stasjon",
-				"id": "1-2232883",
-				"municipality": "Spydeberg",
-				"county": "Østfold",
-				"elevation": 107
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.07956866,
-					59.62102355
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Heia stasjon",
-				"id": "1-47821",
-				"municipality": "Rakkestad",
-				"county": "Østfold",
-				"elevation": 134
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.32931746,
-					59.4742329
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Snippen stasjon",
-				"id": "1-87160",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 278
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.81006574,
-					60.02408912
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Dal stasjon",
-				"id": "1-87371",
-				"municipality": "Eidsvoll",
-				"county": "Akershus",
-				"elevation": 162
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.20248412,
-					60.2490337
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Steinberg stasjon",
-				"id": "1-71641",
-				"municipality": "Nedre Eiker",
+				"name": "Røyken stasjon",
+				"id": "1-2281557",
+				"municipality": "Røyken",
 				"county": "Buskerud",
-				"elevation": 5
+				"elevation": 119
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					9.96200425,
-					59.75936845
+					10.38960037,
+					59.74679043
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Klepp stasjon",
-				"id": "1-15657",
-				"municipality": "Klepp",
-				"county": "Rogaland",
-				"elevation": 26
+				"name": "Skogn stasjon",
+				"id": "1-217851",
+				"municipality": "Levanger",
+				"county": "Nord-Trøndelag",
+				"elevation": 50
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					5.67803815,
-					58.77173107
+					11.19429265,
+					63.7050987
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Dunderland stasjon",
-				"id": "10-976600",
-				"municipality": "Rana",
-				"county": "Nordland",
-				"elevation": 127
+				"name": "Lindeberg stasjon",
+				"id": "1-88097",
+				"municipality": "Sørum",
+				"county": "Akershus",
+				"elevation": 152
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					14.83817794,
-					66.44617712
+					11.1287517,
+					60.03974221
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Harestua stasjon",
+				"id": "1-85509",
+				"municipality": "Lunner",
+				"county": "Oppland",
+				"elevation": 276
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.72254664,
+					60.20625335
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Hakadal stasjon",
+				"id": "1-86768",
+				"municipality": "Nittedal",
+				"county": "Akershus",
+				"elevation": 167
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.82917938,
+					60.1174315
 				]
 			}
 		},
@@ -4766,7 +3594,7 @@
 				"id": "1-88085",
 				"municipality": "Nes i Akershus",
 				"county": "Akershus",
-				"elevation": 130
+				"elevation": 126
 			},
 			"geometry": {
 				"type": "Point",
@@ -4779,323 +3607,17 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Kjelsås stasjon",
-				"id": "1-73639",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 155
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.7826674,
-					59.96609046
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Varhaug stasjon",
-				"id": "1-2863757",
-				"municipality": "Hå",
-				"county": "Rogaland",
-				"elevation": 43
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.64650379,
-					58.6184392
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Tangen stasjon",
-				"id": "1-117765",
-				"municipality": "Stange",
+				"name": "Hanestad stasjon",
+				"id": "1-173646",
+				"municipality": "Rendalen",
 				"county": "Hedmark",
-				"elevation": 164
+				"elevation": 379
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					11.2699321,
-					60.61595916
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Oslo Lufthavn Gardermoen",
-				"id": "1-86450",
-				"municipality": "Ullensaker",
-				"county": "Akershus",
-				"elevation": 200
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.09621226,
-					60.19143854
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Roa stasjon",
-				"id": "1-101715",
-				"municipality": "Lunner",
-				"county": "Oppland",
-				"elevation": 313
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.6203179,
-					60.28351626
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Stryken stasjon",
-				"id": "1-86571",
-				"municipality": "Lunner",
-				"county": "Oppland",
-				"elevation": 238
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.72032634,
-					60.16617137
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Heimdal stasjon",
-				"id": "1-2673200",
-				"municipality": "Trondheim",
-				"county": "Sør-Trøndelag",
-				"elevation": 141
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.35771316,
-					63.35086809
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Stoa stasjon",
-				"id": "1-7364",
-				"municipality": "Arendal",
-				"county": "Aust-Agder",
-				"elevation": 52
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.70945768,
-					58.46601863
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Auma stasjon",
-				"id": "1-179746",
-				"municipality": "Tynset",
-				"county": "Hedmark",
-				"elevation": 485
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.66029247,
-					62.22244948
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Jessheim stasjon",
-				"id": "1-2839918",
-				"municipality": "Ullensaker",
-				"county": "Akershus",
-				"elevation": 202
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.17688273,
-					60.14169131
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Seimsgrend stasjon",
-				"id": "1-109578",
-				"municipality": "Voss",
-				"county": "Hordaland",
-				"elevation": 50
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					6.2359229,
-					60.63262801
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Slitu stasjon",
-				"id": "1-62064",
-				"municipality": "Eidsberg",
-				"county": "Østfold",
-				"elevation": 128
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.26166605,
-					59.5669729
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Koppang stasjon",
-				"id": "1-2812652",
-				"municipality": "Stor-Elvdal",
-				"county": "Hedmark",
-				"elevation": 351
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.04413154,
-					61.5731554
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Frogner stasjon",
-				"id": "1-88153",
-				"municipality": "Sørum",
-				"county": "Akershus",
-				"elevation": 124
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.10160293,
-					60.0216018
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Ørneberget stasjon",
-				"id": "5-51800",
-				"municipality": "Voss",
-				"county": "Hordaland",
-				"elevation": 673
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					6.94099685,
-					60.70362896
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Dale stasjon",
-				"id": "1-107883",
-				"municipality": "Vaksdal",
-				"county": "Hordaland",
-				"elevation": 43
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5.81622507,
-					60.58630367
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Langhus stasjon",
-				"id": "1-74621",
-				"municipality": "Ski",
-				"county": "Akershus",
-				"elevation": 110
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.8365108,
-					59.74953449
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Movatn stasjon",
-				"id": "1-87160",
-				"municipality": "Oslo",
-				"county": "Oslo",
-				"elevation": 278
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.813168,
-					60.03781351
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Valnesfjord stasjon",
-				"id": "1-2319146",
-				"municipality": "Fauske",
-				"county": "Nordland",
-				"elevation": 24
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					15.19251514,
-					67.29934626
+					10.8816344,
+					61.83861955
 				]
 			}
 		},
@@ -5106,251 +3628,13 @@
 				"id": "1-2838405",
 				"municipality": "Ullensaker",
 				"county": "Akershus",
-				"elevation": 164
+				"elevation": 168
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
 					11.13928523,
 					60.07499758
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Tønsberg stasjon",
-				"id": "1-2805977",
-				"municipality": "Tønsberg",
-				"county": "Vestfold",
-				"elevation": 15
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.40975207,
-					59.27198678
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Oklungen stasjon",
-				"id": "2-3143755",
-				"municipality": "Porsgrunn",
-				"county": "Telemark",
-				"elevation": 42
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.80766475,
-					59.17900811
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Myrdal stasjon",
-				"id": "1-110723",
-				"municipality": "Ulvik",
-				"county": "Sogn og Fjordane",
-				"elevation": 866
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					7.12268561,
-					60.73484674
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Vestby stasjon",
-				"id": "1-2247763",
-				"municipality": "Vestby",
-				"county": "Akershus",
-				"elevation": 59
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.74841045,
-					59.60372557
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Røyken stasjon",
-				"id": "1-2281557",
-				"municipality": "Røyken",
-				"county": "Buskerud",
-				"elevation": 117
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.38960037,
-					59.74679043
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Vikhammar stasjon",
-				"id": "1-2201775",
-				"municipality": "Malvik",
-				"county": "Sør-Trøndelag",
-				"elevation": 4
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.62300942,
-					63.43873932
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bellingmo stasjon",
-				"id": "1-180690",
-				"municipality": "Alvdal",
-				"county": "Hedmark",
-				"elevation": 475
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.77945601,
-					62.03269524
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kløve stasjon",
-				"id": "1-109534",
-				"municipality": "Voss",
-				"county": "Hordaland",
-				"elevation": 257
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					6.53515634,
-					60.66336719
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lesja stasjon",
-				"id": "1-178641",
-				"municipality": "Lesja",
-				"county": "Oppland",
-				"elevation": 634
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.85262252,
-					62.1187027
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Skien stasjon",
-				"id": "1-31394",
-				"municipality": "Skien",
-				"county": "Telemark",
-				"elevation": 40
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.60364877,
-					59.21915351
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Drevvatn stasjon",
-				"id": "1-256874",
-				"municipality": "Vefsn",
-				"county": "Nordland",
-				"elevation": 92
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					13.45591146,
-					66.07111418
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Stjørdal stasjon",
-				"id": "1-212169",
-				"municipality": "Stjørdal",
-				"county": "Nord-Trøndelag",
-				"elevation": 6
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.91349821,
-					63.47040468
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Mjøndalen stasjon",
-				"id": "1-2245875",
-				"municipality": "Nedre Eiker",
-				"county": "Buskerud",
-				"elevation": 5
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					10.01172992,
-					59.7510108
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Gol stasjon",
-				"id": "1-113235",
-				"municipality": "Gol",
-				"county": "Buskerud",
-				"elevation": 207
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.97023689,
-					60.69900528
 				]
 			}
 		},
@@ -5374,68 +3658,884 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Stanghelle stasjon",
-				"id": "1-108063",
-				"municipality": "Vaksdal",
-				"county": "Hordaland",
-				"elevation": 2
+				"name": "Åneby stasjon",
+				"id": "1-86938",
+				"municipality": "Nittedal",
+				"county": "Akershus",
+				"elevation": 208
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					5.73317727,
-					60.54890234
+					10.86252511,
+					60.08547467
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Bøylestad stasjon",
-				"id": "1-13769",
-				"municipality": "Froland",
-				"county": "Aust-Agder",
-				"elevation": 87
+				"name": "Atna stasjon",
+				"id": "1-165069",
+				"municipality": "Stor-Elvdal",
+				"county": "Hedmark",
+				"elevation": 355
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					8.70607085,
-					58.57687056
+					10.83459861,
+					61.73268789
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Ilseng stasjon",
-				"id": "1-131917",
+				"name": "Hovin stasjon",
+				"id": "1-2488571",
+				"municipality": "Melhus",
+				"county": "Sør-Trøndelag",
+				"elevation": 54
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.23047693,
+					63.09892281
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Hønefoss stasjon",
+				"id": "1-2330078",
+				"municipality": "Ringerike",
+				"county": "Buskerud",
+				"elevation": 97
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.24946923,
+					60.16913004
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Koppang stasjon",
+				"id": "1-2812652",
+				"municipality": "Stor-Elvdal",
+				"county": "Hedmark",
+				"elevation": 351
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.04413154,
+					61.5731554
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lysaker stasjon",
+				"id": "1-72880",
+				"municipality": "Oslo",
+				"county": "Akershus",
+				"elevation": 13
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.63594348,
+					59.91360213
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kvam stasjon",
+				"id": "1-2716425",
+				"municipality": "Nord-Fron",
+				"county": "Oppland",
+				"elevation": 252
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.7025015,
+					61.66487225
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Vinstra stasjon",
+				"id": "1-164194",
+				"municipality": "Nord-Fron",
+				"county": "Oppland",
+				"elevation": 241
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.74644227,
+					61.59550145
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Årnes stasjon",
+				"id": "1-2800590",
+				"municipality": "Nes i Akershus",
+				"county": "Akershus",
+				"elevation": 127
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.46463552,
+					60.12390728
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Evenstad stasjon",
+				"id": "1-156255",
+				"municipality": "Stor-Elvdal",
+				"county": "Hedmark",
+				"elevation": 255
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.09943234,
+					61.42332304
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ringebu stasjon",
+				"id": "1-164806",
+				"municipality": "Ringebu",
+				"county": "Oppland",
+				"elevation": 196
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.13939742,
+					61.52910149
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Opphus stasjon",
+				"id": "1-156373",
+				"municipality": "Stor-Elvdal",
+				"county": "Hedmark",
+				"elevation": 243
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.26117852,
+					61.33102229
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Stai stasjon",
+				"id": "1-155988",
+				"municipality": "Stor-Elvdal",
+				"county": "Hedmark",
+				"elevation": 262
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.05884318,
+					61.49398057
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Rena stasjon",
+				"id": "1-144529",
+				"municipality": "Åmot",
+				"county": "Hedmark",
+				"elevation": 223
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.36949875,
+					61.13466366
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Nordagutu stasjon",
+				"id": "1-44154",
+				"municipality": "Sauherad",
+				"county": "Telemark",
+				"elevation": 112
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.3228955,
+					59.41831367
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Elverum stasjon",
+				"id": "1-132472",
+				"municipality": "Elverum",
+				"county": "Hedmark",
+				"elevation": 188
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.54563181,
+					60.88404274
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lillehammer stasjon",
+				"id": "1-143669",
+				"municipality": "Lillehammer",
+				"county": "Oppland",
+				"elevation": 179
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.46113986,
+					61.11462721
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Blaker stasjon",
+				"id": "1-2481961",
+				"municipality": "Sørum",
+				"county": "Akershus",
+				"elevation": 115
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.30132205,
+					60.00498894
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Skarnes stasjon",
+				"id": "1-2263803",
+				"municipality": "Sør-Odal",
+				"county": "Hedmark",
+				"elevation": 139
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.6805284,
+					60.25375449
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Trykkerud stasjon",
+				"id": "1-2551877",
+				"municipality": "Sauherad",
+				"county": "Telemark",
+				"elevation": 122
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.33619073,
+					59.51216492
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kongsberg stasjon",
+				"id": "1-2242935",
+				"municipality": "Kongsberg",
+				"county": "Buskerud",
+				"elevation": 162
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.65121333,
+					59.67215033
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Stange stasjon",
+				"id": "1-117509",
 				"municipality": "Stange",
 				"county": "Hedmark",
-				"elevation": 156
+				"elevation": 222
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					11.22227953,
-					60.7767652
+					11.19475083,
+					60.71809691
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Kjosfossen stasjon",
-				"id": "1-2340343",
-				"municipality": "Aurland",
-				"county": "Sogn og Fjordane",
-				"elevation": 769
+				"name": "Langhus stasjon",
+				"id": "1-74621",
+				"municipality": "Ski",
+				"county": "Akershus",
+				"elevation": 112
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					7.13564284,
-					60.74709164
+					10.8365108,
+					59.74953449
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Raufoss stasjon",
+				"id": "1-2263516",
+				"municipality": "Vestre Toten",
+				"county": "Oppland",
+				"elevation": 318
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.61362199,
+					60.72218076
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Oppdal stasjon",
+				"id": "1-192312",
+				"municipality": "Oppdal",
+				"county": "Sør-Trøndelag",
+				"elevation": 544
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.69409918,
+					62.59289997
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Nesbyen stasjon",
+				"id": "1-113587",
+				"municipality": "Nes",
+				"county": "Buskerud",
+				"elevation": 168
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.11331713,
+					60.57678516
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Froland stasjon",
+				"id": "1-13993",
+				"municipality": "Froland",
+				"county": "Aust-Agder",
+				"elevation": 48
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.65535468,
+					58.53010215
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Tangen stasjon",
+				"id": "1-117765",
+				"municipality": "Stange",
+				"county": "Hedmark",
+				"elevation": 164
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.2699321,
+					60.61595916
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Eina stasjon",
+				"id": "1-116268",
+				"municipality": "Vestre Toten",
+				"county": "Oppland",
+				"elevation": 401
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.59693797,
+					60.63051175
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Gol stasjon",
+				"id": "1-113235",
+				"municipality": "Gol",
+				"county": "Buskerud",
+				"elevation": 209
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.97023689,
+					60.69900528
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Geilo stasjon",
+				"id": "1-2817271",
+				"municipality": "Hol",
+				"county": "Buskerud",
+				"elevation": 795
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.20657694,
+					60.53466432
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Upsete stasjon",
+				"id": "1-514655",
+				"municipality": "Aurland",
+				"county": "Sogn og Fjordane",
+				"elevation": 852
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.01238741,
+					60.72543251
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Myrdal stasjon",
+				"id": "1-110723",
+				"municipality": "Ulvik",
+				"county": "Sogn og Fjordane",
+				"elevation": 867
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.12268561,
+					60.73484674
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ål stasjon",
+				"id": "1-112697",
+				"municipality": "Ål",
+				"county": "Buskerud",
+				"elevation": 440
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.56262634,
+					60.626284
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Haugastøl stasjon",
+				"id": "1-111505",
+				"municipality": "Hol",
+				"county": "Buskerud",
+				"elevation": 989
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.8695261,
+					60.51152189
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Stoa stasjon",
+				"id": "1-7364",
+				"municipality": "Arendal",
+				"county": "Aust-Agder",
+				"elevation": 51
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.70945768,
+					58.46601863
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Grorud stasjon",
+				"id": "1-73718",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 128
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.88759605,
+					59.94974514
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Porsgrunn stasjon",
+				"id": "1-31680",
+				"municipality": "Porsgrunn",
+				"county": "Telemark",
+				"elevation": 6
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.65897533,
+					59.13951145
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Haugenstua stasjon",
+				"id": "1-73722",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 140
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.90944544,
+					59.95120255
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Mjølfjell stasjon",
+				"id": "1-110114",
+				"municipality": "Voss",
+				"county": "Hordaland",
+				"elevation": 627
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.83978515,
+					60.69380451
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kløve stasjon",
+				"id": "1-109534",
+				"municipality": "Voss",
+				"county": "Hordaland",
+				"elevation": 227
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.53515634,
+					60.66336719
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Reimegrend stasjon",
+				"id": "1-110134",
+				"municipality": "Voss",
+				"county": "Hordaland",
+				"elevation": 465
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.7307443,
+					60.67817329
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Skiple stasjon",
+				"id": "1-2583802",
+				"municipality": "Voss",
+				"county": "Hordaland",
+				"elevation": 407
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.6798718,
+					60.68120994
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Greverud stasjon",
+				"id": "1-74566",
+				"municipality": "Oppegård",
+				"county": "Akershus",
+				"elevation": 107
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.80717174,
+					59.77230285
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ygre stasjon",
+				"id": "1-2584617",
+				"municipality": "Voss",
+				"county": "Hordaland",
+				"elevation": 169
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.5077609,
+					60.64541113
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Gjerdåker stasjon",
+				"id": "1-2584614",
+				"municipality": "Voss",
+				"county": "Hordaland",
+				"elevation": 121
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.46318346,
+					60.63938554
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Gausel stasjon",
+				"id": "1-15403",
+				"municipality": "Stavanger",
+				"county": "Rogaland",
+				"elevation": 13
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.74032822,
+					58.89973497
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Seimsgrend stasjon",
+				"id": "1-109578",
+				"municipality": "Voss",
+				"county": "Hordaland",
+				"elevation": 45
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.2359229,
+					60.63262801
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Stavanger stasjon",
+				"id": "1-2791370",
+				"municipality": "Stavanger",
+				"county": "Rogaland",
+				"elevation": 7
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.73295886,
+					58.9664551
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Voss stasjon",
+				"id": "1-2583492",
+				"municipality": "Voss",
+				"county": "Hordaland",
+				"elevation": 57
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.41008481,
+					60.62912434
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Oklungen stasjon",
+				"id": "2-3143755",
+				"municipality": "Porsgrunn",
+				"county": "Telemark",
+				"elevation": 46
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.80766475,
+					59.17900811
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kambo stasjon",
+				"id": "1-46450",
+				"municipality": "Moss",
+				"county": "Østfold",
+				"elevation": 13
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.6952966,
+					59.48103141
 				]
 			}
 		},
@@ -5446,7 +4546,7 @@
 				"id": "1-74886",
 				"municipality": "Fet",
 				"county": "Akershus",
-				"elevation": 109
+				"elevation": 106
 			},
 			"geometry": {
 				"type": "Point",
@@ -5459,51 +4559,255 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Trengereid stasjon",
-				"id": "1-93278",
-				"municipality": "Bergen",
-				"county": "Hordaland",
-				"elevation": 15
+				"name": "Bergsgrav stasjon",
+				"id": "1-223864",
+				"municipality": "Verdal",
+				"county": "Nord-Trøndelag",
+				"elevation": 8
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					5.62441249,
-					60.42897892
+					11.47133559,
+					63.77144384
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Hakadal stasjon",
-				"id": "1-86768",
+				"name": "Værnes stasjon",
+				"id": "1-212242",
+				"municipality": "Stjørdal",
+				"county": "Nord-Trøndelag",
+				"elevation": 5
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.91383542,
+					63.45399783
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Mørkved stasjon",
+				"id": "1-269411",
+				"municipality": "Bodø",
+				"county": "Nordland",
+				"elevation": 35
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					14.55795511,
+					67.28398706
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Movatn stasjon",
+				"id": "1-87160",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 278
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.813168,
+					60.03781351
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Varingskollen stasjon",
+				"id": "1-2600964",
 				"municipality": "Nittedal",
 				"county": "Akershus",
-				"elevation": 170
+				"elevation": 175
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.82917938,
-					60.1174315
+					10.8466392,
+					60.10625915
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Sande stasjon",
-				"id": "1-59284",
-				"municipality": "Sande",
-				"county": "Vestfold",
-				"elevation": 16
+				"name": "Bryne stasjon",
+				"id": "1-2259666",
+				"municipality": "Time",
+				"county": "Rogaland",
+				"elevation": 31
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.20486982,
-					59.58507179
+					5.64907533,
+					58.7332526
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Steinberg stasjon",
+				"id": "1-71641",
+				"municipality": "Nedre Eiker",
+				"county": "Buskerud",
+				"elevation": 6
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.96200425,
+					59.75936845
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Nittedal stasjon",
+				"id": "1-87117",
+				"municipality": "Nittedal",
+				"county": "Akershus",
+				"elevation": 236
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.86274515,
+					60.05824671
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Marnardal stasjon",
+				"id": "1-2224159",
+				"municipality": "Marnardal",
+				"county": "Vest-Agder",
+				"elevation": 39
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.51242558,
+					58.21269419
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Steinvik stasjon",
+				"id": "1-156489",
+				"municipality": "Stor-Elvdal",
+				"county": "Hedmark",
+				"elevation": 239
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.32384394,
+					61.25147946
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Nordby stasjon",
+				"id": "1-87761",
+				"municipality": "Ullensaker",
+				"county": "Akershus",
+				"elevation": 205
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.18171269,
+					60.15550914
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Snippen stasjon",
+				"id": "1-87160",
+				"municipality": "Oslo",
+				"county": "Oslo",
+				"elevation": 260
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.81006574,
+					60.02408912
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bolstadøyri stasjon",
+				"id": "1-512946",
+				"municipality": "Voss",
+				"county": "Hordaland",
+				"elevation": 10
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.95772593,
+					60.63780057
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Håreina stasjon",
+				"id": "1-124318",
+				"municipality": "Aurland",
+				"county": "Sogn og Fjordane",
+				"elevation": 49
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.12263127,
+					60.83998609
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Hunderfossen stasjon",
+				"id": "1-2807848",
+				"municipality": "Lillehammer",
+				"county": "Oppland",
+				"elevation": 177
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.43863337,
+					61.22340761
 				]
 			}
 		},
@@ -5514,7 +4818,7 @@
 				"id": "1-71478",
 				"municipality": "Øvre Eiker",
 				"county": "Buskerud",
-				"elevation": 44
+				"elevation": 43
 			},
 			"geometry": {
 				"type": "Point",
@@ -5527,34 +4831,884 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Myrvoll stasjon",
-				"id": "1-74436",
-				"municipality": "Oppegård",
-				"county": "Akershus",
-				"elevation": 120
+				"name": "Gran stasjon",
+				"id": "1-101304",
+				"municipality": "Gran",
+				"county": "Oppland",
+				"elevation": 205
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					10.8008635,
-					59.78588813
+					10.5695877,
+					60.35902177
 				]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Kopperå stasjon",
-				"id": "1-213736",
-				"municipality": "Meråker",
-				"county": "Nord-Trøndelag",
-				"elevation": 329
+				"name": "Rotvoll stasjon",
+				"id": "1-211106",
+				"municipality": "Trondheim",
+				"county": "Sør-Trøndelag",
+				"elevation": 28
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					11.84862833,
-					63.39208762
+					10.48068748,
+					63.43660366
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bodung stasjon",
+				"id": "1-87937",
+				"municipality": "Nes i Akershus",
+				"county": "Akershus",
+				"elevation": 128
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.41997365,
+					60.08495297
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Storekvina stasjon",
+				"id": "1-2380579",
+				"municipality": "Kvinesdal",
+				"county": "Vest-Agder",
+				"elevation": 136
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95787497,
+					58.37954252
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Vaksdal stasjon",
+				"id": "1-93154",
+				"municipality": "Vaksdal",
+				"county": "Hordaland",
+				"elevation": 17
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.73527692,
+					60.47876436
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Arna stasjon",
+				"id": "1-92364",
+				"municipality": "Bergen",
+				"county": "Hordaland",
+				"elevation": 8
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.46758726,
+					60.42071009
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lilleby stasjon",
+				"id": "1-2810161",
+				"municipality": "Trondheim",
+				"county": "Sør-Trøndelag",
+				"elevation": 15
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.43231478,
+					63.43993656
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ustaoset stasjon",
+				"id": "1-96929",
+				"municipality": "Hol",
+				"county": "Buskerud",
+				"elevation": 992
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.04550331,
+					60.49628126
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Reinunga stasjon",
+				"id": "1-2340343",
+				"municipality": "Aurland",
+				"county": "Sogn og Fjordane",
+				"elevation": 769
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.13904976,
+					60.74392097
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Tverlandet stasjon",
+				"id": "1-538544",
+				"municipality": "Bodø",
+				"county": "Nordland",
+				"elevation": 31
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					14.74641902,
+					67.30070691
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Blomheller stasjon",
+				"id": "1-124445",
+				"municipality": "Aurland",
+				"county": "Sogn og Fjordane",
+				"elevation": 458
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.10207707,
+					60.77173531
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Flå stasjon",
+				"id": "1-98918",
+				"municipality": "Flå",
+				"county": "Buskerud",
+				"elevation": 155
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.47339942,
+					60.43220846
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kvitfjell stasjon",
+				"id": "1-155033",
+				"municipality": "Ringebu",
+				"county": "Oppland",
+				"elevation": 190
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.16572926,
+					61.47255901
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Roa stasjon",
+				"id": "1-101715",
+				"municipality": "Lunner",
+				"county": "Oppland",
+				"elevation": 313
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.6203179,
+					60.28351626
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Vatnahalsen stasjon",
+				"id": "1-2340343",
+				"municipality": "Aurland",
+				"county": "Sogn og Fjordane",
+				"elevation": 811
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.12951291,
+					60.74385808
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Drammen stasjon",
+				"id": "1-2815108",
+				"municipality": "Drammen",
+				"county": "Buskerud",
+				"elevation": 2
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.20452515,
+					59.74027735
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kjosfossen stasjon",
+				"id": "1-2340343",
+				"municipality": "Aurland",
+				"county": "Sogn og Fjordane",
+				"elevation": 669
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.13564284,
+					60.74709164
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Rise stasjon",
+				"id": "1-7359",
+				"municipality": "Arendal",
+				"county": "Aust-Agder",
+				"elevation": 45
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.62357112,
+					58.46841645
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bleiken stasjon",
+				"id": "1-100907",
+				"municipality": "Gran",
+				"county": "Oppland",
+				"elevation": 355
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.50052608,
+					60.46896015
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Berekvam stasjon",
+				"id": "1-124431",
+				"municipality": "Aurland",
+				"county": "Sogn og Fjordane",
+				"elevation": 346
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.09603033,
+					60.78830575
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Vieren stasjon",
+				"id": "1-2520615",
+				"municipality": "Ulvik",
+				"county": "Hordaland",
+				"elevation": 803
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97953957,
+					60.70929693
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Stanghelle stasjon",
+				"id": "1-108063",
+				"municipality": "Vaksdal",
+				"county": "Hordaland",
+				"elevation": 4
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.73317727,
+					60.54890234
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Jessheim stasjon",
+				"id": "1-2839918",
+				"municipality": "Ullensaker",
+				"county": "Akershus",
+				"elevation": 203
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.17688273,
+					60.14169131
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Dal stasjon",
+				"id": "1-87371",
+				"municipality": "Eidsvoll",
+				"county": "Akershus",
+				"elevation": 163
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.20248412,
+					60.2490337
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Søsterbekk stasjon",
+				"id": "1-283897",
+				"municipality": "Narvik",
+				"county": "Nordland",
+				"elevation": 455
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					18.00386144,
+					68.43545288
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Hauerseter stasjon",
+				"id": "1-2841642",
+				"municipality": "Ullensaker",
+				"county": "Akershus",
+				"elevation": 216
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.19494973,
+					60.18543612
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Haga stasjon",
+				"id": "1-88023",
+				"municipality": "Nes i Akershus",
+				"county": "Akershus",
+				"elevation": 127
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.37314334,
+					60.05386819
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kongsvinger stasjon",
+				"id": "1-90091",
+				"municipality": "Kongsvinger",
+				"county": "Hedmark",
+				"elevation": 149
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.00371586,
+					60.18767536
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bergen stasjon",
+				"id": "2-9222705",
+				"municipality": "Bergen",
+				"county": "Hordaland",
+				"elevation": 3
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.33486286,
+					60.38971238
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Slitu stasjon",
+				"id": "1-62064",
+				"municipality": "Eidsberg",
+				"county": "Østfold",
+				"elevation": 132
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.26166605,
+					59.5669729
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Trengereid stasjon",
+				"id": "1-93278",
+				"municipality": "Bergen",
+				"county": "Hordaland",
+				"elevation": 16
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.62441249,
+					60.42897892
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Frogner stasjon",
+				"id": "1-88153",
+				"municipality": "Sørum",
+				"county": "Akershus",
+				"elevation": 121
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.10160293,
+					60.0216018
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lunde stasjon",
+				"id": "1-2289353",
+				"municipality": "Nome",
+				"county": "Telemark",
+				"elevation": 76
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.10054437,
+					59.29913925
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Darbu stasjon",
+				"id": "1-58116",
+				"municipality": "Øvre Eiker",
+				"county": "Buskerud",
+				"elevation": 61
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.79999279,
+					59.70164802
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Rånåsfoss stasjon",
+				"id": "1-2858733",
+				"municipality": "Sørum",
+				"county": "Akershus",
+				"elevation": 124
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.32779271,
+					60.02931006
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Levanger stasjon",
+				"id": "1-218839",
+				"municipality": "Levanger",
+				"county": "Nord-Trøndelag",
+				"elevation": 3
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.30053288,
+					63.74444723
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ski stasjon",
+				"id": "1-60389",
+				"municipality": "Ski",
+				"county": "Akershus",
+				"elevation": 131
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.83403739,
+					59.71964242
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lassemoen stasjon",
+				"id": "1-236037",
+				"municipality": "Namsskogan",
+				"county": "Nord-Trøndelag",
+				"elevation": 135
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.71385141,
+					64.69612172
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Breland stasjon",
+				"id": "1-2189",
+				"municipality": "Marnardal",
+				"county": "Vest-Agder",
+				"elevation": 172
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.71987147,
+					58.19962276
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Svingen stasjon",
+				"id": "1-2855389",
+				"municipality": "Fet",
+				"county": "Akershus",
+				"elevation": 107
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.17769093,
+					59.92913659
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sirvåg stasjon",
+				"id": "1-8514",
+				"municipality": "Hå",
+				"county": "Rogaland",
+				"elevation": 15
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.80701604,
+					58.5027964
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Langlete stasjon",
+				"id": "1-200034",
+				"municipality": "Holtålen",
+				"county": "Sør-Trøndelag",
+				"elevation": 235
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.97986066,
+					62.96039556
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Auma stasjon",
+				"id": "1-179746",
+				"municipality": "Tynset",
+				"county": "Hedmark",
+				"elevation": 484
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.66029247,
+					62.22244948
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Gjerstad stasjon",
+				"id": "1-21609",
+				"municipality": "Gjerstad",
+				"county": "Aust-Agder",
+				"elevation": 35
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.02311951,
+					58.87015518
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lunden stasjon",
+				"id": "1-124292",
+				"municipality": "Aurland",
+				"county": "Sogn og Fjordane",
+				"elevation": 18
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.11417045,
+					60.85057953
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Gulskogen stasjon",
+				"id": "1-58730",
+				"municipality": "Drammen",
+				"county": "Buskerud",
+				"elevation": 7
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.16067799,
+					59.74378066
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lundamo stasjon",
+				"id": "1-205467",
+				"municipality": "Melhus",
+				"county": "Sør-Trøndelag",
+				"elevation": 33
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.27992062,
+					63.15201243
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Valnesfjord stasjon",
+				"id": "1-2319146",
+				"municipality": "Fauske",
+				"county": "Nordland",
+				"elevation": 11
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					15.19251514,
+					67.29934626
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Dale stasjon",
+				"id": "1-107883",
+				"municipality": "Vaksdal",
+				"county": "Hordaland",
+				"elevation": 44
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.81622507,
+					60.58630367
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lerkendal stasjon",
+				"id": "1-211229",
+				"municipality": "Trondheim",
+				"county": "Sør-Trøndelag",
+				"elevation": 39
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.40995448,
+					63.41389401
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bøylestad stasjon",
+				"id": "1-13769",
+				"municipality": "Froland",
+				"county": "Aust-Agder",
+				"elevation": 74
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.70607085,
+					58.57687056
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bjørnfjell stasjon",
+				"id": "1-283902",
+				"municipality": "Narvik",
+				"county": "Nordland",
+				"elevation": 510
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					18.07105127,
+					68.43209181
 				]
 			}
 		}
