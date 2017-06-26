@@ -26,7 +26,7 @@ function changeForecast() {
     forecastIntervalId++;
     if(forecastIntervalId >= 4) {
        clearInterval(forecastUpdateInterval);
-        slideInterval = setInterval(nextSlide, 5000);
+        slideInterval = setInterval(nextSlide, 8000);
     }
 }
 
